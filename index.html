@@ -229,6 +229,12 @@
             gap: 8px;
         }
 
+        .filter-header-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
         .btn-reset {
             background: none;
             border: none;
@@ -241,6 +247,26 @@
 
         .btn-reset:hover {
             color: var(--gold);
+        }
+
+        .btn-collapse-sidebar {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 5px 10px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: all 0.2s;
+        }
+
+        .btn-collapse-sidebar:hover {
+            background: rgba(212, 175, 55, 0.15);
+            border-color: var(--gold);
+            color: var(--gold-light);
         }
 
         .filter-group {
@@ -479,6 +505,17 @@
         .content {
             flex: 1;
             min-width: 0;
+            transition: all 0.3s ease;
+        }
+
+        /* Sidebar Hidden / Expanded Full-Width Grid */
+        .container.sidebar-hidden .sidebar {
+            display: none !important;
+        }
+
+        .container.sidebar-hidden .content {
+            width: 100%;
+            max-width: 100%;
         }
 
         /* Control Bar (sorting & view info) */
@@ -486,14 +523,62 @@
             background: var(--bg-surface);
             border: 1px solid var(--border-color);
             border-radius: 14px;
-            padding: 14px 20px;
+            padding: 12px 18px;
             margin-bottom: 24px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
-            gap: 16px;
+            gap: 14px;
             box-shadow: var(--shadow-card);
+        }
+
+        .control-bar-left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        /* Toggle Filters Button */
+        .btn-toggle-filters {
+            background: #141722;
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 14px;
+            border-radius: 10px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+            user-select: none;
+        }
+
+        .btn-toggle-filters:hover {
+            border-color: var(--gold);
+            color: var(--gold-light);
+            background: rgba(212, 175, 55, 0.08);
+            transform: translateY(-1px);
+        }
+
+        .btn-toggle-filters.collapsed {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.18), rgba(212, 175, 55, 0.06));
+            border-color: var(--gold);
+            color: var(--gold-light);
+            box-shadow: 0 2px 10px rgba(212, 175, 55, 0.15);
+        }
+
+        .btn-toggle-filters .badge-active-filters {
+            background: var(--gold);
+            color: #000;
+            font-size: 0.7rem;
+            font-weight: 800;
+            padding: 1px 7px;
+            border-radius: 10px;
+            display: none;
         }
 
         .results-summary {
@@ -1536,12 +1621,15 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container" id="mainContainer">
         <!-- Sidebar Filters -->
         <aside class="sidebar" id="sidebar">
             <div class="filter-header">
                 <h2><span>⚙️</span> Filtros</h2>
-                <button class="btn-reset" id="btnResetFilters">Limpiar Todo</button>
+                <div class="filter-header-actions">
+                    <button class="btn-reset" id="btnResetFilters">Limpiar Todo</button>
+                    <button class="btn-collapse-sidebar" id="btnCollapseSidebar" title="Ocultar menú de filtros">◀ Ocultar</button>
+                </div>
             </div>
 
             <!-- Global Search -->
@@ -1676,8 +1764,15 @@
         <main class="content">
             <!-- Control Bar -->
             <div class="control-bar">
-                <div class="results-summary">
-                    Mostrando <strong class="highlight" id="shownCount">0</strong> de <strong id="totalMatchingCount">0</strong> perfumes
+                <div class="control-bar-left">
+                    <button class="btn-toggle-filters" id="btnToggleFilters" title="Ocultar o mostrar menú de filtros">
+                        <span class="icon-toggle" id="filterToggleIcon">◀</span>
+                        <span id="filterToggleText">Ocultar Filtros</span>
+                        <span class="badge-active-filters" id="badgeActiveFilters">0</span>
+                    </button>
+                    <div class="results-summary">
+                        Mostrando <strong class="highlight" id="shownCount">0</strong> de <strong id="totalMatchingCount">0</strong> perfumes
+                    </div>
                 </div>
 
                 <div class="sort-wrapper">
@@ -1826,6 +1921,12 @@
         const mobileCartBtn = document.getElementById('mobileCartBtn');
         const sidebar = document.getElementById('sidebar');
         const sidebarOverlay = document.getElementById('sidebarOverlay');
+        const mainContainer = document.getElementById('mainContainer');
+        const btnToggleFilters = document.getElementById('btnToggleFilters');
+        const btnCollapseSidebar = document.getElementById('btnCollapseSidebar');
+        const filterToggleIcon = document.getElementById('filterToggleIcon');
+        const filterToggleText = document.getElementById('filterToggleText');
+        const badgeActiveFilters = document.getElementById('badgeActiveFilters');
 
         // Cart Elements
         const cartDrawer = document.getElementById('cartDrawer');
@@ -2189,6 +2290,7 @@
 
             displayedCount = PAGE_SIZE;
             renderCards();
+            updateActiveFiltersBadge();
         }
 
         // Render Cards
@@ -2448,6 +2550,49 @@
             renderCards();
         });
 
+        // =============================================
+        // Filter Visibility / Hide-Show Collapsible Menu
+        // =============================================
+        function isMobileView() {
+            return window.innerWidth <= 992;
+        }
+
+        function setFiltersHidden(hidden) {
+            if (hidden) {
+                mainContainer.classList.add('sidebar-hidden');
+                btnToggleFilters.classList.add('collapsed');
+                filterToggleIcon.textContent = '⚙️';
+                filterToggleText.textContent = 'Mostrar Filtros';
+                localStorage.setItem('star_company_filters_hidden', 'true');
+            } else {
+                mainContainer.classList.remove('sidebar-hidden');
+                btnToggleFilters.classList.remove('collapsed');
+                filterToggleIcon.textContent = '◀';
+                filterToggleText.textContent = 'Ocultar Filtros';
+                localStorage.setItem('star_company_filters_hidden', 'false');
+            }
+        }
+
+        function toggleFilters() {
+            if (isMobileView()) {
+                sidebar.classList.toggle('active');
+                sidebarOverlay.classList.toggle('active');
+            } else {
+                const isHidden = mainContainer.classList.contains('sidebar-hidden');
+                setFiltersHidden(!isHidden);
+            }
+        }
+
+        btnToggleFilters.addEventListener('click', toggleFilters);
+        btnCollapseSidebar.addEventListener('click', () => {
+            if (isMobileView()) {
+                sidebar.classList.remove('active');
+                sidebarOverlay.classList.remove('active');
+            } else {
+                setFiltersHidden(true);
+            }
+        });
+
         // Mobile drawer toggle
         mobileFilterBtn.addEventListener('click', () => {
             sidebar.classList.toggle('active');
@@ -2459,11 +2604,64 @@
             sidebarOverlay.classList.remove('active');
         });
 
+        // Compute and update active filters badge
+        function updateActiveFiltersBadge() {
+            let activeCount = 0;
+            if (searchInput.value.trim() !== '') activeCount++;
+            if (selectedCategory !== 'ALL') activeCount++;
+
+            const genders = document.querySelectorAll('.gender-cb:checked').length;
+            if (genders > 0) activeCount += genders;
+
+            const reg = document.getElementById('cbRegular').checked;
+            const tst = document.getElementById('cbTester').checked;
+            const kit = document.getElementById('cbKit').checked;
+            if (!reg || !tst || !kit) activeCount++;
+
+            if (priceMin.value !== '' || priceMax.value !== '') activeCount++;
+
+            const concs = document.querySelectorAll('.conc-cb:checked').length;
+            if (concs > 0) activeCount += concs;
+
+            const brands = document.querySelectorAll('.brand-cb:checked').length;
+            if (brands > 0) activeCount += brands;
+
+            if (activeCount > 0) {
+                badgeActiveFilters.textContent = activeCount;
+                badgeActiveFilters.style.display = 'inline-block';
+            } else {
+                badgeActiveFilters.style.display = 'none';
+            }
+        }
+
+        // Handle window resize dynamically
+        window.addEventListener('resize', () => {
+            if (isMobileView()) {
+                btnToggleFilters.classList.remove('collapsed');
+                filterToggleIcon.textContent = '⚙️';
+                filterToggleText.textContent = 'Filtros';
+            } else {
+                const isHidden = mainContainer.classList.contains('sidebar-hidden');
+                setFiltersHidden(isHidden);
+            }
+        });
+
         // Initialization
         initBrandsList();
         updateFilterCounts();
         applyFilters();
         updateCartUI();
+
+        // Restore stored desktop filter visibility
+        if (!isMobileView()) {
+            const storedHidden = localStorage.getItem('star_company_filters_hidden') === 'true';
+            if (storedHidden) {
+                setFiltersHidden(true);
+            }
+        } else {
+            filterToggleIcon.textContent = '⚙️';
+            filterToggleText.textContent = 'Filtros';
+        }
     </script>
 </body>
 </html>
