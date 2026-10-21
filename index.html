@@ -362,6 +362,83 @@
             border-radius: 12px;
         }
 
+        /* Vibe Buttons Grid (Acordes Olfativos) */
+        .vibe-buttons-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 7px;
+        }
+
+        .vibe-btn {
+            background: #141722;
+            border: 1px solid var(--border-color);
+            border-radius: 9px;
+            padding: 8px 6px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            color: var(--text-muted);
+            user-select: none;
+        }
+
+        .vibe-btn:hover {
+            border-color: rgba(212, 175, 55, 0.4);
+            background: #181c2b;
+            color: var(--text-primary);
+            transform: translateY(-1px);
+        }
+
+        .vibe-btn.active {
+            background: rgba(212, 175, 55, 0.14);
+            border-color: var(--gold);
+            color: var(--gold-light);
+            box-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
+            font-weight: 600;
+        }
+
+        .vibe-btn[data-vibe="citrico"].active { border-color: #ffd600; color: #fff9c4; background: rgba(255, 214, 0, 0.15); }
+        .vibe-btn[data-vibe="amaderado"].active { border-color: #00e676; color: #e8f5e9; background: rgba(0, 230, 118, 0.15); }
+        .vibe-btn[data-vibe="dulce"].active { border-color: #ff9100; color: #ffe0b2; background: rgba(255, 145, 0, 0.15); }
+        .vibe-btn[data-vibe="acuatico"].active { border-color: #00b0ff; color: #e1f5fe; background: rgba(0, 176, 255, 0.15); }
+        .vibe-btn[data-vibe="floral"].active { border-color: #ff4081; color: #fce4ec; background: rgba(255, 64, 129, 0.15); }
+        .vibe-btn[data-vibe="oud_cuero"].active { border-color: #c5a059; color: #f3e5ab; background: rgba(197, 160, 89, 0.2); }
+
+        .vibe-icon {
+            font-size: 1.25rem;
+            line-height: 1;
+        }
+
+        .vibe-label {
+            font-size: 0.72rem;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+
+        .vibe-count {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            opacity: 0.8;
+        }
+
+        .btn-clear-subfilter {
+            background: none;
+            border: none;
+            color: var(--gold);
+            font-size: 0.7rem;
+            cursor: pointer;
+            text-decoration: underline;
+            padding: 0;
+        }
+
+        .btn-clear-subfilter:hover {
+            color: var(--gold-light);
+        }
+
         /* Checkbox groups */
         .checkbox-list {
             display: flex;
@@ -830,6 +907,52 @@
             font-weight: 600;
         }
 
+        .tag-vibe {
+            font-weight: 600;
+        }
+        .tag-vibe-citrico { background: rgba(255, 214, 0, 0.15); color: #ffd600; border-color: rgba(255, 214, 0, 0.35); }
+        .tag-vibe-amaderado { background: rgba(0, 230, 118, 0.15); color: #00e676; border-color: rgba(0, 230, 118, 0.35); }
+        .tag-vibe-dulce { background: rgba(255, 145, 0, 0.15); color: #ff9100; border-color: rgba(255, 145, 0, 0.35); }
+        .tag-vibe-acuatico { background: rgba(0, 176, 255, 0.15); color: #00b0ff; border-color: rgba(0, 176, 255, 0.35); }
+        .tag-vibe-floral { background: rgba(255, 64, 129, 0.15); color: #ff4081; border-color: rgba(255, 64, 129, 0.35); }
+        .tag-vibe-oud { background: rgba(212, 175, 55, 0.15); color: #d4af37; border-color: rgba(212, 175, 55, 0.35); }
+        .tag-clima { background: rgba(255, 255, 255, 0.08); font-size: 0.72rem; }
+
+        /* Dupe Ribbon / Card Badge */
+        .badge-dupe-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.68rem;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            width: fit-content;
+            cursor: pointer;
+            transition: transform 0.2s, filter 0.2s;
+            user-select: none;
+        }
+
+        .badge-dupe-tag:hover {
+            transform: scale(1.04);
+            filter: brightness(1.15);
+        }
+
+        .badge-dupe-tag.has-dupe {
+            background: linear-gradient(135deg, rgba(255, 109, 0, 0.25), rgba(255, 145, 0, 0.1));
+            border: 1px solid rgba(255, 145, 0, 0.6);
+            color: #ffab40;
+            box-shadow: 0 0 10px rgba(255, 145, 0, 0.15);
+        }
+
+        .badge-dupe-tag.is-dupe {
+            background: linear-gradient(135deg, rgba(179, 136, 255, 0.25), rgba(124, 77, 255, 0.1));
+            border: 1px solid rgba(179, 136, 255, 0.5);
+            color: #d1c4e9;
+            box-shadow: 0 0 10px rgba(179, 136, 255, 0.15);
+        }
+
         .card-footer {
             margin-top: auto;
             padding-top: 12px;
@@ -1141,6 +1264,144 @@
             font-size: 0.85rem;
             font-weight: 600;
             color: #fff;
+        }
+
+        /* Dupe Alert Box in Modal */
+        .modal-dupe-box {
+            margin: 16px 0;
+            border-radius: 14px;
+            padding: 16px;
+            position: relative;
+            overflow: hidden;
+            animation: modalFadeIn 0.3s ease;
+        }
+
+        .modal-dupe-box.has-dupe-box {
+            background: linear-gradient(145deg, #1d1712, #141118);
+            border: 1px solid #ff9100;
+            box-shadow: 0 4px 20px rgba(255, 145, 0, 0.15);
+        }
+
+        .modal-dupe-box.is-dupe-box {
+            background: linear-gradient(145deg, #181525, #12101e);
+            border: 1px solid var(--accent-uni);
+            box-shadow: 0 4px 20px rgba(179, 136, 255, 0.15);
+        }
+
+        .dupe-box-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .dupe-box-header .dupe-icon {
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        .dupe-box-header h4 {
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: #fff;
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .dupe-box-header p {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            margin: 0;
+        }
+
+        .dupe-save-pill {
+            margin-left: auto;
+            background: #ff3d00;
+            color: #fff;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 3px 9px;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 8px rgba(255, 61, 0, 0.4);
+            white-space: nowrap;
+        }
+
+        .dupe-box-card {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .dupe-card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .dupe-card-top strong {
+            font-size: 0.88rem;
+            color: var(--gold-light);
+        }
+
+        .dupe-card-top .dupe-price {
+            font-family: 'Cinzel', serif;
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--gold);
+        }
+
+        .dupe-notes-text {
+            font-size: 0.76rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .dupe-box-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 6px;
+        }
+
+        .btn-dupe-view {
+            flex: 1;
+            background: #1f2334;
+            border: 1px solid var(--border-color);
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-dupe-view:hover {
+            border-color: var(--gold);
+            color: var(--gold);
+        }
+
+        .btn-dupe-add {
+            background: var(--gold);
+            border: none;
+            color: #000;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-dupe-add:hover {
+            background: var(--gold-light);
+            transform: scale(1.02);
         }
 
         .modal-footer {
@@ -1656,6 +1917,50 @@
                         <span>🕌 Solo Perfumes Árabes</span>
                         <span class="pill-badge" id="catCountArabic">534</span>
                     </div>
+                    <div class="category-pill" data-category="DUPES">
+                        <span>🔥 Solo Dupes / Equivalencias</span>
+                        <span class="pill-badge" id="catCountDupes">210</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vibe / Acordes Olfativos Filter -->
+            <div class="filter-group">
+                <div class="filter-title">
+                    <span>✨ Acordes / "Vibe"</span>
+                    <button class="btn-clear-subfilter" id="btnClearVibes" style="display:none;" title="Limpiar acordes">Limpiar</button>
+                </div>
+                <div class="vibe-buttons-grid">
+                    <button type="button" class="vibe-btn" data-vibe="citrico">
+                        <span class="vibe-icon">🍋</span>
+                        <span class="vibe-label">Cítrico / Fresco</span>
+                        <span class="vibe-count" id="cntVibeCitrico">(0)</span>
+                    </button>
+                    <button type="button" class="vibe-btn" data-vibe="amaderado">
+                        <span class="vibe-icon">🌲</span>
+                        <span class="vibe-label">Amaderado</span>
+                        <span class="vibe-count" id="cntVibeAmaderado">(0)</span>
+                    </button>
+                    <button type="button" class="vibe-btn" data-vibe="dulce">
+                        <span class="vibe-icon">🍬</span>
+                        <span class="vibe-label">Dulce / Vainilla</span>
+                        <span class="vibe-count" id="cntVibeDulce">(0)</span>
+                    </button>
+                    <button type="button" class="vibe-btn" data-vibe="acuatico">
+                        <span class="vibe-icon">🌊</span>
+                        <span class="vibe-label">Acuático / Marino</span>
+                        <span class="vibe-count" id="cntVibeAcuatico">(0)</span>
+                    </button>
+                    <button type="button" class="vibe-btn" data-vibe="floral">
+                        <span class="vibe-icon">🌸</span>
+                        <span class="vibe-label">Floral</span>
+                        <span class="vibe-count" id="cntVibeFloral">(0)</span>
+                    </button>
+                    <button type="button" class="vibe-btn" data-vibe="oud_cuero">
+                        <span class="vibe-icon">🪵</span>
+                        <span class="vibe-label">Oud & Cuero</span>
+                        <span class="vibe-count" id="cntVibeOudCuero">(0)</span>
+                    </button>
                 </div>
             </div>
 
@@ -1679,6 +1984,59 @@
                         <input type="checkbox" value="UNISEX" class="gender-cb">
                         <span>⚥ Unisex</span>
                         <span class="count-label" id="cntUni">(0)</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Clima Filter -->
+            <div class="filter-group">
+                <div class="filter-title">
+                    <span>🌤️ Clima Recomendado</span>
+                </div>
+                <div class="checkbox-list" id="climaFilters">
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="calor" class="clima-cb">
+                        <span>☀️ Calor / Verano</span>
+                        <span class="count-label" id="cntClimaCalor">(0)</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="frio" class="clima-cb">
+                        <span>❄️ Frío / Invierno</span>
+                        <span class="count-label" id="cntClimaFrio">(0)</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="versatil" class="clima-cb">
+                        <span>🍂 Todo el Año / Versátil</span>
+                        <span class="count-label" id="cntClimaVersatil">(0)</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Ocasión de Uso Filter -->
+            <div class="filter-group">
+                <div class="filter-title">
+                    <span>🎯 Ocasión de Uso</span>
+                </div>
+                <div class="checkbox-list" id="ocasionFilters">
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="diario" class="ocasion-cb">
+                        <span>👔 Diario / Oficina</span>
+                        <span class="count-label" id="cntOcasionDiario">(0)</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="noche" class="ocasion-cb">
+                        <span>🌙 Noche / Fiesta</span>
+                        <span class="count-label" id="cntOcasionNoche">(0)</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="cita" class="ocasion-cb">
+                        <span>🥂 Citas / Seducción</span>
+                        <span class="count-label" id="cntOcasionCita">(0)</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="elegante" class="ocasion-cb">
+                        <span>👑 Formal / Exclusivo</span>
+                        <span class="count-label" id="cntOcasionElegante">(0)</span>
                     </label>
                 </div>
             </div>
@@ -1833,7 +2191,22 @@
                         <div class="label">Concentración</div>
                         <div class="val" id="modalConcentration"></div>
                     </div>
+                    <div class="modal-info-item">
+                        <div class="label">Acordes / Vibe</div>
+                        <div class="val" id="modalVibes"></div>
+                    </div>
+                    <div class="modal-info-item">
+                        <div class="label">Clima Ideal</div>
+                        <div class="val" id="modalClima"></div>
+                    </div>
+                    <div class="modal-info-item" style="grid-column: 1 / -1;">
+                        <div class="label">Ocasión Recomendada</div>
+                        <div class="val" id="modalOcasion"></div>
+                    </div>
                 </div>
+
+                <!-- Dupe Alert Box Container -->
+                <div id="modalDupeContainer"></div>
                 <div class="modal-footer">
                     <div class="price-container">
                         <span class="price-label">Precio Catálogo</span>
@@ -1900,6 +2273,35 @@
         let currentFiltered = [];
         let selectedCategory = 'ALL';
         let currentModalPerfumeId = null;
+        let selectedVibes = [];
+
+        // Metadata Maps
+        const VIBE_META = {
+            citrico: { label: 'Cítrico / Fresco', icon: '🍋', class: 'tag-vibe-citrico' },
+            amaderado: { label: 'Amaderado', icon: '🌲', class: 'tag-vibe-amaderado' },
+            dulce: { label: 'Dulce / Vainilla', icon: '🍬', class: 'tag-vibe-dulce' },
+            acuatico: { label: 'Acuático / Marino', icon: '🌊', class: 'tag-vibe-acuatico' },
+            floral: { label: 'Floral', icon: '🌸', class: 'tag-vibe-floral' },
+            oud_cuero: { label: 'Oud & Cuero', icon: '🪵', class: 'tag-vibe-oud' }
+        };
+
+        const CLIMA_META = {
+            calor: { label: '☀️ Calor / Verano' },
+            frio: { label: '❄️ Frío / Invierno' },
+            versatil: { label: '🍂 Todo el Año / Versátil' }
+        };
+
+        const OCASION_META = {
+            diario: { label: '👔 Diario / Oficina' },
+            noche: { label: '🌙 Noche / Fiesta' },
+            cita: { label: '🥂 Citas / Seducción' },
+            elegante: { label: '👑 Formal / Exclusivo' }
+        };
+
+        function normalizeStr(str) {
+            if (!str) return '';
+            return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/['"’]/g, "").trim();
+        }
 
         // Shopping / Recuento Cart State (stored in localStorage)
         let cart = JSON.parse(localStorage.getItem('star_company_cart') || '{}');
@@ -1915,6 +2317,8 @@
         const priceMin = document.getElementById('priceMin');
         const priceMax = document.getElementById('priceMax');
         const btnResetFilters = document.getElementById('btnResetFilters');
+        const btnClearVibes = document.getElementById('btnClearVibes');
+        const catCountDupes = document.getElementById('catCountDupes');
         const loadMoreContainer = document.getElementById('loadMoreContainer');
         const btnLoadMore = document.getElementById('btnLoadMore');
         const mobileFilterBtn = document.getElementById('mobileFilterBtn');
@@ -1954,6 +2358,10 @@
         const modalGender = document.getElementById('modalGender');
         const modalFormat = document.getElementById('modalFormat');
         const modalConcentration = document.getElementById('modalConcentration');
+        const modalVibes = document.getElementById('modalVibes');
+        const modalClima = document.getElementById('modalClima');
+        const modalOcasion = document.getElementById('modalOcasion');
+        const modalDupeContainer = document.getElementById('modalDupeContainer');
         const modalPrice = document.getElementById('modalPrice');
         const modalAddToCartBtn = document.getElementById('modalAddToCartBtn');
 
@@ -2190,7 +2598,10 @@
         // Compute counts
         function updateFilterCounts() {
             let fem = 0, masc = 0, uni = 0;
-            let designer = 0, arabic = 0;
+            let designer = 0, arabic = 0, dupesCount = 0;
+            const vCounts = { citrico: 0, amaderado: 0, dulce: 0, acuatico: 0, floral: 0, oud_cuero: 0 };
+            const cCounts = { calor: 0, frio: 0, versatil: 0 };
+            const oCounts = { diario: 0, noche: 0, cita: 0, elegante: 0 };
 
             perfumesData.forEach(p => {
                 if (p.gender === 'FEMENINO') fem++;
@@ -2199,6 +2610,18 @@
 
                 if (p.category === 'Diseñador') designer++;
                 else arabic++;
+
+                if (p.dupe) dupesCount++;
+
+                (p.vibes || []).forEach(v => {
+                    if (vCounts[v] !== undefined) vCounts[v]++;
+                });
+                (p.clima || []).forEach(c => {
+                    if (cCounts[c] !== undefined) cCounts[c]++;
+                });
+                (p.ocasion || []).forEach(o => {
+                    if (oCounts[o] !== undefined) oCounts[o]++;
+                });
             });
 
             document.getElementById('cntFem').textContent = `(${fem})`;
@@ -2208,15 +2631,36 @@
             document.getElementById('catCountAll').textContent = perfumesData.length;
             document.getElementById('catCountDesigner').textContent = designer;
             document.getElementById('catCountArabic').textContent = arabic;
+            if (catCountDupes) catCountDupes.textContent = dupesCount;
 
             document.getElementById('statDesigner').textContent = designer;
             document.getElementById('statArabic').textContent = arabic;
             document.getElementById('statTotal').textContent = perfumesData.length;
+
+            // Vibe counts
+            if (document.getElementById('cntVibeCitrico')) document.getElementById('cntVibeCitrico').textContent = `(${vCounts.citrico})`;
+            if (document.getElementById('cntVibeAmaderado')) document.getElementById('cntVibeAmaderado').textContent = `(${vCounts.amaderado})`;
+            if (document.getElementById('cntVibeDulce')) document.getElementById('cntVibeDulce').textContent = `(${vCounts.dulce})`;
+            if (document.getElementById('cntVibeAcuatico')) document.getElementById('cntVibeAcuatico').textContent = `(${vCounts.acuatico})`;
+            if (document.getElementById('cntVibeFloral')) document.getElementById('cntVibeFloral').textContent = `(${vCounts.floral})`;
+            if (document.getElementById('cntVibeOudCuero')) document.getElementById('cntVibeOudCuero').textContent = `(${vCounts.oud_cuero})`;
+
+            // Clima counts
+            if (document.getElementById('cntClimaCalor')) document.getElementById('cntClimaCalor').textContent = `(${cCounts.calor})`;
+            if (document.getElementById('cntClimaFrio')) document.getElementById('cntClimaFrio').textContent = `(${cCounts.frio})`;
+            if (document.getElementById('cntClimaVersatil')) document.getElementById('cntClimaVersatil').textContent = `(${cCounts.versatil})`;
+
+            // Ocasión counts
+            if (document.getElementById('cntOcasionDiario')) document.getElementById('cntOcasionDiario').textContent = `(${oCounts.diario})`;
+            if (document.getElementById('cntOcasionNoche')) document.getElementById('cntOcasionNoche').textContent = `(${oCounts.noche})`;
+            if (document.getElementById('cntOcasionCita')) document.getElementById('cntOcasionCita').textContent = `(${oCounts.cita})`;
+            if (document.getElementById('cntOcasionElegante')) document.getElementById('cntOcasionElegante').textContent = `(${oCounts.elegante})`;
         }
 
         // Filtering Logic
         function applyFilters() {
-            const query = searchInput.value.toLowerCase().trim();
+            const rawQuery = searchInput.value;
+            const query = normalizeStr(rawQuery);
             const minP = parseFloat(priceMin.value) || 0;
             const maxP = parseFloat(priceMax.value) || Infinity;
 
@@ -2228,17 +2672,27 @@
             const selectedConcs = Array.from(document.querySelectorAll('.conc-cb:checked')).map(cb => cb.value);
             const selectedBrands = Array.from(document.querySelectorAll('.brand-cb:checked')).map(cb => cb.value);
 
+            const selectedClimas = Array.from(document.querySelectorAll('.clima-cb:checked')).map(cb => cb.value);
+            const selectedOcasiones = Array.from(document.querySelectorAll('.ocasion-cb:checked')).map(cb => cb.value);
+
             currentFiltered = perfumesData.filter(p => {
-                // Category / Photo filter
-                if (selectedCategory !== 'ALL' && p.category !== selectedCategory) {
+                // Category / Dupes filter
+                if (selectedCategory === 'DUPES') {
+                    if (!p.dupe) return false;
+                } else if (selectedCategory !== 'ALL' && p.category !== selectedCategory) {
                     return false;
                 }
 
-                // Search query
+                // Search query (matches name, brand, or dupe target/notes)
                 if (query) {
-                    const matchName = p.fullName.toLowerCase().includes(query);
-                    const matchBrand = p.brand.toLowerCase().includes(query);
-                    if (!matchName && !matchBrand) return false;
+                    const matchName = normalizeStr(p.fullName).includes(query);
+                    const matchBrand = normalizeStr(p.brand).includes(query);
+                    let matchDupe = false;
+                    if (p.dupe) {
+                        if (p.dupe.targetName && normalizeStr(p.dupe.targetName).includes(query)) matchDupe = true;
+                        if (p.dupe.notes && normalizeStr(p.dupe.notes).includes(query)) matchDupe = true;
+                    }
+                    if (!matchName && !matchBrand && !matchDupe) return false;
                 }
 
                 // Price range
@@ -2266,6 +2720,27 @@
                     return false;
                 }
 
+                // Vibe filter (if any selected, must match at least one)
+                if (selectedVibes.length > 0) {
+                    const pVibes = p.vibes || [];
+                    const hasAnyVibe = selectedVibes.some(v => pVibes.includes(v));
+                    if (!hasAnyVibe) return false;
+                }
+
+                // Clima filter
+                if (selectedClimas.length > 0) {
+                    const pClimas = p.clima || [];
+                    const hasAnyClima = selectedClimas.some(c => pClimas.includes(c));
+                    if (!hasAnyClima) return false;
+                }
+
+                // Ocasión filter
+                if (selectedOcasiones.length > 0) {
+                    const pOcasiones = p.ocasion || [];
+                    const hasAnyOcasion = selectedOcasiones.some(o => pOcasiones.includes(o));
+                    if (!hasAnyOcasion) return false;
+                }
+
                 return true;
             });
 
@@ -2280,8 +2755,10 @@
             } else if (sortMode === 'name-asc') {
                 currentFiltered.sort((a, b) => a.name.localeCompare(b.name));
             } else {
-                // Popular / default: Designer with photo first, then brand
+                // Popular / default: Dupes and Designer with photo first, then brand
                 currentFiltered.sort((a, b) => {
+                    if (a.dupe && !b.dupe) return -1;
+                    if (!a.dupe && b.dupe) return 1;
                     if (a.image && !b.image) return -1;
                     if (!a.image && b.image) return 1;
                     return a.brand.localeCompare(b.brand);
@@ -2348,18 +2825,45 @@
                     `;
                 }
 
-                // Tags (Tester, Kit, Volume, Concentration)
+                // Dupe Badge (Ribbon)
+                let dupeBadgeHtml = '';
+                if (p.dupe) {
+                    if (p.dupe.type === 'has_dupe') {
+                        dupeBadgeHtml = `<div class="badge-dupe-tag has-dupe" onclick="event.stopPropagation(); openModal(${p.id})">🔥 Dupe Árabe (-${p.dupe.saving}%)</div>`;
+                    } else if (p.dupe.type === 'is_dupe') {
+                        dupeBadgeHtml = `<div class="badge-dupe-tag is-dupe" onclick="event.stopPropagation(); openModal(${p.id})">✨ Dupe: ${p.dupe.targetName}</div>`;
+                    }
+                }
+
+                // Tags (Tester, Kit, Volume, Concentration, Vibes, Clima)
                 let tagsHtml = '';
                 if (p.is_tester) tagsHtml += `<span class="tag-pill tag-tester">TESTER</span>`;
                 if (p.is_kit) tagsHtml += `<span class="tag-pill tag-kit">KIT / SET</span>`;
                 if (p.volume) tagsHtml += `<span class="tag-pill">${p.volume}</span>`;
                 if (p.concentration) tagsHtml += `<span class="tag-pill">${p.concentration}</span>`;
 
+                if (p.vibes && p.vibes.length > 0) {
+                    p.vibes.slice(0, 2).forEach(v => {
+                        const meta = VIBE_META[v];
+                        if (meta) {
+                            tagsHtml += `<span class="tag-pill tag-vibe ${meta.class}">${meta.icon} ${meta.label.split('/')[0].trim()}</span>`;
+                        }
+                    });
+                }
+
+                if (p.clima && p.clima.length > 0) {
+                    const c = p.clima[0];
+                    if (c === 'calor') tagsHtml += `<span class="tag-pill tag-clima">☀️ Calor</span>`;
+                    else if (c === 'frio') tagsHtml += `<span class="tag-pill tag-clima">❄️ Frío</span>`;
+                    else if (c === 'versatil') tagsHtml += `<span class="tag-pill tag-clima">🍂 Versátil</span>`;
+                }
+
                 card.innerHTML = `
                     ${mediaHtml}
                     <div class="card-body">
                         <div class="card-brand">${p.brand}</div>
                         <h3 class="card-title" title="${p.name}" onclick="openModal(${p.id})">${p.name}</h3>
+                        ${dupeBadgeHtml ? `<div style="margin-bottom:8px;">${dupeBadgeHtml}</div>` : ''}
                         <div class="card-tags">${tagsHtml}</div>
                         <div class="card-footer">
                             <div class="price-container">
@@ -2403,6 +2907,91 @@
             modalFormat.textContent = p.is_kit ? 'Kit / Set de Regalo' : (p.is_tester ? 'Tester / Probador' : 'Regular (Caja Sellada)');
             modalConcentration.textContent = (p.concentration || 'Eau de Parfum') + (p.volume ? ` • ${p.volume}` : '');
             modalPrice.innerHTML = `$${p.price.toFixed(2)} <span class="price-currency">USD</span>`;
+
+            // Vibes
+            if (p.vibes && p.vibes.length > 0) {
+                modalVibes.innerHTML = p.vibes.map(v => {
+                    const meta = VIBE_META[v];
+                    return meta ? `<span class="tag-pill tag-vibe ${meta.class}" style="margin:2px 4px 2px 0;">${meta.icon} ${meta.label}</span>` : '';
+                }).join('');
+            } else {
+                modalVibes.textContent = 'Versátil';
+            }
+
+            // Clima
+            if (p.clima && p.clima.length > 0) {
+                modalClima.innerHTML = p.clima.map(c => {
+                    const meta = CLIMA_META[c];
+                    return meta ? `<span class="tag-pill tag-clima" style="margin:2px 4px 2px 0;">${meta.label}</span>` : '';
+                }).join('');
+            } else {
+                modalClima.textContent = 'Todo el Año';
+            }
+
+            // Ocasión
+            if (p.ocasion && p.ocasion.length > 0) {
+                modalOcasion.innerHTML = p.ocasion.map(o => {
+                    const meta = OCASION_META[o];
+                    return meta ? `<span class="tag-pill" style="margin:2px 4px 2px 0;background:rgba(212,175,55,0.12);color:var(--gold);border:1px solid rgba(212,175,55,0.3);">${meta.label}</span>` : '';
+                }).join('');
+            } else {
+                modalOcasion.textContent = 'Cualquier Ocasión';
+            }
+
+            // Dupe Alert Box
+            if (p.dupe) {
+                if (p.dupe.type === 'has_dupe') {
+                    modalDupeContainer.innerHTML = `
+                        <div class="modal-dupe-box has-dupe-box">
+                            <div class="dupe-box-header">
+                                <div class="dupe-icon">🔥</div>
+                                <div>
+                                    <h4>¡Alternativa Árabe Económica! (Dupe Alert)</h4>
+                                    <p>Mismo perfil olfativo de lujo a una fracción del costo</p>
+                                </div>
+                                <span class="dupe-save-pill">Ahorras ${p.dupe.saving}%</span>
+                            </div>
+                            <div class="dupe-box-card">
+                                <div class="dupe-card-top">
+                                    <strong>🕌 ${p.dupe.targetName}</strong>
+                                    <span class="dupe-price">$${p.dupe.targetPrice.toFixed(2)} USD</span>
+                                </div>
+                                <p class="dupe-notes-text">📝 <strong>Notas olfativas clave:</strong> ${p.dupe.notes}</p>
+                                <div class="dupe-box-actions">
+                                    <button type="button" class="btn-dupe-view" onclick="openModal(${p.dupe.targetId})">
+                                        👁️ Ver Perfume Árabe
+                                    </button>
+                                    <button type="button" class="btn-dupe-add" onclick="addToCart(${p.dupe.targetId})">
+                                        + 🛒 Agregar Alternativa
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                } else if (p.dupe.type === 'is_dupe') {
+                    modalDupeContainer.innerHTML = `
+                        <div class="modal-dupe-box is-dupe-box">
+                            <div class="dupe-box-header">
+                                <div class="dupe-icon">✨</div>
+                                <div>
+                                    <h4>Inspiración de Alta Gama (Diseñador)</h4>
+                                    <p>Este perfume oriental recrea la prestigiosa fragancia:</p>
+                                </div>
+                                <span class="dupe-save-pill">Ahorras ${p.dupe.saving}%</span>
+                            </div>
+                            <div class="dupe-box-card">
+                                <div class="dupe-card-top">
+                                    <strong>💎 Inspirado en: ${p.dupe.targetName}</strong>
+                                    <span class="dupe-price">Ref. ~$${p.dupe.targetPrice} USD</span>
+                                </div>
+                                <p class="dupe-notes-text">📝 <strong>Similitud Olfativa:</strong> ${p.dupe.notes}</p>
+                            </div>
+                        </div>
+                    `;
+                }
+            } else {
+                modalDupeContainer.innerHTML = '';
+            }
 
             if (p.image) {
                 modalHeaderContent.innerHTML = `<img src="${p.image}" class="modal-header-img" alt="${p.name}">`;
@@ -2490,8 +3079,35 @@
             searchTimer = setTimeout(applyFilters, 250);
         });
 
+        // Vibe buttons events
+        document.querySelectorAll('.vibe-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const vibe = btn.dataset.vibe;
+                if (btn.classList.contains('active')) {
+                    btn.classList.remove('active');
+                    selectedVibes = selectedVibes.filter(v => v !== vibe);
+                } else {
+                    btn.classList.add('active');
+                    if (!selectedVibes.includes(vibe)) selectedVibes.push(vibe);
+                }
+                if (btnClearVibes) {
+                    btnClearVibes.style.display = selectedVibes.length > 0 ? 'inline-block' : 'none';
+                }
+                applyFilters();
+            });
+        });
+
+        if (btnClearVibes) {
+            btnClearVibes.addEventListener('click', () => {
+                selectedVibes = [];
+                document.querySelectorAll('.vibe-btn').forEach(btn => btn.classList.remove('active'));
+                btnClearVibes.style.display = 'none';
+                applyFilters();
+            });
+        }
+
         // Checkbox events
-        document.querySelectorAll('.gender-cb, #cbRegular, #cbTester, #cbKit, .conc-cb').forEach(cb => {
+        document.querySelectorAll('.gender-cb, #cbRegular, #cbTester, #cbKit, .conc-cb, .clima-cb, .ocasion-cb').forEach(cb => {
             cb.addEventListener('change', applyFilters);
         });
 
@@ -2523,11 +3139,18 @@
             brandSearchInput.value = '';
             sortSelect.value = 'popular';
 
+            // Reset collection pills
             document.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
             document.querySelector('.category-pill[data-category="ALL"]').classList.add('active');
             selectedCategory = 'ALL';
 
-            document.querySelectorAll('.gender-cb, .conc-cb, .brand-cb').forEach(cb => cb.checked = false);
+            // Reset vibes
+            selectedVibes = [];
+            document.querySelectorAll('.vibe-btn').forEach(btn => btn.classList.remove('active'));
+            if (btnClearVibes) btnClearVibes.style.display = 'none';
+
+            // Reset checkboxes
+            document.querySelectorAll('.gender-cb, .conc-cb, .brand-cb, .clima-cb, .ocasion-cb').forEach(cb => cb.checked = false);
             document.getElementById('cbRegular').checked = true;
             document.getElementById('cbTester').checked = true;
             document.getElementById('cbKit').checked = true;
@@ -2610,8 +3233,16 @@
             if (searchInput.value.trim() !== '') activeCount++;
             if (selectedCategory !== 'ALL') activeCount++;
 
+            if (selectedVibes.length > 0) activeCount += selectedVibes.length;
+
             const genders = document.querySelectorAll('.gender-cb:checked').length;
             if (genders > 0) activeCount += genders;
+
+            const climas = document.querySelectorAll('.clima-cb:checked').length;
+            if (climas > 0) activeCount += climas;
+
+            const ocasiones = document.querySelectorAll('.ocasion-cb:checked').length;
+            if (ocasiones > 0) activeCount += ocasiones;
 
             const reg = document.getElementById('cbRegular').checked;
             const tst = document.getElementById('cbTester').checked;

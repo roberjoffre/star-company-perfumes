@@ -11,7 +11,19 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDT",
     "price": 13.9,
-    "image": "images/perf_15c097dbfa.png"
+    "image": "images/perf_15c097dbfa.png",
+    "vibes": [
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 2,
@@ -25,7 +37,20 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 15.5,
-    "image": "images/perf_15c097dbfa.png"
+    "image": "images/perf_15c097dbfa.png",
+    "vibes": [
+      "citrico",
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 3,
@@ -39,7 +64,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 17.4,
-    "image": "images/perf_db40683679.png"
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 4,
@@ -53,7 +88,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDT",
     "price": 14.5,
-    "image": "images/perf_db40683679.png"
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 5,
@@ -67,7 +112,19 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDT",
     "price": 14.5,
-    "image": "images/perf_15c097dbfa.png"
+    "image": "images/perf_15c097dbfa.png",
+    "vibes": [
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 6,
@@ -81,7 +138,20 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDT",
     "price": 15.5,
-    "image": "images/perf_15c097dbfa.png"
+    "image": "images/perf_15c097dbfa.png",
+    "vibes": [
+      "citrico",
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 7,
@@ -95,7 +165,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 16.5,
-    "image": "images/perf_db40683679.png"
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 8,
@@ -109,7 +189,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 14.75,
-    "image": "images/perf_6e2b2b93a6.jpg"
+    "image": "images/perf_6e2b2b93a6.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 9,
@@ -122,8 +214,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 15.0,
-    "image": "images/perf_f3a686697b.png"
+    "price": 15,
+    "image": "images/perf_f3a686697b.png",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 10,
@@ -137,7 +239,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 14.5,
-    "image": "images/perf_db40683679.png"
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 11,
@@ -151,7 +263,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.25,
-    "image": "images/perf_db40683679.png"
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 12,
@@ -165,7 +287,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 14.75,
-    "image": "images/perf_db40683679.png"
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 13,
@@ -179,7 +311,17 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDT",
     "price": 17.25,
-    "image": "images/perf_db40683679.png"
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 14,
@@ -192,8 +334,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDT",
-    "price": 11.0,
-    "image": "images/perf_15c097dbfa.png"
+    "price": 11,
+    "image": "images/perf_15c097dbfa.png",
+    "vibes": [
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 15,
@@ -206,8 +360,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDT",
-    "price": 11.0,
-    "image": "images/perf_db40683679.png"
+    "price": 11,
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 16,
@@ -220,8 +384,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDT",
-    "price": 11.0,
-    "image": "images/perf_db40683679.png"
+    "price": 11,
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 17,
@@ -234,8 +408,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 11.0,
-    "image": "images/perf_15c097dbfa.png"
+    "price": 11,
+    "image": "images/perf_15c097dbfa.png",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 18,
@@ -249,7 +433,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 14.5,
-    "image": "images/perf_db40683679.png"
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 19,
@@ -262,8 +456,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 10.0,
-    "image": "images/perf_db40683679.png"
+    "price": 10,
+    "image": "images/perf_db40683679.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 20,
@@ -276,8 +480,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 10.0,
-    "image": "images/perf_6e2b2b93a6.jpg"
+    "price": 10,
+    "image": "images/perf_6e2b2b93a6.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 21,
@@ -291,7 +507,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 29.75,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 22,
@@ -305,7 +531,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 33.75,
-    "image": "images/perf_32432f95f5.jpg"
+    "image": "images/perf_32432f95f5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 23,
@@ -319,7 +555,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 45.75,
-    "image": "images/perf_32432f95f5.jpg"
+    "image": "images/perf_32432f95f5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 24,
@@ -333,7 +579,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 35.5,
-    "image": "images/perf_32432f95f5.jpg"
+    "image": "images/perf_32432f95f5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 25,
@@ -347,7 +603,17 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDT",
     "price": 46.25,
-    "image": "images/perf_32432f95f5.jpg"
+    "image": "images/perf_32432f95f5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 26,
@@ -360,8 +626,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 45.0,
-    "image": "images/perf_32432f95f5.jpg"
+    "price": 45,
+    "image": "images/perf_32432f95f5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 27,
@@ -374,8 +650,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 27.0,
-    "image": "images/perf_32432f95f5.jpg"
+    "price": 27,
+    "image": "images/perf_32432f95f5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 28,
@@ -389,7 +675,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 49.5,
-    "image": "images/perf_32432f95f5.jpg"
+    "image": "images/perf_32432f95f5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 29,
@@ -403,7 +699,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 25.5,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 30,
@@ -417,7 +723,17 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDT",
     "price": 36.5,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 31,
@@ -431,7 +747,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDT",
     "price": 18.75,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 32,
@@ -445,7 +771,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 19.75,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 33,
@@ -459,7 +795,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 59.75,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 34,
@@ -473,7 +821,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 53.5,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 35,
@@ -486,8 +846,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 64.0,
-    "image": "images/perf_119444df55.jpg"
+    "price": 64,
+    "image": "images/perf_119444df55.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 36,
@@ -500,8 +872,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 55.0,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "price": 55,
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 37,
@@ -514,8 +896,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 42.0,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "price": 42,
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 38,
@@ -529,7 +921,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 74.95,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 39,
@@ -542,8 +944,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 46.0,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "price": 46,
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 40,
@@ -557,7 +969,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 67.5,
-    "image": "images/perf_c4cc4b4776.jpg"
+    "image": "images/perf_c4cc4b4776.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 41,
@@ -570,8 +992,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 59.0,
-    "image": "images/perf_d5e22d3b29.jpg"
+    "price": 59,
+    "image": "images/perf_d5e22d3b29.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 42,
@@ -584,8 +1016,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 18.0,
-    "image": "images/perf_503af439e3.jpg"
+    "price": 18,
+    "image": "images/perf_503af439e3.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 43,
@@ -599,7 +1041,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 19.75,
-    "image": "images/perf_503af439e3.jpg"
+    "image": "images/perf_503af439e3.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 44,
@@ -613,7 +1065,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 16.5,
-    "image": "images/perf_503af439e3.jpg"
+    "image": "images/perf_503af439e3.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 45,
@@ -626,8 +1088,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 19.0,
-    "image": "images/perf_503af439e3.jpg"
+    "price": 19,
+    "image": "images/perf_503af439e3.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 46,
@@ -641,7 +1113,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.25,
-    "image": "images/perf_503af439e3.jpg"
+    "image": "images/perf_503af439e3.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 47,
@@ -654,8 +1136,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 15.0,
-    "image": "images/perf_503af439e3.jpg"
+    "price": 15,
+    "image": "images/perf_503af439e3.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 48,
@@ -668,8 +1161,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 40.0,
-    "image": "images/perf_f6cd8354a5.jpg"
+    "price": 40,
+    "image": "images/perf_f6cd8354a5.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 49,
@@ -683,7 +1187,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 91.5,
-    "image": "images/perf_1772dcd04b.jpg"
+    "image": "images/perf_1772dcd04b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 50,
@@ -696,8 +1212,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 88.0,
-    "image": "images/perf_8b5f3fe708.jpg"
+    "price": 88,
+    "image": "images/perf_8b5f3fe708.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 51,
@@ -710,8 +1238,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 105.0,
-    "image": "images/perf_1772dcd04b.jpg"
+    "price": 105,
+    "image": "images/perf_1772dcd04b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 52,
@@ -724,8 +1264,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 70.0,
-    "image": "images/perf_ded8e4a54b.jpg"
+    "price": 70,
+    "image": "images/perf_ded8e4a54b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 53,
@@ -738,8 +1290,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 65.0,
-    "image": "images/perf_ded8e4a54b.jpg"
+    "price": 65,
+    "image": "images/perf_ded8e4a54b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 54,
@@ -753,7 +1317,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 93.5,
-    "image": "images/perf_ded8e4a54b.jpg"
+    "image": "images/perf_ded8e4a54b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 55,
@@ -767,7 +1343,19 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 85.25,
-    "image": "images/perf_ded8e4a54b.jpg"
+    "image": "images/perf_ded8e4a54b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 56,
@@ -780,8 +1368,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 107.0,
-    "image": "images/perf_ded8e4a54b.jpg"
+    "price": 107,
+    "image": "images/perf_ded8e4a54b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 57,
@@ -794,8 +1394,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 117.0,
-    "image": "images/perf_b6e3e17ab7.jpg"
+    "price": 117,
+    "image": "images/perf_b6e3e17ab7.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 58,
@@ -809,7 +1421,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 74.25,
-    "image": "images/perf_ded8e4a54b.jpg"
+    "image": "images/perf_ded8e4a54b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 59,
@@ -822,8 +1446,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "PARFUM",
-    "price": 67.0,
-    "image": "images/perf_af8d395a6f.jpg"
+    "price": 67,
+    "image": "images/perf_af8d395a6f.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 60,
@@ -836,8 +1472,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 64.0,
-    "image": "images/perf_573fb6faa9.jpg"
+    "price": 64,
+    "image": "images/perf_573fb6faa9.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 61,
@@ -850,8 +1498,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 68.0,
-    "image": "images/perf_af8d395a6f.jpg"
+    "price": 68,
+    "image": "images/perf_af8d395a6f.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 62,
@@ -864,8 +1524,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 83.0,
-    "image": "images/perf_1772dcd04b.jpg"
+    "price": 83,
+    "image": "images/perf_1772dcd04b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 63,
@@ -878,8 +1550,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 48.0,
-    "image": "images/perf_1772dcd04b.jpg"
+    "price": 48,
+    "image": "images/perf_1772dcd04b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 64,
@@ -892,8 +1575,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 31.0,
-    "image": "images/perf_1772dcd04b.jpg"
+    "price": 31,
+    "image": "images/perf_1772dcd04b.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 65,
@@ -907,7 +1601,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 81.75,
-    "image": "images/perf_86dde6daf5.jpg"
+    "image": "images/perf_86dde6daf5.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 66,
@@ -920,8 +1624,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "40ML",
     "concentration": "EDT",
-    "price": 55.0,
-    "image": "images/perf_86dde6daf5.jpg"
+    "price": 55,
+    "image": "images/perf_86dde6daf5.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 67,
@@ -934,8 +1648,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 80.0,
-    "image": "images/perf_61cc572e86.jpg"
+    "price": 80,
+    "image": "images/perf_61cc572e86.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 68,
@@ -949,7 +1673,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 81.75,
-    "image": "images/perf_dcde852571.jpg"
+    "image": "images/perf_dcde852571.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 69,
@@ -962,8 +1696,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "65ML",
     "concentration": "",
-    "price": 56.0,
-    "image": "images/perf_23cdf56122.jpg"
+    "price": 56,
+    "image": "images/perf_23cdf56122.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 70,
@@ -976,8 +1720,18 @@ const perfumesData = [
     "is_kit": true,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 102.0,
-    "image": "images/perf_86dde6daf5.jpg"
+    "price": 102,
+    "image": "images/perf_86dde6daf5.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 71,
@@ -990,8 +1744,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 79.0,
-    "image": "images/perf_22a5a39a71.jpg"
+    "price": 79,
+    "image": "images/perf_22a5a39a71.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 72,
@@ -1004,8 +1770,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 89.0,
-    "image": "images/perf_22a5a39a71.jpg"
+    "price": 89,
+    "image": "images/perf_22a5a39a71.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 73,
@@ -1018,8 +1796,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "60ML",
     "concentration": "PARFUM",
-    "price": 73.0,
-    "image": "images/perf_22a5a39a71.jpg"
+    "price": 73,
+    "image": "images/perf_22a5a39a71.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 74,
@@ -1032,8 +1822,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 84.0,
-    "image": "images/perf_4a93bedd3f.jpg"
+    "price": 84,
+    "image": "images/perf_4a93bedd3f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 75,
@@ -1046,8 +1846,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 81.0,
-    "image": "images/perf_22a5a39a71.jpg"
+    "price": 81,
+    "image": "images/perf_22a5a39a71.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 76,
@@ -1061,7 +1873,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDT",
     "price": 18.5,
-    "image": "images/perf_fceb8ffa1f.jpg"
+    "image": "images/perf_fceb8ffa1f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 77,
@@ -1074,8 +1896,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 33.0,
-    "image": "images/perf_fceb8ffa1f.jpg"
+    "price": 33,
+    "image": "images/perf_fceb8ffa1f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 78,
@@ -1088,8 +1920,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 25.0,
-    "image": "images/perf_fceb8ffa1f.jpg"
+    "price": 25,
+    "image": "images/perf_fceb8ffa1f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 79,
@@ -1103,7 +1945,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 28.25,
-    "image": "images/perf_fceb8ffa1f.jpg"
+    "image": "images/perf_fceb8ffa1f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 80,
@@ -1116,8 +1968,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": "images/perf_26d9ed0afb.jpg"
+    "price": 26,
+    "image": "images/perf_26d9ed0afb.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 81,
@@ -1130,8 +1992,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 18.0,
-    "image": "images/perf_a4d81c776b.jpg"
+    "price": 18,
+    "image": "images/perf_a4d81c776b.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 82,
@@ -1145,7 +2017,17 @@ const perfumesData = [
     "volume": "150ML",
     "concentration": "EDT",
     "price": 23.25,
-    "image": "images/perf_a4d81c776b.jpg"
+    "image": "images/perf_a4d81c776b.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 83,
@@ -1159,7 +2041,17 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDT",
     "price": 22.5,
-    "image": "images/perf_a042cbfbe5.jpg"
+    "image": "images/perf_a042cbfbe5.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 84,
@@ -1173,7 +2065,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 28.5,
-    "image": "images/perf_a18bcc829b.jpg"
+    "image": "images/perf_a18bcc829b.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 85,
@@ -1186,8 +2088,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 23.0,
-    "image": "images/perf_e3862509f8.jpg"
+    "price": 23,
+    "image": "images/perf_e3862509f8.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 86,
@@ -1200,8 +2112,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 32.0,
-    "image": "images/perf_52acc36d93.png"
+    "price": 32,
+    "image": "images/perf_52acc36d93.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 87,
@@ -1214,8 +2136,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": "images/perf_642bd03609.jpg"
+    "price": 25,
+    "image": "images/perf_642bd03609.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 88,
@@ -1228,8 +2160,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 53.0,
-    "image": "images/perf_ebd46a7d56.jpg"
+    "price": 53,
+    "image": "images/perf_ebd46a7d56.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 89,
@@ -1243,7 +2187,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.75,
-    "image": "images/perf_01fa956ab3.jpg"
+    "image": "images/perf_01fa956ab3.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 90,
@@ -1256,8 +2210,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 21.0,
-    "image": "images/perf_d119a04a9e.png"
+    "price": 21,
+    "image": "images/perf_d119a04a9e.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 91,
@@ -1270,8 +2234,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 17.0,
-    "image": "images/perf_a4d81c776b.jpg"
+    "price": 17,
+    "image": "images/perf_a4d81c776b.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 92,
@@ -1285,7 +2259,17 @@ const perfumesData = [
     "volume": "150ML",
     "concentration": "EDT",
     "price": 23.25,
-    "image": "images/perf_a4d81c776b.jpg"
+    "image": "images/perf_a4d81c776b.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 93,
@@ -1298,8 +2282,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 28.0,
-    "image": "images/perf_368211b266.jpg"
+    "price": 28,
+    "image": "images/perf_368211b266.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 94,
@@ -1313,7 +2307,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 22.75,
-    "image": "images/perf_e3862509f8.jpg"
+    "image": "images/perf_e3862509f8.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 95,
@@ -1326,8 +2330,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 47.0,
-    "image": "images/perf_db26fcd833.jpg"
+    "price": 47,
+    "image": "images/perf_db26fcd833.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 96,
@@ -1341,7 +2355,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 27.9,
-    "image": "images/perf_ebd46a7d56.jpg"
+    "image": "images/perf_ebd46a7d56.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 97,
@@ -1355,7 +2379,17 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 21.5,
-    "image": "images/perf_01fa956ab3.jpg"
+    "image": "images/perf_01fa956ab3.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 98,
@@ -1369,7 +2403,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 27.5,
-    "image": "images/perf_26d9ed0afb.jpg"
+    "image": "images/perf_26d9ed0afb.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 99,
@@ -1382,8 +2426,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": "images/perf_fa0e04e9fb.jpg"
+    "price": 26,
+    "image": "images/perf_fa0e04e9fb.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 100,
@@ -1397,7 +2451,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 16.25,
-    "image": "images/perf_aa903deed5.jpg"
+    "image": "images/perf_aa903deed5.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 101,
@@ -1410,8 +2474,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 18.0,
-    "image": "images/perf_aa903deed5.jpg"
+    "price": 18,
+    "image": "images/perf_aa903deed5.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 102,
@@ -1425,7 +2499,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 19.75,
-    "image": "images/perf_a042cbfbe5.jpg"
+    "image": "images/perf_a042cbfbe5.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 103,
@@ -1439,7 +2523,17 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDT",
     "price": 26.5,
-    "image": "images/perf_a042cbfbe5.jpg"
+    "image": "images/perf_a042cbfbe5.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 104,
@@ -1453,7 +2547,20 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 34.75,
-    "image": "images/perf_a042cbfbe5.jpg"
+    "image": "images/perf_a042cbfbe5.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 105,
@@ -1466,8 +2573,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 18.0,
-    "image": "images/perf_4a04636686.png"
+    "price": 18,
+    "image": "images/perf_4a04636686.png",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 106,
@@ -1480,8 +2597,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 74.0,
-    "image": "images/perf_8d5369441a.jpg"
+    "price": 74,
+    "image": "images/perf_8d5369441a.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 107,
@@ -1495,7 +2623,18 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 65.75,
-    "image": "images/perf_8d5369441a.jpg"
+    "image": "images/perf_8d5369441a.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 108,
@@ -1509,7 +2648,21 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 72.45,
-    "image": "images/perf_8d5369441a.jpg"
+    "image": "images/perf_8d5369441a.jpg",
+    "vibes": [
+      "dulce",
+      "amaderado"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 109,
@@ -1523,7 +2676,18 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 65.5,
-    "image": "images/perf_1161ac64b2.png"
+    "image": "images/perf_1161ac64b2.png",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 110,
@@ -1537,7 +2701,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 55.75,
-    "image": "images/perf_74509a00b8.jpg"
+    "image": "images/perf_74509a00b8.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 111,
@@ -1551,7 +2726,18 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 77.25,
-    "image": "images/perf_74509a00b8.jpg"
+    "image": "images/perf_74509a00b8.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 112,
@@ -1565,7 +2751,18 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 73.5,
-    "image": "images/perf_74509a00b8.jpg"
+    "image": "images/perf_74509a00b8.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 113,
@@ -1579,7 +2776,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 64.5,
-    "image": "images/perf_d3d8a74df0.jpg"
+    "image": "images/perf_d3d8a74df0.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 114,
@@ -1593,7 +2800,27 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 77.75,
-    "image": "images/perf_f3486e5472.png"
+    "image": "images/perf_f3486e5472.png",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 971,
+      "targetName": "MAISON ALHAMBRA OPERA NOIR EDP 30ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 4.4,
+      "saving": 94,
+      "notes": "Café gourmand, almendra dulce, jazmín blanco y haba tonka nocturna."
+    }
   },
   {
     "id": 115,
@@ -1606,8 +2833,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 95.0,
-    "image": "images/perf_f3486e5472.png"
+    "price": 95,
+    "image": "images/perf_f3486e5472.png",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 971,
+      "targetName": "MAISON ALHAMBRA OPERA NOIR EDP 30ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 4.4,
+      "saving": 95,
+      "notes": "Café gourmand, almendra dulce, jazmín blanco y haba tonka nocturna."
+    }
   },
   {
     "id": 116,
@@ -1620,8 +2867,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 92.0,
-    "image": "images/perf_8d5369441a.jpg"
+    "price": 92,
+    "image": "images/perf_8d5369441a.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 117,
@@ -1634,8 +2891,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 63.0,
-    "image": "images/perf_8d5369441a.jpg"
+    "price": 63,
+    "image": "images/perf_8d5369441a.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 118,
@@ -1648,8 +2915,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 62.0,
-    "image": "images/perf_3e5570fb8d.png"
+    "price": 62,
+    "image": "images/perf_3e5570fb8d.png",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 971,
+      "targetName": "MAISON ALHAMBRA OPERA NOIR EDP 30ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 4.4,
+      "saving": 93,
+      "notes": "Café gourmand, almendra dulce, jazmín blanco y haba tonka nocturna."
+    }
   },
   {
     "id": 119,
@@ -1663,7 +2950,27 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "PARFUM",
     "price": 77.75,
-    "image": "images/perf_3e5570fb8d.png"
+    "image": "images/perf_3e5570fb8d.png",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 971,
+      "targetName": "MAISON ALHAMBRA OPERA NOIR EDP 30ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 4.4,
+      "saving": 94,
+      "notes": "Café gourmand, almendra dulce, jazmín blanco y haba tonka nocturna."
+    }
   },
   {
     "id": 120,
@@ -1676,8 +2983,19 @@ const perfumesData = [
     "is_kit": true,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 80.0,
-    "image": "images/perf_74509a00b8.jpg"
+    "price": 80,
+    "image": "images/perf_74509a00b8.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 121,
@@ -1690,8 +3008,19 @@ const perfumesData = [
     "is_kit": true,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 75.0,
-    "image": "images/perf_74509a00b8.jpg"
+    "price": 75,
+    "image": "images/perf_74509a00b8.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 122,
@@ -1705,7 +3034,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 62.5,
-    "image": "images/perf_215083a701.jpg"
+    "image": "images/perf_215083a701.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1005,
+      "targetName": "MAISON ALHAMBRA NO.2 MEN 80ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 15.75,
+      "saving": 75,
+      "notes": "Hierba verde recién cortada, jengibre picante, gardenia masculina y sándalo amaderado."
+    }
   },
   {
     "id": 123,
@@ -1719,7 +3066,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 75.5,
-    "image": "images/perf_215083a701.jpg"
+    "image": "images/perf_215083a701.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1005,
+      "targetName": "MAISON ALHAMBRA NO.2 MEN 80ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 15.75,
+      "saving": 79,
+      "notes": "Hierba verde recién cortada, jengibre picante, gardenia masculina y sándalo amaderado."
+    }
   },
   {
     "id": 124,
@@ -1733,7 +3098,21 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 51.75,
-    "image": "images/perf_31a624b7aa.jpg"
+    "image": "images/perf_31a624b7aa.jpg",
+    "vibes": [
+      "dulce",
+      "amaderado"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 125,
@@ -1746,8 +3125,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 64.0,
-    "image": "images/perf_1161ac64b2.png"
+    "price": 64,
+    "image": "images/perf_1161ac64b2.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 126,
@@ -1761,7 +3152,19 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 45.5,
-    "image": "images/perf_1161ac64b2.png"
+    "image": "images/perf_1161ac64b2.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 127,
@@ -1774,8 +3177,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 44.0,
-    "image": "images/perf_50e58f99c3.jpg"
+    "price": 44,
+    "image": "images/perf_50e58f99c3.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 128,
@@ -1789,7 +3202,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 68.75,
-    "image": "images/perf_06a66f206f.jpg"
+    "image": "images/perf_06a66f206f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 68,
+      "notes": "Acordes especiados de pimienta negra, haba tonka y fondo oscuro de vainilla y café."
+    }
   },
   {
     "id": 129,
@@ -1803,7 +3234,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 78.75,
-    "image": "images/perf_06a66f206f.jpg"
+    "image": "images/perf_06a66f206f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 72,
+      "notes": "Acordes especiados de pimienta negra, haba tonka y fondo oscuro de vainilla y café."
+    }
   },
   {
     "id": 130,
@@ -1816,8 +3265,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 66.0,
-    "image": "images/perf_06a66f206f.jpg"
+    "price": 66,
+    "image": "images/perf_06a66f206f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 67,
+      "notes": "Acordes especiados de pimienta negra, haba tonka y fondo oscuro de vainilla y café."
+    }
   },
   {
     "id": 131,
@@ -1831,7 +3298,25 @@ const perfumesData = [
     "volume": "150ML",
     "concentration": "EDT",
     "price": 79.75,
-    "image": "images/perf_06a66f206f.jpg"
+    "image": "images/perf_06a66f206f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 72,
+      "notes": "Acordes especiados de pimienta negra, haba tonka y fondo oscuro de vainilla y café."
+    }
   },
   {
     "id": 132,
@@ -1845,7 +3330,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 74.75,
-    "image": "images/perf_06a66f206f.jpg"
+    "image": "images/perf_06a66f206f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 71,
+      "notes": "Acordes especiados de pimienta negra, haba tonka y fondo oscuro de vainilla y café."
+    }
   },
   {
     "id": 133,
@@ -1858,8 +3361,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "150ML",
     "concentration": "EDP",
-    "price": 89.0,
-    "image": "images/perf_06a66f206f.jpg"
+    "price": 89,
+    "image": "images/perf_06a66f206f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 75,
+      "notes": "Acordes especiados de pimienta negra, haba tonka y fondo oscuro de vainilla y café."
+    }
   },
   {
     "id": 134,
@@ -1873,7 +3394,25 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 59.5,
-    "image": "images/perf_06a66f206f.jpg"
+    "image": "images/perf_06a66f206f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 63,
+      "notes": "Acordes especiados de pimienta negra, haba tonka y fondo oscuro de vainilla y café."
+    }
   },
   {
     "id": 135,
@@ -1887,7 +3426,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 68.5,
-    "image": "images/perf_06a66f206f.jpg"
+    "image": "images/perf_06a66f206f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 68,
+      "notes": "Acordes especiados de pimienta negra, haba tonka y fondo oscuro de vainilla y café."
+    }
   },
   {
     "id": 136,
@@ -1901,7 +3458,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 60.75,
-    "image": "images/perf_fe80337223.jpg"
+    "image": "images/perf_fe80337223.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 137,
@@ -1914,8 +3481,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 55.0,
-    "image": "images/perf_fe80337223.jpg"
+    "price": 55,
+    "image": "images/perf_fe80337223.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 138,
@@ -1928,8 +3505,26 @@ const perfumesData = [
     "is_kit": true,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 95.0,
-    "image": "images/perf_31a624b7aa.jpg"
+    "price": 95,
+    "image": "images/perf_31a624b7aa.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1005,
+      "targetName": "MAISON ALHAMBRA NO.2 MEN 80ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 15.75,
+      "saving": 83,
+      "notes": "Hierba verde recién cortada, jengibre picante, gardenia masculina y sándalo amaderado."
+    }
   },
   {
     "id": 139,
@@ -1942,8 +3537,20 @@ const perfumesData = [
     "is_kit": true,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 95.0,
-    "image": "images/perf_1161ac64b2.png"
+    "price": 95,
+    "image": "images/perf_1161ac64b2.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 140,
@@ -1956,8 +3563,20 @@ const perfumesData = [
     "is_kit": true,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 75.0,
-    "image": "images/perf_1161ac64b2.png"
+    "price": 75,
+    "image": "images/perf_1161ac64b2.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 141,
@@ -1970,8 +3589,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 58.0,
-    "image": "images/perf_8d5369441a.jpg"
+    "price": 58,
+    "image": "images/perf_8d5369441a.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 142,
@@ -1985,7 +3615,18 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 53.5,
-    "image": "images/perf_74509a00b8.jpg"
+    "image": "images/perf_74509a00b8.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 143,
@@ -1999,7 +3640,18 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 60.5,
-    "image": "images/perf_1161ac64b2.png"
+    "image": "images/perf_1161ac64b2.png",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 144,
@@ -2012,8 +3664,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 59.0,
-    "image": "images/perf_d3d8a74df0.jpg"
+    "price": 59,
+    "image": "images/perf_d3d8a74df0.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 145,
@@ -2026,8 +3688,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 60.0,
-    "image": "images/perf_06a66f206f.jpg"
+    "price": 60,
+    "image": "images/perf_06a66f206f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 63,
+      "notes": "Acordes especiados de pimienta negra, haba tonka y fondo oscuro de vainilla y café."
+    }
   },
   {
     "id": 146,
@@ -2040,8 +3720,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 49.0,
-    "image": "images/perf_fe80337223.jpg"
+    "price": 49,
+    "image": "images/perf_fe80337223.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 147,
@@ -2054,8 +3744,29 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 132.0,
-    "image": "images/perf_eff9f2a3b2.jpg"
+    "price": 132,
+    "image": "images/perf_eff9f2a3b2.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 961,
+      "targetName": "MAISON ALHAMBRA CHANTS TENDERINA EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.5,
+      "saving": 91,
+      "notes": "Frescura floral delicada con membrillo frutal, jazmín blanco y toronja luminosa."
+    }
   },
   {
     "id": 148,
@@ -2068,8 +3779,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 140.0,
-    "image": "images/perf_937eff7da4.jpg"
+    "price": 140,
+    "image": "images/perf_937eff7da4.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 961,
+      "targetName": "MAISON ALHAMBRA CHANTS TENDERINA EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.5,
+      "saving": 91,
+      "notes": "Frescura floral delicada con membrillo frutal, jazmín blanco y toronja luminosa."
+    }
   },
   {
     "id": 149,
@@ -2082,8 +3811,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 115.0,
-    "image": "images/perf_937eff7da4.jpg"
+    "price": 115,
+    "image": "images/perf_937eff7da4.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 961,
+      "targetName": "MAISON ALHAMBRA CHANTS TENDERINA EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.5,
+      "saving": 89,
+      "notes": "Frescura floral delicada con membrillo frutal, jazmín blanco y toronja luminosa."
+    }
   },
   {
     "id": 150,
@@ -2096,8 +3843,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 122.0,
-    "image": "images/perf_937eff7da4.jpg"
+    "price": 122,
+    "image": "images/perf_937eff7da4.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 961,
+      "targetName": "MAISON ALHAMBRA CHANTS TENDERINA EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.5,
+      "saving": 90,
+      "notes": "Frescura floral delicada con membrillo frutal, jazmín blanco y toronja luminosa."
+    }
   },
   {
     "id": 151,
@@ -2110,8 +3875,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 150.0,
-    "image": "images/perf_937eff7da4.jpg"
+    "price": 150,
+    "image": "images/perf_937eff7da4.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 961,
+      "targetName": "MAISON ALHAMBRA CHANTS TENDERINA EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.5,
+      "saving": 92,
+      "notes": "Frescura floral delicada con membrillo frutal, jazmín blanco y toronja luminosa."
+    }
   },
   {
     "id": 152,
@@ -2124,8 +3907,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "150ML",
     "concentration": "EDT",
-    "price": 140.0,
-    "image": "images/perf_937eff7da4.jpg"
+    "price": 140,
+    "image": "images/perf_937eff7da4.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 961,
+      "targetName": "MAISON ALHAMBRA CHANTS TENDERINA EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.5,
+      "saving": 91,
+      "notes": "Frescura floral delicada con membrillo frutal, jazmín blanco y toronja luminosa."
+    }
   },
   {
     "id": 153,
@@ -2138,8 +3939,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 148.0,
-    "image": "images/perf_7380e2b9a1.jpg"
+    "price": 148,
+    "image": "images/perf_7380e2b9a1.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 154,
@@ -2152,8 +3963,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 160.0,
-    "image": "images/perf_0166d22388.jpg"
+    "price": 160,
+    "image": "images/perf_0166d22388.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 155,
@@ -2166,8 +3987,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 165.0,
-    "image": "images/perf_1ea51da306.jpg"
+    "price": 165,
+    "image": "images/perf_1ea51da306.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 156,
@@ -2180,8 +4014,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 164.0,
-    "image": "images/perf_d67145c5e0.png"
+    "price": 164,
+    "image": "images/perf_d67145c5e0.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 157,
@@ -2194,8 +4038,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 113.0,
-    "image": "images/perf_c5445ec947.jpg"
+    "price": 113,
+    "image": "images/perf_c5445ec947.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 158,
@@ -2208,8 +4062,29 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 150.0,
-    "image": "images/perf_55e103640d.jpg"
+    "price": 150,
+    "image": "images/perf_55e103640d.jpg",
+    "vibes": [
+      "citrico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 984,
+      "targetName": "MAISON ALHAMBRA ALPINE HOMME SPORT EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 19.75,
+      "saving": 87,
+      "notes": "Cítricos acuáticos energizantes con mandarina, brisa marina, pimienta negra y almizcle limpio."
+    }
   },
   {
     "id": 159,
@@ -2222,8 +4097,29 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 90.0,
-    "image": "images/perf_55e103640d.jpg"
+    "price": 90,
+    "image": "images/perf_55e103640d.jpg",
+    "vibes": [
+      "citrico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 984,
+      "targetName": "MAISON ALHAMBRA ALPINE HOMME SPORT EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 19.75,
+      "saving": 78,
+      "notes": "Cítricos acuáticos energizantes con mandarina, brisa marina, pimienta negra y almizcle limpio."
+    }
   },
   {
     "id": 160,
@@ -2236,8 +4132,29 @@ const perfumesData = [
     "is_kit": false,
     "volume": "150ML",
     "concentration": "EDP",
-    "price": 210.0,
-    "image": "images/perf_66c3940487.jpg"
+    "price": 210,
+    "image": "images/perf_66c3940487.jpg",
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 769,
+      "targetName": "ARMAF CLUB DE NUIT ICONIC (BLUE) EDP 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 27,
+      "saving": 87,
+      "notes": "Perfil azul elegante con pomelo fresco, jengibre, menta, incienso celestial y cedro."
+    }
   },
   {
     "id": 161,
@@ -2251,7 +4168,28 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDT",
     "price": 84.5,
-    "image": "images/perf_66c3940487.jpg"
+    "image": "images/perf_66c3940487.jpg",
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 769,
+      "targetName": "ARMAF CLUB DE NUIT ICONIC (BLUE) EDP 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 27,
+      "saving": 68,
+      "notes": "Perfil azul elegante con pomelo fresco, jengibre, menta, incienso celestial y cedro."
+    }
   },
   {
     "id": 162,
@@ -2264,8 +4202,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "60ML",
     "concentration": "PARFUM",
-    "price": 220.0,
-    "image": "images/perf_66c3940487.jpg"
+    "price": 220,
+    "image": "images/perf_66c3940487.jpg",
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 163,
@@ -2278,8 +4229,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 198.0,
-    "image": "images/perf_66c3940487.jpg"
+    "price": 198,
+    "image": "images/perf_66c3940487.jpg",
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 164,
@@ -2292,8 +4256,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 124.0,
-    "image": "images/perf_2267835719.jpg"
+    "price": 124,
+    "image": "images/perf_2267835719.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 165,
@@ -2306,8 +4280,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 90.0,
-    "image": "images/perf_2267835719.jpg"
+    "price": 90,
+    "image": "images/perf_2267835719.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 166,
@@ -2320,8 +4304,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 110.0,
-    "image": "images/perf_2267835719.jpg"
+    "price": 110,
+    "image": "images/perf_2267835719.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 167,
@@ -2334,8 +4328,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 100.0,
-    "image": "images/perf_c5445ec947.jpg"
+    "price": 100,
+    "image": "images/perf_c5445ec947.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 168,
@@ -2348,8 +4352,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 87.0,
-    "image": "images/perf_41e9fbfa5f.jpg"
+    "price": 87,
+    "image": "images/perf_41e9fbfa5f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 169,
@@ -2362,8 +4376,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 92.0,
-    "image": "images/perf_937eff7da4.jpg"
+    "price": 92,
+    "image": "images/perf_937eff7da4.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 170,
@@ -2376,8 +4400,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 92.0,
-    "image": "images/perf_1ea51da306.jpg"
+    "price": 92,
+    "image": "images/perf_1ea51da306.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 171,
@@ -2390,8 +4427,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 100.0,
-    "image": "images/perf_c5445ec947.jpg"
+    "price": 100,
+    "image": "images/perf_c5445ec947.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 172,
@@ -2404,8 +4451,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 230.0,
-    "image": "images/perf_66c3940487.jpg"
+    "price": 230,
+    "image": "images/perf_66c3940487.jpg",
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 173,
@@ -2419,7 +4479,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 81.5,
-    "image": "images/perf_57063464fa.jpg"
+    "image": "images/perf_57063464fa.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 174,
@@ -2433,7 +4503,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 64.75,
-    "image": "images/perf_57063464fa.jpg"
+    "image": "images/perf_57063464fa.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 175,
@@ -2446,8 +4526,23 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 85.0,
-    "image": "images/perf_07729dfc59.jpg"
+    "price": 85,
+    "image": "images/perf_07729dfc59.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 176,
@@ -2460,8 +4555,23 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "PARFUM",
-    "price": 65.0,
-    "image": "images/perf_07729dfc59.jpg"
+    "price": 65,
+    "image": "images/perf_07729dfc59.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 177,
@@ -2474,8 +4584,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 95.0,
-    "image": "images/perf_57063464fa.jpg"
+    "price": 95,
+    "image": "images/perf_57063464fa.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 178,
@@ -2488,8 +4608,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 77.0,
-    "image": "images/perf_57063464fa.jpg"
+    "price": 77,
+    "image": "images/perf_57063464fa.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 179,
@@ -2502,8 +4632,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDT",
-    "price": 55.0,
-    "image": "images/perf_57063464fa.jpg"
+    "price": 55,
+    "image": "images/perf_57063464fa.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 180,
@@ -2516,8 +4656,22 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 69.0,
-    "image": "images/perf_dcb1e2a557.jpg"
+    "price": 69,
+    "image": "images/perf_dcb1e2a557.jpg",
+    "vibes": [
+      "floral",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 181,
@@ -2530,8 +4684,22 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 69.0,
-    "image": "images/perf_dcb1e2a557.jpg"
+    "price": 69,
+    "image": "images/perf_dcb1e2a557.jpg",
+    "vibes": [
+      "floral",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 182,
@@ -2544,8 +4712,22 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 68.0,
-    "image": "images/perf_dcb1e2a557.jpg"
+    "price": 68,
+    "image": "images/perf_dcb1e2a557.jpg",
+    "vibes": [
+      "floral",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 183,
@@ -2558,8 +4740,22 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 86.0,
-    "image": "images/perf_dcb1e2a557.jpg"
+    "price": 86,
+    "image": "images/perf_dcb1e2a557.jpg",
+    "vibes": [
+      "floral",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 184,
@@ -2573,7 +4769,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 68.5,
-    "image": "images/perf_9603050e3a.png"
+    "image": "images/perf_9603050e3a.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 185,
@@ -2586,8 +4794,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDT",
-    "price": 64.0,
-    "image": "images/perf_9603050e3a.png"
+    "price": 64,
+    "image": "images/perf_9603050e3a.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 186,
@@ -2600,8 +4818,22 @@ const perfumesData = [
     "is_kit": true,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 73.0,
-    "image": "images/perf_dcb1e2a557.jpg"
+    "price": 73,
+    "image": "images/perf_dcb1e2a557.jpg",
+    "vibes": [
+      "floral",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 187,
@@ -2614,8 +4846,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 95.0,
-    "image": "images/perf_d9eac88243.jpg"
+    "price": 95,
+    "image": "images/perf_d9eac88243.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 188,
@@ -2628,8 +4870,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 110.0,
-    "image": "images/perf_d9eac88243.jpg"
+    "price": 110,
+    "image": "images/perf_d9eac88243.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 189,
@@ -2642,8 +4894,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 91.0,
-    "image": "images/perf_7dbba90738.jpg"
+    "price": 91,
+    "image": "images/perf_7dbba90738.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 190,
@@ -2656,8 +4918,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "150ML",
     "concentration": "EDT",
-    "price": 110.0,
-    "image": "images/perf_7dbba90738.jpg"
+    "price": 110,
+    "image": "images/perf_7dbba90738.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 191,
@@ -2671,7 +4943,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 103.25,
-    "image": "images/perf_e1a922ce97.jpg"
+    "image": "images/perf_e1a922ce97.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 192,
@@ -2684,8 +4966,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "",
-    "price": 119.0,
-    "image": "images/perf_e1a922ce97.jpg"
+    "price": 119,
+    "image": "images/perf_e1a922ce97.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 193,
@@ -2698,8 +4990,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "PARFUM",
-    "price": 99.0,
-    "image": "images/perf_e1a922ce97.jpg"
+    "price": 99,
+    "image": "images/perf_e1a922ce97.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 194,
@@ -2712,8 +5014,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 80.0,
-    "image": "images/perf_8e9d6b9c37.jpg"
+    "price": 80,
+    "image": "images/perf_8e9d6b9c37.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 195,
@@ -2727,7 +5039,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 80.5,
-    "image": "images/perf_976b0e5492.jpg"
+    "image": "images/perf_976b0e5492.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 196,
@@ -2741,7 +5063,27 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 74.75,
-    "image": "images/perf_e913b61f32.jpg"
+    "image": "images/perf_e913b61f32.jpg",
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1035,
+      "targetName": "MAISON ALHAMBRA SMOKY TOUCH EDP 30ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 4.4,
+      "saving": 94,
+      "notes": "Cuero oscuro característico con notas ahumadas, violeta y maderas nobles."
+    }
   },
   {
     "id": 197,
@@ -2754,8 +5096,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 81.0,
-    "image": "images/perf_c457d71626.jpg"
+    "price": 81,
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 198,
@@ -2768,8 +5120,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "150ML",
     "concentration": "EDT",
-    "price": 105.0,
-    "image": "images/perf_c457d71626.jpg"
+    "price": 105,
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 199,
@@ -2782,8 +5144,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 62.0,
-    "image": "images/perf_c457d71626.jpg"
+    "price": 62,
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 200,
@@ -2797,7 +5169,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 97.5,
-    "image": "images/perf_8de008261f.png"
+    "image": "images/perf_8de008261f.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 201,
@@ -2810,8 +5194,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "PARFUM",
-    "price": 114.0,
-    "image": "images/perf_c457d71626.jpg"
+    "price": 114,
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 202,
@@ -2824,8 +5218,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 90.0,
-    "image": "images/perf_e3197896c5.png"
+    "price": 90,
+    "image": "images/perf_e3197896c5.png",
+    "vibes": [
+      "citrico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 203,
@@ -2838,8 +5245,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 116.0,
-    "image": "images/perf_8c779a4d8c.jpg"
+    "price": 116,
+    "image": "images/perf_8c779a4d8c.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 81,
+      "notes": "Aroma especiado y seductor con pimienta negra, nuez moscada, café y vainilla cremosa con duración bestial."
+    }
   },
   {
     "id": 204,
@@ -2852,8 +5277,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 102.0,
-    "image": "images/perf_c457d71626.jpg"
+    "price": 102,
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 78,
+      "notes": "Aroma especiado y seductor con pimienta negra, nuez moscada, café y vainilla cremosa con duración bestial."
+    }
   },
   {
     "id": 205,
@@ -2866,8 +5309,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDP",
-    "price": 140.0,
-    "image": "images/perf_c457d71626.jpg"
+    "price": 140,
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 84,
+      "notes": "Aroma especiado y seductor con pimienta negra, nuez moscada, café y vainilla cremosa con duración bestial."
+    }
   },
   {
     "id": 206,
@@ -2880,8 +5341,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "60ML",
     "concentration": "EDP",
-    "price": 93.0,
-    "image": "images/perf_c457d71626.jpg"
+    "price": 93,
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 76,
+      "notes": "Aroma especiado y seductor con pimienta negra, nuez moscada, café y vainilla cremosa con duración bestial."
+    }
   },
   {
     "id": 207,
@@ -2895,7 +5374,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 84.5,
-    "image": "images/perf_c457d71626.jpg"
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 74,
+      "notes": "Aroma especiado y seductor con pimienta negra, nuez moscada, café y vainilla cremosa con duración bestial."
+    }
   },
   {
     "id": 208,
@@ -2908,8 +5405,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 165.0,
-    "image": "images/perf_c457d71626.jpg"
+    "price": 165,
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 87,
+      "notes": "Aroma especiado y seductor con pimienta negra, nuez moscada, café y vainilla cremosa con duración bestial."
+    }
   },
   {
     "id": 209,
@@ -2923,7 +5438,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 127.25,
-    "image": "images/perf_c457d71626.jpg"
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 83,
+      "notes": "Aroma especiado y seductor con pimienta negra, nuez moscada, café y vainilla cremosa con duración bestial."
+    }
   },
   {
     "id": 210,
@@ -2936,8 +5469,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "PARFUM",
-    "price": 203.0,
-    "image": "images/perf_c457d71626.jpg"
+    "price": 203,
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 883,
+      "targetName": "LATTAFA ASAD (BLACK) EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 22,
+      "saving": 89,
+      "notes": "Aroma especiado y seductor con pimienta negra, nuez moscada, café y vainilla cremosa con duración bestial."
+    }
   },
   {
     "id": 211,
@@ -2950,8 +5501,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 95.0,
-    "image": "images/perf_86b2e7b512.jpg"
+    "price": 95,
+    "image": "images/perf_86b2e7b512.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 212,
@@ -2964,8 +5525,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 88.0,
-    "image": "images/perf_86b2e7b512.jpg"
+    "price": 88,
+    "image": "images/perf_86b2e7b512.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 213,
@@ -2978,8 +5549,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 84.0,
-    "image": "images/perf_976b0e5492.jpg"
+    "price": 84,
+    "image": "images/perf_976b0e5492.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 214,
@@ -2992,8 +5573,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 82.0,
-    "image": "images/perf_976b0e5492.jpg"
+    "price": 82,
+    "image": "images/perf_976b0e5492.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 215,
@@ -3006,8 +5597,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 82.0,
-    "image": "images/perf_72e8ba3aec.jpg"
+    "price": 82,
+    "image": "images/perf_72e8ba3aec.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 216,
@@ -3020,8 +5621,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 75.0,
-    "image": "images/perf_e913b61f32.jpg"
+    "price": 75,
+    "image": "images/perf_e913b61f32.jpg",
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1035,
+      "targetName": "MAISON ALHAMBRA SMOKY TOUCH EDP 30ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 4.4,
+      "saving": 94,
+      "notes": "Cuero oscuro característico con notas ahumadas, violeta y maderas nobles."
+    }
   },
   {
     "id": 217,
@@ -3034,8 +5655,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "PARFUM",
-    "price": 86.0,
-    "image": "images/perf_c457d71626.jpg"
+    "price": 86,
+    "image": "images/perf_c457d71626.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 218,
@@ -3048,8 +5679,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 79.0,
-    "image": "images/perf_e3197896c5.png"
+    "price": 79,
+    "image": "images/perf_e3197896c5.png",
+    "vibes": [
+      "citrico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 219,
@@ -3062,8 +5706,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 40.0,
-    "image": "images/perf_e8a3472b93.jpg"
+    "price": 40,
+    "image": "images/perf_e8a3472b93.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 220,
@@ -3077,7 +5731,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 33.5,
-    "image": "images/perf_e8a3472b93.jpg"
+    "image": "images/perf_e8a3472b93.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 221,
@@ -3090,8 +5754,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": "images/perf_35aee0161b.png"
+    "price": 25,
+    "image": "images/perf_35aee0161b.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 222,
@@ -3104,8 +5778,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 48.0,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "price": 48,
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 223,
@@ -3118,8 +5802,22 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 67.0,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "price": 67,
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 224,
@@ -3132,8 +5830,22 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 78.0,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "price": 78,
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 225,
@@ -3147,7 +5859,20 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 45.5,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 226,
@@ -3161,7 +5886,20 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 53.75,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 227,
@@ -3174,8 +5912,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 115.0,
-    "image": "images/perf_34b76c93ed.jpg"
+    "price": 115,
+    "image": "images/perf_34b76c93ed.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 228,
@@ -3189,7 +5939,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 46.5,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 229,
@@ -3202,8 +5962,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 52.0,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "price": 52,
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 230,
@@ -3217,7 +5987,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 52.5,
-    "image": "images/perf_34b76c93ed.jpg"
+    "image": "images/perf_34b76c93ed.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 231,
@@ -3230,8 +6011,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 62.0,
-    "image": "images/perf_178fd48ccc.jpg"
+    "price": 62,
+    "image": "images/perf_178fd48ccc.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 232,
@@ -3245,7 +6036,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 57.75,
-    "image": "images/perf_40b05be898.jpg"
+    "image": "images/perf_40b05be898.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 233,
@@ -3259,7 +6061,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 45.75,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 234,
@@ -3273,7 +6085,17 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDP",
     "price": 48.5,
-    "image": "images/perf_be559a2716.jpg"
+    "image": "images/perf_be559a2716.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 235,
@@ -3287,7 +6109,17 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDP",
     "price": 63.5,
-    "image": "images/perf_be559a2716.jpg"
+    "image": "images/perf_be559a2716.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 236,
@@ -3300,8 +6132,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 42.0,
-    "image": "images/perf_be559a2716.jpg"
+    "price": 42,
+    "image": "images/perf_be559a2716.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 237,
@@ -3314,8 +6156,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 54.0,
-    "image": "images/perf_34b76c93ed.jpg"
+    "price": 54,
+    "image": "images/perf_34b76c93ed.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 238,
@@ -3329,7 +6183,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 68.75,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 239,
@@ -3342,8 +6206,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 60.0,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "price": 60,
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 240,
@@ -3357,7 +6231,21 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 59.9,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 241,
@@ -3371,7 +6259,19 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 73.5,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 242,
@@ -3384,8 +6284,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDT",
-    "price": 63.0,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "price": 63,
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 243,
@@ -3398,8 +6310,22 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 51.0,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "price": 51,
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 244,
@@ -3412,8 +6338,22 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 47.0,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "price": 47,
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 245,
@@ -3426,8 +6366,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 47.0,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "price": 47,
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 246,
@@ -3441,7 +6392,17 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 46.75,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 247,
@@ -3454,8 +6415,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDT",
-    "price": 61.0,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "price": 61,
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 248,
@@ -3469,7 +6440,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 54.5,
-    "image": "images/perf_0f0d4786bb.jpg"
+    "image": "images/perf_0f0d4786bb.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 249,
@@ -3483,7 +6466,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 41.75,
-    "image": "images/perf_0f0d4786bb.jpg"
+    "image": "images/perf_0f0d4786bb.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 250,
@@ -3497,7 +6490,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 58.5,
-    "image": "images/perf_0f0d4786bb.jpg"
+    "image": "images/perf_0f0d4786bb.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 251,
@@ -3511,7 +6516,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 49.5,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 252,
@@ -3525,7 +6540,17 @@ const perfumesData = [
     "volume": "150ML",
     "concentration": "EDT",
     "price": 57.9,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 253,
@@ -3538,8 +6563,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 55.0,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "price": 55,
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 254,
@@ -3552,8 +6587,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 37.0,
-    "image": "images/perf_0f0d4786bb.jpg"
+    "price": 37,
+    "image": "images/perf_0f0d4786bb.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 255,
@@ -3566,8 +6611,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 42.0,
-    "image": "images/perf_3f5728a6aa.jpg"
+    "price": 42,
+    "image": "images/perf_3f5728a6aa.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 256,
@@ -3580,8 +6636,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 43.0,
-    "image": "images/perf_fd7c7ea474.jpg"
+    "price": 43,
+    "image": "images/perf_fd7c7ea474.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 257,
@@ -3594,8 +6660,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 35.0,
-    "image": "images/perf_30c48c76f1.jpg"
+    "price": 35,
+    "image": "images/perf_30c48c76f1.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 258,
@@ -3608,8 +6684,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 55.0,
-    "image": "images/perf_9f158d2537.jpg"
+    "price": 55,
+    "image": "images/perf_9f158d2537.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 259,
@@ -3623,7 +6709,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 63.5,
-    "image": "images/perf_ded1bbe742.jpg"
+    "image": "images/perf_ded1bbe742.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 260,
@@ -3636,8 +6732,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 54.0,
-    "image": "images/perf_ded1bbe742.jpg"
+    "price": 54,
+    "image": "images/perf_ded1bbe742.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 261,
@@ -3650,8 +6756,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 83.0,
-    "image": "images/perf_4882aa6492.jpg"
+    "price": 83,
+    "image": "images/perf_4882aa6492.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 262,
@@ -3664,8 +6780,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDP",
-    "price": 21.0,
-    "image": "images/perf_6cdc66a123.jpg"
+    "price": 21,
+    "image": "images/perf_6cdc66a123.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 263,
@@ -3678,8 +6804,18 @@ const perfumesData = [
     "is_kit": true,
     "volume": "125ML",
     "concentration": "EDP",
-    "price": 30.0,
-    "image": "images/perf_6cdc66a123.jpg"
+    "price": 30,
+    "image": "images/perf_6cdc66a123.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 264,
@@ -3693,7 +6829,19 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 18.75,
-    "image": "images/perf_59fa90dd6b.jpg"
+    "image": "images/perf_59fa90dd6b.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 265,
@@ -3706,8 +6854,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 14.0,
-    "image": "images/perf_4446c27baa.jpg"
+    "price": 14,
+    "image": "images/perf_4446c27baa.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 266,
@@ -3721,7 +6879,19 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 14.75,
-    "image": "images/perf_59fa90dd6b.jpg"
+    "image": "images/perf_59fa90dd6b.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 267,
@@ -3734,8 +6904,29 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 65.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 65,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 85,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 268,
@@ -3748,8 +6939,29 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 88.0,
-    "image": "images/perf_f98f6cf7d4.jpg"
+    "price": 88,
+    "image": "images/perf_f98f6cf7d4.jpg",
+    "vibes": [
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 89,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 269,
@@ -3762,8 +6974,29 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 65.0,
-    "image": "images/perf_f98f6cf7d4.jpg"
+    "price": 65,
+    "image": "images/perf_f98f6cf7d4.jpg",
+    "vibes": [
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 85,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 270,
@@ -3776,8 +7009,31 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 88.0,
-    "image": "images/perf_f98f6cf7d4.jpg"
+    "price": 88,
+    "image": "images/perf_f98f6cf7d4.jpg",
+    "vibes": [
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 89,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 271,
@@ -3790,8 +7046,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "15ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": "images/perf_e5ca616254.png"
+    "price": 24,
+    "image": "images/perf_e5ca616254.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 970,
+      "targetName": "MAISON ALHAMBRA LA VOIE 100ML (ROSA)",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 17.5,
+      "saving": 40,
+      "notes": "Flor de azahar radiante, bergamota italiana, bouquet de nardos y vainilla suave."
+    }
   },
   {
     "id": 272,
@@ -3804,8 +7078,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 78.0,
-    "image": "images/perf_e5ca616254.png"
+    "price": 78,
+    "image": "images/perf_e5ca616254.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 970,
+      "targetName": "MAISON ALHAMBRA LA VOIE 100ML (ROSA)",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 17.5,
+      "saving": 78,
+      "notes": "Flor de azahar radiante, bergamota italiana, bouquet de nardos y vainilla suave."
+    }
   },
   {
     "id": 273,
@@ -3818,8 +7112,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 100.0,
-    "image": "images/perf_e5ca616254.png"
+    "price": 100,
+    "image": "images/perf_e5ca616254.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 970,
+      "targetName": "MAISON ALHAMBRA LA VOIE 100ML (ROSA)",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 17.5,
+      "saving": 83,
+      "notes": "Flor de azahar radiante, bergamota italiana, bouquet de nardos y vainilla suave."
+    }
   },
   {
     "id": 274,
@@ -3832,8 +7144,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "PARFUM",
-    "price": 109.0,
-    "image": "images/perf_e5ca616254.png"
+    "price": 109,
+    "image": "images/perf_e5ca616254.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 970,
+      "targetName": "MAISON ALHAMBRA LA VOIE 100ML (ROSA)",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 17.5,
+      "saving": 84,
+      "notes": "Flor de azahar radiante, bergamota italiana, bouquet de nardos y vainilla suave."
+    }
   },
   {
     "id": 275,
@@ -3846,8 +7176,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 85.0,
-    "image": "images/perf_d8633a23ba.jpg"
+    "price": 85,
+    "image": "images/perf_d8633a23ba.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 276,
@@ -3860,8 +7200,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 135.0,
-    "image": "images/perf_d8633a23ba.jpg"
+    "price": 135,
+    "image": "images/perf_d8633a23ba.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 277,
@@ -3874,8 +7224,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 94.0,
-    "image": "images/perf_fc721a5c8e.jpg"
+    "price": 94,
+    "image": "images/perf_fc721a5c8e.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 278,
@@ -3888,8 +7248,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "15ML",
     "concentration": "EDP",
-    "price": 17.0,
-    "image": "images/perf_fc721a5c8e.jpg"
+    "price": 17,
+    "image": "images/perf_fc721a5c8e.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 279,
@@ -3902,8 +7272,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 95.0,
-    "image": "images/perf_22e854f1d7.jpg"
+    "price": 95,
+    "image": "images/perf_22e854f1d7.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 280,
@@ -3916,8 +7298,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 89.0,
-    "image": "images/perf_fc721a5c8e.jpg"
+    "price": 89,
+    "image": "images/perf_fc721a5c8e.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 281,
@@ -3931,7 +7323,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 89.5,
-    "image": "images/perf_fc721a5c8e.jpg"
+    "image": "images/perf_fc721a5c8e.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 282,
@@ -3944,8 +7346,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 90.0,
-    "image": "images/perf_22e854f1d7.jpg"
+    "price": 90,
+    "image": "images/perf_22e854f1d7.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 283,
@@ -3958,8 +7372,18 @@ const perfumesData = [
     "is_kit": true,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 120.0,
-    "image": "images/perf_fc721a5c8e.jpg"
+    "price": 120,
+    "image": "images/perf_fc721a5c8e.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 284,
@@ -3972,8 +7396,18 @@ const perfumesData = [
     "is_kit": true,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 84.0,
-    "image": "images/perf_fc721a5c8e.jpg"
+    "price": 84,
+    "image": "images/perf_fc721a5c8e.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 285,
@@ -3986,8 +7420,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 68.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 68,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 86,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 286,
@@ -4000,8 +7453,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDT",
-    "price": 71.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 71,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 86,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 287,
@@ -4014,8 +7486,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "",
-    "price": 95.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 95,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 90,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 288,
@@ -4028,8 +7519,29 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 90.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 90,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 89,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 289,
@@ -4042,8 +7554,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "PARFUM",
-    "price": 92.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 92,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 89,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 290,
@@ -4057,7 +7588,26 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 79.5,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 88,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 291,
@@ -4070,8 +7620,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDP",
-    "price": 130.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 130,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 93,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 292,
@@ -4084,8 +7653,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 65.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 65,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 85,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 293,
@@ -4098,8 +7686,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 64.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 64,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 85,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 294,
@@ -4112,8 +7719,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 55.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 55,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 82,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 295,
@@ -4126,8 +7751,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 93.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 93,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 90,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 296,
@@ -4140,8 +7784,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 90.0,
-    "image": "images/perf_cb181f6ee4.jpg"
+    "price": 90,
+    "image": "images/perf_cb181f6ee4.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 297,
@@ -4154,8 +7808,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 52.0,
-    "image": "images/perf_d8633a23ba.jpg"
+    "price": 52,
+    "image": "images/perf_d8633a23ba.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 298,
@@ -4168,8 +7832,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 83.0,
-    "image": "images/perf_d8633a23ba.jpg"
+    "price": 83,
+    "image": "images/perf_d8633a23ba.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 299,
@@ -4182,8 +7858,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 95.0,
-    "image": "images/perf_d8633a23ba.jpg"
+    "price": 95,
+    "image": "images/perf_d8633a23ba.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 300,
@@ -4196,8 +7882,27 @@ const perfumesData = [
     "is_kit": true,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 78.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 78,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 88,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 301,
@@ -4210,8 +7915,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 48.0,
-    "image": "images/perf_d8633a23ba.jpg"
+    "price": 48,
+    "image": "images/perf_d8633a23ba.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 302,
@@ -4224,8 +7939,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 51.0,
-    "image": "images/perf_e1b2c958a9.jpg"
+    "price": 51,
+    "image": "images/perf_e1b2c958a9.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 895,
+      "targetName": "LATTAFA SUQRAAT EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 9.75,
+      "saving": 81,
+      "notes": "Notas marinas minerales con bergamota, romero aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 303,
@@ -4238,8 +7971,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 43.0,
-    "image": "images/perf_d8633a23ba.jpg"
+    "price": 43,
+    "image": "images/perf_d8633a23ba.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 304,
@@ -4252,8 +7995,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 90.0,
-    "image": "images/perf_6e935dbca1.jpg"
+    "price": 90,
+    "image": "images/perf_6e935dbca1.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 305,
@@ -4266,8 +8019,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 85.0,
-    "image": "images/perf_6e935dbca1.jpg"
+    "price": 85,
+    "image": "images/perf_6e935dbca1.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 306,
@@ -4280,8 +8043,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 104.0,
-    "image": "images/perf_060b2b7c91.jpg"
+    "price": 104,
+    "image": "images/perf_060b2b7c91.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 307,
@@ -4294,8 +8067,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 96.0,
-    "image": "images/perf_9c05e67f52.jpg"
+    "price": 96,
+    "image": "images/perf_9c05e67f52.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 968,
+      "targetName": "MAISON ALHAMBRA L'INTRUDE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.25,
+      "saving": 87,
+      "notes": "Nardos blancos opulentos con flor de naranjo y fondo de pachulí terroso sofisticado."
+    }
   },
   {
     "id": 308,
@@ -4308,8 +8101,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 82.0,
-    "image": "images/perf_8a1857fcda.jpg"
+    "price": 82,
+    "image": "images/perf_8a1857fcda.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 968,
+      "targetName": "MAISON ALHAMBRA L'INTRUDE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.25,
+      "saving": 85,
+      "notes": "Nardos blancos opulentos con flor de naranjo y fondo de pachulí terroso sofisticado."
+    }
   },
   {
     "id": 309,
@@ -4322,8 +8133,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDT",
-    "price": 62.0,
-    "image": "images/perf_8a1857fcda.jpg"
+    "price": 62,
+    "image": "images/perf_8a1857fcda.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 968,
+      "targetName": "MAISON ALHAMBRA L'INTRUDE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.25,
+      "saving": 80,
+      "notes": "Nardos blancos opulentos con flor de naranjo y fondo de pachulí terroso sofisticado."
+    }
   },
   {
     "id": 310,
@@ -4336,8 +8165,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "PARFUM",
-    "price": 113.0,
-    "image": "images/perf_8a1857fcda.jpg"
+    "price": 113,
+    "image": "images/perf_8a1857fcda.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 968,
+      "targetName": "MAISON ALHAMBRA L'INTRUDE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.25,
+      "saving": 89,
+      "notes": "Nardos blancos opulentos con flor de naranjo y fondo de pachulí terroso sofisticado."
+    }
   },
   {
     "id": 311,
@@ -4350,8 +8197,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 64.0,
-    "image": "images/perf_ee78e8a9a0.jpg"
+    "price": 64,
+    "image": "images/perf_ee78e8a9a0.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 312,
@@ -4364,8 +8221,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 75.0,
-    "image": "images/perf_6e935dbca1.jpg"
+    "price": 75,
+    "image": "images/perf_6e935dbca1.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 313,
@@ -4378,8 +8245,26 @@ const perfumesData = [
     "is_kit": true,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 100.0,
-    "image": "images/perf_8a1857fcda.jpg"
+    "price": 100,
+    "image": "images/perf_8a1857fcda.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 968,
+      "targetName": "MAISON ALHAMBRA L'INTRUDE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.25,
+      "saving": 88,
+      "notes": "Nardos blancos opulentos con flor de naranjo y fondo de pachulí terroso sofisticado."
+    }
   },
   {
     "id": 314,
@@ -4392,8 +8277,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 98.0,
-    "image": "images/perf_9d63f950e5.jpg"
+    "price": 98,
+    "image": "images/perf_9d63f950e5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 315,
@@ -4407,7 +8302,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 109.75,
-    "image": "images/perf_9d63f950e5.jpg"
+    "image": "images/perf_9d63f950e5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 316,
@@ -4420,8 +8325,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 98.0,
-    "image": "images/perf_9d63f950e5.jpg"
+    "price": 98,
+    "image": "images/perf_9d63f950e5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 317,
@@ -4434,8 +8349,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 90.0,
-    "image": "images/perf_9d63f950e5.jpg"
+    "price": 90,
+    "image": "images/perf_9d63f950e5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 318,
@@ -4448,8 +8373,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 41.0,
-    "image": "images/perf_64f1927903.jpg"
+    "price": 41,
+    "image": "images/perf_64f1927903.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 319,
@@ -4463,7 +8398,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 38.25,
-    "image": "images/perf_8a1857fcda.jpg"
+    "image": "images/perf_8a1857fcda.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 320,
@@ -4476,8 +8421,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 47.0,
-    "image": "images/perf_6f590cfbeb.jpg"
+    "price": 47,
+    "image": "images/perf_6f590cfbeb.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 321,
@@ -4491,7 +8446,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 57.5,
-    "image": "images/perf_72e8b00c85.jpg"
+    "image": "images/perf_72e8b00c85.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 322,
@@ -4504,8 +8469,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 59.0,
-    "image": "images/perf_72e8b00c85.jpg"
+    "price": 59,
+    "image": "images/perf_72e8b00c85.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 323,
@@ -4518,8 +8493,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDT",
-    "price": 53.0,
-    "image": "images/perf_6e935dbca1.jpg"
+    "price": 53,
+    "image": "images/perf_6e935dbca1.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 324,
@@ -4532,8 +8519,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 56.0,
-    "image": "images/perf_6e935dbca1.jpg"
+    "price": 56,
+    "image": "images/perf_6e935dbca1.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 325,
@@ -4546,8 +8543,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 78.0,
-    "image": "images/perf_060b2b7c91.jpg"
+    "price": 78,
+    "image": "images/perf_060b2b7c91.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 326,
@@ -4560,8 +8567,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 85.0,
-    "image": "images/perf_9c05e67f52.jpg"
+    "price": 85,
+    "image": "images/perf_9c05e67f52.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 968,
+      "targetName": "MAISON ALHAMBRA L'INTRUDE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 12.25,
+      "saving": 86,
+      "notes": "Nardos blancos opulentos con flor de naranjo y fondo de pachulí terroso sofisticado."
+    }
   },
   {
     "id": 327,
@@ -4574,8 +8601,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 89.0,
-    "image": "images/perf_9d63f950e5.jpg"
+    "price": 89,
+    "image": "images/perf_9d63f950e5.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 328,
@@ -4588,8 +8625,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 10.0,
-    "image": "images/perf_066dbb2c83.jpg"
+    "price": 10,
+    "image": "images/perf_066dbb2c83.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 329,
@@ -4603,7 +8650,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 73.5,
-    "image": "images/perf_90ca0bac45.jpg"
+    "image": "images/perf_90ca0bac45.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 330,
@@ -4617,7 +8674,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 73.5,
-    "image": "images/perf_90ca0bac45.jpg"
+    "image": "images/perf_90ca0bac45.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 331,
@@ -4631,7 +8698,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 73.5,
-    "image": "images/perf_91109f7b4d.jpg"
+    "image": "images/perf_91109f7b4d.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 332,
@@ -4644,8 +8721,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 85.0,
-    "image": "images/perf_83fee3fed3.jpg"
+    "price": 85,
+    "image": "images/perf_83fee3fed3.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 333,
@@ -4658,8 +8745,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 88.0,
-    "image": "images/perf_83fee3fed3.jpg"
+    "price": 88,
+    "image": "images/perf_83fee3fed3.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 334,
@@ -4672,8 +8769,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 210.0,
-    "image": "images/perf_cc2b8c73ba.jpg"
+    "price": 210,
+    "image": "images/perf_cc2b8c73ba.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 335,
@@ -4686,8 +8794,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "150ML",
     "concentration": "",
-    "price": 170.0,
-    "image": "images/perf_851f3b2e4c.png"
+    "price": 170,
+    "image": "images/perf_851f3b2e4c.png",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 336,
@@ -4700,8 +8819,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 180.0,
-    "image": "images/perf_cc2b8c73ba.jpg"
+    "price": 180,
+    "image": "images/perf_cc2b8c73ba.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 337,
@@ -4714,8 +8844,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 89.0,
-    "image": "images/perf_081e5f2ddd.jpg"
+    "price": 89,
+    "image": "images/perf_081e5f2ddd.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 338,
@@ -4728,8 +8868,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 23.0,
-    "image": "images/perf_0009eabee9.jpg"
+    "price": 23,
+    "image": "images/perf_0009eabee9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 339,
@@ -4743,7 +8893,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 22.5,
-    "image": "images/perf_0009eabee9.jpg"
+    "image": "images/perf_0009eabee9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 340,
@@ -4756,8 +8916,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 29.0,
-    "image": "images/perf_0009eabee9.jpg"
+    "price": 29,
+    "image": "images/perf_0009eabee9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 341,
@@ -4770,8 +8940,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 30.0,
-    "image": "images/perf_0009eabee9.jpg"
+    "price": 30,
+    "image": "images/perf_0009eabee9.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 342,
@@ -4784,8 +8965,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 30.0,
-    "image": "images/perf_0009eabee9.jpg"
+    "price": 30,
+    "image": "images/perf_0009eabee9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 343,
@@ -4798,8 +8989,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 36.0,
-    "image": "images/perf_0009eabee9.jpg"
+    "price": 36,
+    "image": "images/perf_0009eabee9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 344,
@@ -4812,8 +9013,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 28.0,
-    "image": "images/perf_0009eabee9.jpg"
+    "price": 28,
+    "image": "images/perf_0009eabee9.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 345,
@@ -4826,8 +9037,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 35.0,
-    "image": "images/perf_0009eabee9.jpg"
+    "price": 35,
+    "image": "images/perf_0009eabee9.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 346,
@@ -4840,8 +9061,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 51.0,
-    "image": "images/perf_1217293b9b.jpg"
+    "price": 51,
+    "image": "images/perf_1217293b9b.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 347,
@@ -4855,7 +9088,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 27.5,
-    "image": "images/perf_1044d9c295.jpg"
+    "image": "images/perf_1044d9c295.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 348,
@@ -4869,7 +9112,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 37.75,
-    "image": "images/perf_e083e2f817.jpg"
+    "image": "images/perf_e083e2f817.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 349,
@@ -4883,7 +9136,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.5,
-    "image": "images/perf_c1ffecd97b.jpg"
+    "image": "images/perf_c1ffecd97b.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 350,
@@ -4897,7 +9160,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 21.25,
-    "image": "images/perf_27b7a628a9.jpg"
+    "image": "images/perf_27b7a628a9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 351,
@@ -4911,7 +9184,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 62.75,
-    "image": "images/perf_1c93314ff2.jpg"
+    "image": "images/perf_1c93314ff2.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 352,
@@ -4925,7 +9208,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDT",
     "price": 39.75,
-    "image": "images/perf_30182531b4.jpg"
+    "image": "images/perf_30182531b4.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 353,
@@ -4938,8 +9231,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 25.0,
-    "image": "images/perf_6e6139e3d0.png"
+    "price": 25,
+    "image": "images/perf_6e6139e3d0.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 354,
@@ -4953,7 +9256,17 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 43.5,
-    "image": "images/perf_1044d9c295.jpg"
+    "image": "images/perf_1044d9c295.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 355,
@@ -4967,7 +9280,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDT",
     "price": 42.5,
-    "image": "images/perf_1044d9c295.jpg"
+    "image": "images/perf_1044d9c295.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 356,
@@ -4980,8 +9303,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 32.0,
-    "image": "images/perf_fde4d1cb8a.png"
+    "price": 32,
+    "image": "images/perf_fde4d1cb8a.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 357,
@@ -4995,7 +9328,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 23.25,
-    "image": "images/perf_b66b3cf6e1.png"
+    "image": "images/perf_b66b3cf6e1.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 358,
@@ -5009,7 +9352,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 24.9,
-    "image": "images/perf_b0163bfbe8.jpg"
+    "image": "images/perf_b0163bfbe8.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 359,
@@ -5022,8 +9375,18 @@ const perfumesData = [
     "is_kit": true,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 47.0,
-    "image": "images/perf_1c93314ff2.jpg"
+    "price": 47,
+    "image": "images/perf_1c93314ff2.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 360,
@@ -5036,8 +9399,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 24.0,
-    "image": "images/perf_f93393acc6.jpg"
+    "price": 24,
+    "image": "images/perf_f93393acc6.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 361,
@@ -5050,8 +9425,22 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDT",
-    "price": 56.0,
-    "image": "images/perf_865d3f170c.jpg"
+    "price": 56,
+    "image": "images/perf_865d3f170c.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 362,
@@ -5064,8 +9453,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 48.0,
-    "image": "images/perf_a6321e4483.png"
+    "price": 48,
+    "image": "images/perf_a6321e4483.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 363,
@@ -5079,7 +9478,19 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 31.5,
-    "image": "images/perf_865d3f170c.jpg"
+    "image": "images/perf_865d3f170c.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 364,
@@ -5093,7 +9504,19 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDT",
     "price": 27.5,
-    "image": "images/perf_865d3f170c.jpg"
+    "image": "images/perf_865d3f170c.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 365,
@@ -5107,7 +9530,20 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDT",
     "price": 54.25,
-    "image": "images/perf_f93393acc6.jpg"
+    "image": "images/perf_f93393acc6.jpg",
+    "vibes": [
+      "citrico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 366,
@@ -5121,7 +9557,20 @@ const perfumesData = [
     "volume": "40ML",
     "concentration": "EDT",
     "price": 22.5,
-    "image": "images/perf_f93393acc6.jpg"
+    "image": "images/perf_f93393acc6.jpg",
+    "vibes": [
+      "citrico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 367,
@@ -5134,8 +9583,23 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 68.0,
-    "image": "images/perf_865d3f170c.jpg"
+    "price": 68,
+    "image": "images/perf_865d3f170c.jpg",
+    "vibes": [
+      "citrico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 368,
@@ -5148,8 +9612,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 29.0,
-    "image": "images/perf_f93393acc6.jpg"
+    "price": 29,
+    "image": "images/perf_f93393acc6.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 369,
@@ -5163,7 +9639,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 14.5,
-    "image": "images/perf_b2aae45d33.png"
+    "image": "images/perf_b2aae45d33.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 370,
@@ -5177,7 +9663,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 65.5,
-    "image": "images/perf_030d2cdc7c.jpg"
+    "image": "images/perf_030d2cdc7c.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 371,
@@ -5190,8 +9686,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 85.0,
-    "image": "images/perf_030d2cdc7c.jpg"
+    "price": 85,
+    "image": "images/perf_030d2cdc7c.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 372,
@@ -5205,7 +9711,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 99.75,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 373,
@@ -5219,7 +9735,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 73.75,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 374,
@@ -5232,8 +9758,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 80.0,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "price": 80,
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 375,
@@ -5247,7 +9783,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 102.75,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 376,
@@ -5260,8 +9806,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 72.0,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "price": 72,
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 779,
+      "targetName": "ARMAF ODYSSEY MANDARIN SKY EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 19.5,
+      "saving": 73,
+      "notes": "Caramelo tostado adictivo con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 377,
@@ -5274,8 +9840,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 83.0,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "price": 83,
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 779,
+      "targetName": "ARMAF ODYSSEY MANDARIN SKY EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 19.5,
+      "saving": 77,
+      "notes": "Caramelo tostado adictivo con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 378,
@@ -5289,7 +9875,27 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "PARFUM",
     "price": 98.5,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 779,
+      "targetName": "ARMAF ODYSSEY MANDARIN SKY EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 19.5,
+      "saving": 80,
+      "notes": "Caramelo tostado adictivo con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 379,
@@ -5303,7 +9909,17 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 60.5,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 380,
@@ -5316,8 +9932,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDP",
-    "price": 95.0,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "price": 95,
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 381,
@@ -5331,7 +9957,19 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "PARFUM",
     "price": 74.25,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 382,
@@ -5344,8 +9982,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDP",
-    "price": 78.0,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "price": 78,
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 383,
@@ -5358,8 +10006,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 61.0,
-    "image": "images/perf_6b2b7f7d10.jpg"
+    "price": 61,
+    "image": "images/perf_6b2b7f7d10.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 993,
+      "targetName": "MAISON ALHAMBRA GLACIER POUR HOMME EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 82,
+      "notes": "Lavanda fresca francesa, menta refrescante y fondo de vainilla clásica seductora."
+    }
   },
   {
     "id": 384,
@@ -5373,7 +10039,25 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "",
     "price": 94.75,
-    "image": "images/perf_6b2b7f7d10.jpg"
+    "image": "images/perf_6b2b7f7d10.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 993,
+      "targetName": "MAISON ALHAMBRA GLACIER POUR HOMME EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 88,
+      "notes": "Lavanda fresca francesa, menta refrescante y fondo de vainilla clásica seductora."
+    }
   },
   {
     "id": 385,
@@ -5387,7 +10071,25 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "",
     "price": 107.75,
-    "image": "images/perf_6b2b7f7d10.jpg"
+    "image": "images/perf_6b2b7f7d10.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 993,
+      "targetName": "MAISON ALHAMBRA GLACIER POUR HOMME EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 90,
+      "notes": "Lavanda fresca francesa, menta refrescante y fondo de vainilla clásica seductora."
+    }
   },
   {
     "id": 386,
@@ -5401,7 +10103,25 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "PARFUM",
     "price": 91.75,
-    "image": "images/perf_6b2b7f7d10.jpg"
+    "image": "images/perf_6b2b7f7d10.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 993,
+      "targetName": "MAISON ALHAMBRA GLACIER POUR HOMME EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 88,
+      "notes": "Lavanda fresca francesa, menta refrescante y fondo de vainilla clásica seductora."
+    }
   },
   {
     "id": 387,
@@ -5415,7 +10135,25 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "PARFUM",
     "price": 60.5,
-    "image": "images/perf_6b2b7f7d10.jpg"
+    "image": "images/perf_6b2b7f7d10.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 993,
+      "targetName": "MAISON ALHAMBRA GLACIER POUR HOMME EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 81,
+      "notes": "Lavanda fresca francesa, menta refrescante y fondo de vainilla clásica seductora."
+    }
   },
   {
     "id": 388,
@@ -5428,8 +10166,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDP",
-    "price": 86.0,
-    "image": "images/perf_6b2b7f7d10.jpg"
+    "price": 86,
+    "image": "images/perf_6b2b7f7d10.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 993,
+      "targetName": "MAISON ALHAMBRA GLACIER POUR HOMME EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 87,
+      "notes": "Lavanda fresca francesa, menta refrescante y fondo de vainilla clásica seductora."
+    }
   },
   {
     "id": 389,
@@ -5442,8 +10200,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 83.0,
-    "image": "images/perf_6b2b7f7d10.jpg"
+    "price": 83,
+    "image": "images/perf_6b2b7f7d10.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 993,
+      "targetName": "MAISON ALHAMBRA GLACIER POUR HOMME EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 86,
+      "notes": "Lavanda fresca francesa, menta refrescante y fondo de vainilla clásica seductora."
+    }
   },
   {
     "id": 390,
@@ -5457,7 +10233,27 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 72.75,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 779,
+      "targetName": "ARMAF ODYSSEY MANDARIN SKY EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 19.5,
+      "saving": 73,
+      "notes": "Caramelo tostado adictivo con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 391,
@@ -5470,8 +10266,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 75.0,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "price": 75,
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 779,
+      "targetName": "ARMAF ODYSSEY MANDARIN SKY EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 19.5,
+      "saving": 74,
+      "notes": "Caramelo tostado adictivo con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 392,
@@ -5485,7 +10301,27 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 90.25,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 779,
+      "targetName": "ARMAF ODYSSEY MANDARIN SKY EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 19.5,
+      "saving": 78,
+      "notes": "Caramelo tostado adictivo con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 393,
@@ -5499,7 +10335,27 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "PARFUM",
     "price": 64.75,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 779,
+      "targetName": "ARMAF ODYSSEY MANDARIN SKY EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 19.5,
+      "saving": 70,
+      "notes": "Caramelo tostado adictivo con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 394,
@@ -5512,8 +10368,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 60.0,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "price": 60,
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 779,
+      "targetName": "ARMAF ODYSSEY MANDARIN SKY EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 19.5,
+      "saving": 68,
+      "notes": "Caramelo tostado adictivo con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 395,
@@ -5527,7 +10402,25 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 45.5,
-    "image": "images/perf_6b2b7f7d10.jpg"
+    "image": "images/perf_6b2b7f7d10.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 993,
+      "targetName": "MAISON ALHAMBRA GLACIER POUR HOMME EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 75,
+      "notes": "Lavanda fresca francesa, menta refrescante y fondo de vainilla clásica seductora."
+    }
   },
   {
     "id": 396,
@@ -5540,8 +10433,30 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 70.0,
-    "image": "images/perf_ad97d6f15f.jpg"
+    "price": 70,
+    "image": "images/perf_ad97d6f15f.jpg",
+    "vibes": [
+      "dulce",
+      "amaderado"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 779,
+      "targetName": "ARMAF ODYSSEY MANDARIN SKY EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 19.5,
+      "saving": 72,
+      "notes": "Caramelo tostado adictivo con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 397,
@@ -5555,7 +10470,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 48.5,
-    "image": "images/perf_ada50d80c3.jpg"
+    "image": "images/perf_ada50d80c3.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 398,
@@ -5569,7 +10494,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 37.25,
-    "image": "images/perf_fb432b251c.jpg"
+    "image": "images/perf_fb432b251c.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 399,
@@ -5582,8 +10517,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 87.0,
-    "image": "images/perf_e1db121fa2.png"
+    "price": 87,
+    "image": "images/perf_e1db121fa2.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 400,
@@ -5596,8 +10541,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 80.0,
-    "image": "images/perf_e1db121fa2.png"
+    "price": 80,
+    "image": "images/perf_e1db121fa2.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 401,
@@ -5610,8 +10565,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 84.0,
-    "image": "images/perf_e1db121fa2.png"
+    "price": 84,
+    "image": "images/perf_e1db121fa2.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 402,
@@ -5624,8 +10589,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 78.0,
-    "image": "images/perf_0c8be13a39.jpg"
+    "price": 78,
+    "image": "images/perf_0c8be13a39.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 403,
@@ -5638,8 +10613,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 50.0,
-    "image": "images/perf_c86694c141.png"
+    "price": 50,
+    "image": "images/perf_c86694c141.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 404,
@@ -5652,8 +10637,18 @@ const perfumesData = [
     "is_kit": true,
     "volume": "60ML",
     "concentration": "PARFUM",
-    "price": 84.0,
-    "image": "images/perf_e1db121fa2.png"
+    "price": 84,
+    "image": "images/perf_e1db121fa2.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 405,
@@ -5666,8 +10661,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 66.0,
-    "image": "images/perf_49a1c9e6c3.jpg"
+    "price": 66,
+    "image": "images/perf_49a1c9e6c3.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 406,
@@ -5681,7 +10686,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 63.75,
-    "image": "images/perf_49a1c9e6c3.jpg"
+    "image": "images/perf_49a1c9e6c3.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 407,
@@ -5694,8 +10711,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 76.0,
-    "image": "images/perf_49a1c9e6c3.jpg"
+    "price": 76,
+    "image": "images/perf_49a1c9e6c3.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 408,
@@ -5708,8 +10735,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 59.0,
-    "image": "images/perf_1d8790aa46.jpg"
+    "price": 59,
+    "image": "images/perf_1d8790aa46.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 409,
@@ -5723,7 +10760,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 40.75,
-    "image": "images/perf_9e0b0c12c3.jpg"
+    "image": "images/perf_9e0b0c12c3.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 410,
@@ -5736,8 +10783,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 44.0,
-    "image": "images/perf_33ea757b47.jpg"
+    "price": 44,
+    "image": "images/perf_33ea757b47.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 411,
@@ -5750,8 +10807,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 44.0,
-    "image": "images/perf_01beb60b08.jpg"
+    "price": 44,
+    "image": "images/perf_01beb60b08.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 412,
@@ -5764,8 +10831,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 58.0,
-    "image": "images/perf_75b589cc78.jpg"
+    "price": 58,
+    "image": "images/perf_75b589cc78.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 413,
@@ -5778,8 +10855,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 54.0,
-    "image": "images/perf_b17adce390.png"
+    "price": 54,
+    "image": "images/perf_b17adce390.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 414,
@@ -5792,8 +10879,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 49.0,
-    "image": "images/perf_ce884eaa27.jpg"
+    "price": 49,
+    "image": "images/perf_ce884eaa27.jpg",
+    "vibes": [
+      "citrico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 415,
@@ -5806,8 +10906,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 40.0,
-    "image": "images/perf_75b589cc78.jpg"
+    "price": 40,
+    "image": "images/perf_75b589cc78.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 416,
@@ -5821,7 +10931,17 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 31.25,
-    "image": "images/perf_8c95510d42.jpg"
+    "image": "images/perf_8c95510d42.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 417,
@@ -5834,8 +10954,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 36.0,
-    "image": "images/perf_aa85531327.jpg"
+    "price": 36,
+    "image": "images/perf_aa85531327.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 418,
@@ -5848,8 +10980,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDT",
-    "price": 26.0,
-    "image": "images/perf_8c95510d42.jpg"
+    "price": 26,
+    "image": "images/perf_8c95510d42.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 419,
@@ -5863,7 +11005,27 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 73.5,
-    "image": "images/perf_706b1b5969.jpg"
+    "image": "images/perf_706b1b5969.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 969,
+      "targetName": "MAISON ALHAMBRA LA VIVACITE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 15.75,
+      "saving": 79,
+      "notes": "Praliné dulce, iris florecido, grosellas negras jugosas y vainilla radiante."
+    }
   },
   {
     "id": 420,
@@ -5876,8 +11038,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "",
-    "price": 69.0,
-    "image": "images/perf_fb915d1349.jpg"
+    "price": 69,
+    "image": "images/perf_fb915d1349.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 969,
+      "targetName": "MAISON ALHAMBRA LA VIVACITE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 15.75,
+      "saving": 77,
+      "notes": "Praliné dulce, iris florecido, grosellas negras jugosas y vainilla radiante."
+    }
   },
   {
     "id": 421,
@@ -5890,8 +11072,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 91.0,
-    "image": "images/perf_fb915d1349.jpg"
+    "price": 91,
+    "image": "images/perf_fb915d1349.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 969,
+      "targetName": "MAISON ALHAMBRA LA VIVACITE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 15.75,
+      "saving": 83,
+      "notes": "Praliné dulce, iris florecido, grosellas negras jugosas y vainilla radiante."
+    }
   },
   {
     "id": 422,
@@ -5904,8 +11106,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 89.0,
-    "image": "images/perf_fb915d1349.jpg"
+    "price": 89,
+    "image": "images/perf_fb915d1349.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 969,
+      "targetName": "MAISON ALHAMBRA LA VIVACITE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 15.75,
+      "saving": 82,
+      "notes": "Praliné dulce, iris florecido, grosellas negras jugosas y vainilla radiante."
+    }
   },
   {
     "id": 423,
@@ -5919,7 +11141,27 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "PARFUM",
     "price": 92.5,
-    "image": "images/perf_fb915d1349.jpg"
+    "image": "images/perf_fb915d1349.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 969,
+      "targetName": "MAISON ALHAMBRA LA VIVACITE EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 15.75,
+      "saving": 83,
+      "notes": "Praliné dulce, iris florecido, grosellas negras jugosas y vainilla radiante."
+    }
   },
   {
     "id": 424,
@@ -5932,8 +11174,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 81.0,
-    "image": "images/perf_706b1b5969.jpg"
+    "price": 81,
+    "image": "images/perf_706b1b5969.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 425,
@@ -5946,8 +11198,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "",
-    "price": 70.0,
-    "image": "images/perf_9dc3789997.jpg"
+    "price": 70,
+    "image": "images/perf_9dc3789997.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 426,
@@ -5960,8 +11222,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 79.0,
-    "image": "images/perf_1221882b5b.jpg"
+    "price": 79,
+    "image": "images/perf_1221882b5b.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 427,
@@ -5974,8 +11249,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 127.0,
-    "image": "images/perf_1221882b5b.jpg"
+    "price": 127,
+    "image": "images/perf_1221882b5b.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 428,
@@ -5989,7 +11274,22 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "PARFUM",
     "price": 58.5,
-    "image": "images/perf_1221882b5b.jpg"
+    "image": "images/perf_1221882b5b.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 429,
@@ -6002,8 +11302,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "PARFUM",
-    "price": 90.0,
-    "image": "images/perf_6d6797b1e7.jpg"
+    "price": 90,
+    "image": "images/perf_6d6797b1e7.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 430,
@@ -6016,8 +11329,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 60.0,
-    "image": "images/perf_44921bda39.jpg"
+    "price": 60,
+    "image": "images/perf_44921bda39.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 431,
@@ -6030,8 +11353,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 21.0,
-    "image": "images/perf_b555662e96.jpg"
+    "price": 21,
+    "image": "images/perf_b555662e96.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 40,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 432,
@@ -6044,8 +11385,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 49.0,
-    "image": "images/perf_fdf2bb64e5.jpg"
+    "price": 49,
+    "image": "images/perf_fdf2bb64e5.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 433,
@@ -6058,8 +11409,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "125ML",
     "concentration": "EDP",
-    "price": 110.0,
-    "image": "images/perf_fdf2bb64e5.jpg"
+    "price": 110,
+    "image": "images/perf_fdf2bb64e5.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 434,
@@ -6072,8 +11436,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 95.0,
-    "image": "images/perf_fdf2bb64e5.jpg"
+    "price": 95,
+    "image": "images/perf_fdf2bb64e5.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 435,
@@ -6086,8 +11462,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 33.0,
-    "image": "images/perf_fdf2bb64e5.jpg"
+    "price": 33,
+    "image": "images/perf_fdf2bb64e5.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 436,
@@ -6101,7 +11487,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 35.75,
-    "image": "images/perf_fdf2bb64e5.jpg"
+    "image": "images/perf_fdf2bb64e5.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 437,
@@ -6114,8 +11511,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 78.0,
-    "image": "images/perf_fdf2bb64e5.jpg"
+    "price": 78,
+    "image": "images/perf_fdf2bb64e5.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 438,
@@ -6128,8 +11535,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 76.0,
-    "image": "images/perf_fdf2bb64e5.jpg"
+    "price": 76,
+    "image": "images/perf_fdf2bb64e5.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 439,
@@ -6143,7 +11562,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.9,
-    "image": "images/perf_c35cc6d0eb.jpg"
+    "image": "images/perf_c35cc6d0eb.jpg",
+    "vibes": [
+      "acuatico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 440,
@@ -6157,7 +11588,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 42.5,
-    "image": "images/perf_7f8a3145ed.png"
+    "image": "images/perf_7f8a3145ed.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 441,
@@ -6170,8 +11611,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 43.0,
-    "image": "images/perf_da0817b2a7.jpg"
+    "price": 43,
+    "image": "images/perf_da0817b2a7.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 442,
@@ -6185,7 +11637,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 49.75,
-    "image": "images/perf_da0817b2a7.jpg"
+    "image": "images/perf_da0817b2a7.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 443,
@@ -6198,8 +11660,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 59.0,
-    "image": "images/perf_4b36dd9e0f.jpg"
+    "price": 59,
+    "image": "images/perf_4b36dd9e0f.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 444,
@@ -6213,7 +11687,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 44.5,
-    "image": "images/perf_e384df9c7f.jpg"
+    "image": "images/perf_e384df9c7f.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 445,
@@ -6227,7 +11711,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDT",
     "price": 28.5,
-    "image": "images/perf_e6e379264f.png"
+    "image": "images/perf_e6e379264f.png",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 446,
@@ -6240,8 +11734,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 44.0,
-    "image": "images/perf_6edff11e3f.jpg"
+    "price": 44,
+    "image": "images/perf_6edff11e3f.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 447,
@@ -6254,8 +11758,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDT",
-    "price": 52.0,
-    "image": "images/perf_6edff11e3f.jpg"
+    "price": 52,
+    "image": "images/perf_6edff11e3f.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 448,
@@ -6269,7 +11783,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 36.5,
-    "image": "images/perf_20cc9cbd86.jpg"
+    "image": "images/perf_20cc9cbd86.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 449,
@@ -6282,8 +11808,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDP",
-    "price": 65.0,
-    "image": "images/perf_6edff11e3f.jpg"
+    "price": 65,
+    "image": "images/perf_6edff11e3f.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 450,
@@ -6296,8 +11833,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 38.0,
-    "image": "images/perf_84129d85d9.jpg"
+    "price": 38,
+    "image": "images/perf_84129d85d9.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 451,
@@ -6310,8 +11857,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDT",
-    "price": 45.0,
-    "image": "images/perf_84129d85d9.jpg"
+    "price": 45,
+    "image": "images/perf_84129d85d9.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 452,
@@ -6324,8 +11881,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDT",
-    "price": 35.0,
-    "image": "images/perf_145b81c166.jpg"
+    "price": 35,
+    "image": "images/perf_145b81c166.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 453,
@@ -6338,8 +11906,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDT",
-    "price": 27.0,
-    "image": "images/perf_b16bd3c80c.jpg"
+    "price": 27,
+    "image": "images/perf_b16bd3c80c.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 454,
@@ -6353,7 +11931,19 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDT",
     "price": 21.5,
-    "image": "images/perf_f9eb7a9e11.jpg"
+    "image": "images/perf_f9eb7a9e11.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 455,
@@ -6366,8 +11956,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDT",
-    "price": 25.0,
-    "image": "images/perf_e6e379264f.png"
+    "price": 25,
+    "image": "images/perf_e6e379264f.png",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 456,
@@ -6381,7 +11981,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 34.5,
-    "image": "images/perf_6edff11e3f.jpg"
+    "image": "images/perf_6edff11e3f.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 457,
@@ -6394,8 +12004,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 29.0,
-    "image": "images/perf_47d049a87e.jpg"
+    "price": 29,
+    "image": "images/perf_47d049a87e.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 458,
@@ -6408,8 +12028,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 35.0,
-    "image": "images/perf_b8064313af.jpg"
+    "price": 35,
+    "image": "images/perf_b8064313af.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 459,
@@ -6423,7 +12053,17 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 21.5,
-    "image": "images/perf_5c28e8491b.jpg"
+    "image": "images/perf_5c28e8491b.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 460,
@@ -6436,8 +12076,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 30.0,
-    "image": "images/perf_b8064313af.jpg"
+    "price": 30,
+    "image": "images/perf_b8064313af.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 461,
@@ -6451,7 +12101,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 35.75,
-    "image": "images/perf_77422abb02.jpg"
+    "image": "images/perf_77422abb02.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 462,
@@ -6465,7 +12125,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 63.5,
-    "image": "images/perf_903000fe99.jpg"
+    "image": "images/perf_903000fe99.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 463,
@@ -6479,7 +12149,17 @@ const perfumesData = [
     "volume": "150ML",
     "concentration": "EDP",
     "price": 82.75,
-    "image": "images/perf_903000fe99.jpg"
+    "image": "images/perf_903000fe99.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 464,
@@ -6492,8 +12172,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 67.0,
-    "image": "images/perf_903000fe99.jpg"
+    "price": 67,
+    "image": "images/perf_903000fe99.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 465,
@@ -6507,7 +12197,20 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 53.5,
-    "image": "images/perf_5ebf65fcc4.jpg"
+    "image": "images/perf_5ebf65fcc4.jpg",
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 466,
@@ -6520,8 +12223,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 63.0,
-    "image": "images/perf_5ebf65fcc4.jpg"
+    "price": 63,
+    "image": "images/perf_5ebf65fcc4.jpg",
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 467,
@@ -6534,8 +12250,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDT",
-    "price": 43.0,
-    "image": "images/perf_0701d50ecd.jpg"
+    "price": 43,
+    "image": "images/perf_0701d50ecd.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 468,
@@ -6548,8 +12274,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDT",
-    "price": 49.0,
-    "image": "images/perf_0701d50ecd.jpg"
+    "price": 49,
+    "image": "images/perf_0701d50ecd.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 469,
@@ -6562,8 +12298,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 25.0,
-    "image": "images/perf_0701d50ecd.jpg"
+    "price": 25,
+    "image": "images/perf_0701d50ecd.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 470,
@@ -6576,8 +12322,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 58.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 58,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 471,
@@ -6590,8 +12347,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDT",
-    "price": 62.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 62,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 472,
@@ -6605,7 +12374,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 69.5,
-    "image": "images/perf_8ce0343d30.jpg"
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 473,
@@ -6619,7 +12398,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 74.75,
-    "image": "images/perf_8ce0343d30.jpg"
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 474,
@@ -6632,8 +12421,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 74.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 74,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 475,
@@ -6647,7 +12448,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "PARFUM",
     "price": 78.75,
-    "image": "images/perf_8ce0343d30.jpg"
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 476,
@@ -6660,8 +12471,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 62.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 62,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 67,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 477,
@@ -6674,8 +12504,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 67.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 67,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 69,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 478,
@@ -6689,7 +12538,26 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "PARFUM",
     "price": 96.75,
-    "image": "images/perf_8ce0343d30.jpg"
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 79,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 479,
@@ -6703,7 +12571,17 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "",
     "price": 23.5,
-    "image": "images/perf_d305481006.jpg"
+    "image": "images/perf_d305481006.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 480,
@@ -6716,8 +12594,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 28.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 28,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 481,
@@ -6731,7 +12619,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 37.8,
-    "image": "images/perf_8ce0343d30.jpg"
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 482,
@@ -6745,7 +12643,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 54.5,
-    "image": "images/perf_ddb4385a0c.jpg"
+    "image": "images/perf_ddb4385a0c.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 62,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 483,
@@ -6759,7 +12675,25 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDT",
     "price": 76.5,
-    "image": "images/perf_ddb4385a0c.jpg"
+    "image": "images/perf_ddb4385a0c.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 73,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 484,
@@ -6773,7 +12707,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 65.5,
-    "image": "images/perf_ddb4385a0c.jpg"
+    "image": "images/perf_ddb4385a0c.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 69,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 485,
@@ -6787,7 +12739,25 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "PARFUM",
     "price": 104.5,
-    "image": "images/perf_ddb4385a0c.jpg"
+    "image": "images/perf_ddb4385a0c.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 80,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 486,
@@ -6800,8 +12770,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 63.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 63,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 487,
@@ -6815,7 +12797,28 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 85.5,
-    "image": "images/perf_2c1f8d3971.jpg"
+    "image": "images/perf_2c1f8d3971.jpg",
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1012,
+      "targetName": "MAISON ALHAMBRA VICTORIOSO EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 87,
+      "notes": "Estela marina triunfadora con pomelo fresco, hojas de laurel y ámbar gris."
+    }
   },
   {
     "id": 488,
@@ -6829,7 +12832,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 51.9,
-    "image": "images/perf_2c1f8d3971.jpg"
+    "image": "images/perf_2c1f8d3971.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1012,
+      "targetName": "MAISON ALHAMBRA VICTORIOSO EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 78,
+      "notes": "Estela marina triunfadora con pomelo fresco, hojas de laurel y ámbar gris."
+    }
   },
   {
     "id": 489,
@@ -6843,7 +12864,25 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDT",
     "price": 81.5,
-    "image": "images/perf_2c1f8d3971.jpg"
+    "image": "images/perf_2c1f8d3971.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1012,
+      "targetName": "MAISON ALHAMBRA VICTORIOSO EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 86,
+      "notes": "Estela marina triunfadora con pomelo fresco, hojas de laurel y ámbar gris."
+    }
   },
   {
     "id": 490,
@@ -6857,7 +12896,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 77.5,
-    "image": "images/perf_2c1f8d3971.jpg"
+    "image": "images/perf_2c1f8d3971.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1012,
+      "targetName": "MAISON ALHAMBRA VICTORIOSO EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 85,
+      "notes": "Estela marina triunfadora con pomelo fresco, hojas de laurel y ámbar gris."
+    }
   },
   {
     "id": 491,
@@ -6870,8 +12927,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 67.0,
-    "image": "images/perf_2c1f8d3971.jpg"
+    "price": 67,
+    "image": "images/perf_2c1f8d3971.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1012,
+      "targetName": "MAISON ALHAMBRA VICTORIOSO EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 83,
+      "notes": "Estela marina triunfadora con pomelo fresco, hojas de laurel y ámbar gris."
+    }
   },
   {
     "id": 492,
@@ -6884,8 +12959,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "PARFUM",
-    "price": 99.0,
-    "image": "images/perf_2c1f8d3971.jpg"
+    "price": 99,
+    "image": "images/perf_2c1f8d3971.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1012,
+      "targetName": "MAISON ALHAMBRA VICTORIOSO EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 89,
+      "notes": "Estela marina triunfadora con pomelo fresco, hojas de laurel y ámbar gris."
+    }
   },
   {
     "id": 493,
@@ -6898,8 +12991,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 84.0,
-    "image": "images/perf_2c1f8d3971.jpg"
+    "price": 84,
+    "image": "images/perf_2c1f8d3971.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1012,
+      "targetName": "MAISON ALHAMBRA VICTORIOSO EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 87,
+      "notes": "Estela marina triunfadora con pomelo fresco, hojas de laurel y ámbar gris."
+    }
   },
   {
     "id": 494,
@@ -6912,8 +13023,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 74.0,
-    "image": "images/perf_2c1f8d3971.jpg"
+    "price": 74,
+    "image": "images/perf_2c1f8d3971.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1012,
+      "targetName": "MAISON ALHAMBRA VICTORIOSO EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 85,
+      "notes": "Estela marina triunfadora con pomelo fresco, hojas de laurel y ámbar gris."
+    }
   },
   {
     "id": 495,
@@ -6926,8 +13057,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "PARFUM",
-    "price": 110.0,
-    "image": "images/perf_2c1f8d3971.jpg"
+    "price": 110,
+    "image": "images/perf_2c1f8d3971.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1012,
+      "targetName": "MAISON ALHAMBRA VICTORIOSO EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 90,
+      "notes": "Estela marina triunfadora con pomelo fresco, hojas de laurel y ámbar gris."
+    }
   },
   {
     "id": 496,
@@ -6941,7 +13092,27 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 84.5,
-    "image": "images/perf_2c1f8d3971.jpg"
+    "image": "images/perf_2c1f8d3971.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1012,
+      "targetName": "MAISON ALHAMBRA VICTORIOSO EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 11.25,
+      "saving": 87,
+      "notes": "Estela marina triunfadora con pomelo fresco, hojas de laurel y ámbar gris."
+    }
   },
   {
     "id": 497,
@@ -6955,7 +13126,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 68.5,
-    "image": "images/perf_8ce0343d30.jpg"
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 70,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 498,
@@ -6968,8 +13157,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "PARFUM",
-    "price": 89.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 89,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 77,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 499,
@@ -6983,7 +13192,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 29.5,
-    "image": "images/perf_8ce0343d30.jpg"
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 500,
@@ -6997,7 +13216,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 64.5,
-    "image": "images/perf_93989253f7.png"
+    "image": "images/perf_93989253f7.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 501,
@@ -7011,7 +13240,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 71.25,
-    "image": "images/perf_93989253f7.png"
+    "image": "images/perf_93989253f7.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 502,
@@ -7025,7 +13266,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 68.75,
-    "image": "images/perf_93989253f7.png"
+    "image": "images/perf_93989253f7.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 503,
@@ -7039,7 +13290,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 76.75,
-    "image": "images/perf_93989253f7.png"
+    "image": "images/perf_93989253f7.png",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 504,
@@ -7053,7 +13314,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 33.5,
-    "image": "images/perf_8ce0343d30.jpg"
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 505,
@@ -7066,8 +13337,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 37.0,
-    "image": "images/perf_29adbf5513.jpg"
+    "price": 37,
+    "image": "images/perf_29adbf5513.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 506,
@@ -7080,8 +13361,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 37.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 37,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 507,
@@ -7094,8 +13385,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 60.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 60,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 508,
@@ -7108,8 +13409,29 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 63.0,
-    "image": "images/perf_a4a6e14e7c.png"
+    "price": 63,
+    "image": "images/perf_a4a6e14e7c.png",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 67,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 509,
@@ -7122,8 +13444,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 57.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 57,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 64,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 510,
@@ -7136,8 +13477,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "PARFUM",
-    "price": 61.0,
-    "image": "images/perf_d305481006.jpg"
+    "price": 61,
+    "image": "images/perf_d305481006.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 511,
@@ -7150,8 +13501,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 60.0,
-    "image": "images/perf_ddb4385a0c.jpg"
+    "price": 60,
+    "image": "images/perf_ddb4385a0c.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 66,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 512,
@@ -7164,8 +13533,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 65.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 65,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 68,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 513,
@@ -7178,8 +13567,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 63.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 63,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 772,
+      "targetName": "ARMAF CLUB DE NUIT MAN EDT 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 20.5,
+      "saving": 67,
+      "notes": "Canela dulce picante, mandarina sanguina, cuero y ámbar dorado cautivador."
+    }
   },
   {
     "id": 514,
@@ -7192,8 +13601,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 30.0,
-    "image": "images/perf_8ce0343d30.jpg"
+    "price": 30,
+    "image": "images/perf_8ce0343d30.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 515,
@@ -7207,7 +13626,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 27.75,
-    "image": "images/perf_ff48709a3a.jpg"
+    "image": "images/perf_ff48709a3a.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 516,
@@ -7221,7 +13650,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 22.99,
-    "image": "images/perf_ff48709a3a.jpg"
+    "image": "images/perf_ff48709a3a.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 517,
@@ -7234,8 +13673,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 79.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 79,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 518,
@@ -7248,8 +13699,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 114.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 114,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 519,
@@ -7262,8 +13723,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "PARFUM",
-    "price": 118.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 118,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 520,
@@ -7277,7 +13748,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 82.5,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 521,
@@ -7290,8 +13771,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 72.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 72,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 522,
@@ -7304,8 +13797,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 74.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 74,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 523,
@@ -7318,8 +13821,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 77.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 77,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 524,
@@ -7332,8 +13845,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 63.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 63,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 525,
@@ -7346,8 +13869,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 94.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 94,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 526,
@@ -7360,8 +13894,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 90.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 90,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 527,
@@ -7374,8 +13919,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 78.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 78,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 528,
@@ -7389,7 +13945,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 103.5,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 529,
@@ -7402,8 +13968,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 74.0,
-    "image": "images/perf_b8d1f8bec8.jpg"
+    "price": 74,
+    "image": "images/perf_b8d1f8bec8.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 530,
@@ -7416,8 +13992,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 49.0,
-    "image": "images/perf_b2d3ffb7af.jpg"
+    "price": 49,
+    "image": "images/perf_b2d3ffb7af.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 531,
@@ -7430,8 +14016,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 49.0,
-    "image": "images/perf_b2d3ffb7af.jpg"
+    "price": 49,
+    "image": "images/perf_b2d3ffb7af.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 532,
@@ -7444,8 +14041,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "237ML",
     "concentration": "",
-    "price": 55.0,
-    "image": "images/perf_2d4b60cc79.jpg"
+    "price": 55,
+    "image": "images/perf_2d4b60cc79.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 533,
@@ -7459,7 +14068,17 @@ const perfumesData = [
     "volume": "125ML",
     "concentration": "EDT",
     "price": 54.5,
-    "image": "images/perf_9eda3f80f2.jpg"
+    "image": "images/perf_9eda3f80f2.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 534,
@@ -7473,7 +14092,18 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 22.25,
-    "image": "images/perf_c25ef71e95.jpg"
+    "image": "images/perf_c25ef71e95.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 535,
@@ -7486,8 +14116,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDP",
-    "price": 32.0,
-    "image": "images/perf_8bd69e8dbd.jpg"
+    "price": 32,
+    "image": "images/perf_8bd69e8dbd.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 536,
@@ -7500,8 +14140,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": "images/perf_8bd69e8dbd.jpg"
+    "price": 25,
+    "image": "images/perf_8bd69e8dbd.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 537,
@@ -7515,7 +14165,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDT",
     "price": 14.25,
-    "image": "images/perf_511cbbd841.png"
+    "image": "images/perf_511cbbd841.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 538,
@@ -7529,7 +14189,18 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDT",
     "price": 11.75,
-    "image": "images/perf_511cbbd841.png"
+    "image": "images/perf_511cbbd841.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 539,
@@ -7542,8 +14213,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDT",
-    "price": 14.0,
-    "image": "images/perf_511cbbd841.png"
+    "price": 14,
+    "image": "images/perf_511cbbd841.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 540,
@@ -7557,7 +14239,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDT",
     "price": 14.4,
-    "image": "images/perf_511cbbd841.png"
+    "image": "images/perf_511cbbd841.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 541,
@@ -7570,8 +14262,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 17.0,
-    "image": "images/perf_511cbbd841.png"
+    "price": 17,
+    "image": "images/perf_511cbbd841.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 542,
@@ -7585,7 +14287,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 17.75,
-    "image": "images/perf_511cbbd841.png"
+    "image": "images/perf_511cbbd841.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 543,
@@ -7598,8 +14310,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "30ML",
     "concentration": "EDP",
-    "price": 51.0,
-    "image": "images/perf_5cc6b34339.jpg"
+    "price": 51,
+    "image": "images/perf_5cc6b34339.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 544,
@@ -7612,8 +14334,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 88.0,
-    "image": "images/perf_5cc6b34339.jpg"
+    "price": 88,
+    "image": "images/perf_5cc6b34339.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 545,
@@ -7626,8 +14358,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "60ML",
     "concentration": "EDP",
-    "price": 66.0,
-    "image": "images/perf_5cc6b34339.jpg"
+    "price": 66,
+    "image": "images/perf_5cc6b34339.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 546,
@@ -7640,8 +14384,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "60ML",
     "concentration": "EDP",
-    "price": 82.0,
-    "image": "images/perf_5cc6b34339.jpg"
+    "price": 82,
+    "image": "images/perf_5cc6b34339.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 547,
@@ -7654,8 +14408,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "25ML",
     "concentration": "EDP",
-    "price": 50.0,
-    "image": "images/perf_95fa5c20d9.jpg"
+    "price": 50,
+    "image": "images/perf_95fa5c20d9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 548,
@@ -7669,7 +14433,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 54.5,
-    "image": "images/perf_95fa5c20d9.jpg"
+    "image": "images/perf_95fa5c20d9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 549,
@@ -7682,8 +14456,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 43.0,
-    "image": "images/perf_95fa5c20d9.jpg"
+    "price": 43,
+    "image": "images/perf_95fa5c20d9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 550,
@@ -7697,7 +14481,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 86.5,
-    "image": "images/perf_95fa5c20d9.jpg"
+    "image": "images/perf_95fa5c20d9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 551,
@@ -7710,8 +14504,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 80.0,
-    "image": "images/perf_95fa5c20d9.jpg"
+    "price": 80,
+    "image": "images/perf_95fa5c20d9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 552,
@@ -7725,7 +14529,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 60.9,
-    "image": "images/perf_ea8933654e.png"
+    "image": "images/perf_ea8933654e.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 553,
@@ -7738,8 +14552,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 77.0,
-    "image": "images/perf_95fa5c20d9.jpg"
+    "price": 77,
+    "image": "images/perf_95fa5c20d9.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 554,
@@ -7753,7 +14577,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDT",
     "price": 19.5,
-    "image": "images/perf_5cc6b34339.jpg"
+    "image": "images/perf_5cc6b34339.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 555,
@@ -7767,7 +14601,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 54.5,
-    "image": "images/perf_5cc6b34339.jpg"
+    "image": "images/perf_5cc6b34339.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 556,
@@ -7781,7 +14625,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 71.75,
-    "image": "images/perf_5cc6b34339.jpg"
+    "image": "images/perf_5cc6b34339.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 557,
@@ -7794,8 +14648,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 29.0,
-    "image": "images/perf_810077fd6b.jpg"
+    "price": 29,
+    "image": "images/perf_810077fd6b.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 558,
@@ -7809,7 +14673,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 26.5,
-    "image": "images/perf_810077fd6b.jpg"
+    "image": "images/perf_810077fd6b.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 559,
@@ -7822,8 +14696,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 28.0,
-    "image": "images/perf_810077fd6b.jpg"
+    "price": 28,
+    "image": "images/perf_810077fd6b.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 560,
@@ -7837,7 +14721,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 27.75,
-    "image": "images/perf_810077fd6b.jpg"
+    "image": "images/perf_810077fd6b.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 561,
@@ -7851,7 +14745,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 22.5,
-    "image": "images/perf_810077fd6b.jpg"
+    "image": "images/perf_810077fd6b.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 562,
@@ -7864,8 +14768,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "PARFUM",
-    "price": 84.0,
-    "image": "images/perf_f2710a2beb.png"
+    "price": 84,
+    "image": "images/perf_f2710a2beb.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 563,
@@ -7879,7 +14793,20 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 106.5,
-    "image": "images/perf_f2710a2beb.png"
+    "image": "images/perf_f2710a2beb.png",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 564,
@@ -7892,8 +14819,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 88.0,
-    "image": "images/perf_3afc703ce0.png"
+    "price": 88,
+    "image": "images/perf_3afc703ce0.png",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 565,
@@ -7907,7 +14844,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 84.5,
-    "image": "images/perf_18a2a1abe6.jpg"
+    "image": "images/perf_18a2a1abe6.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 566,
@@ -7920,8 +14867,18 @@ const perfumesData = [
     "is_kit": true,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 128.0,
-    "image": "images/perf_da4f357e01.jpg"
+    "price": 128,
+    "image": "images/perf_da4f357e01.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 567,
@@ -7935,7 +14892,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 114.5,
-    "image": "images/perf_da4f357e01.jpg"
+    "image": "images/perf_da4f357e01.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 568,
@@ -7948,8 +14917,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 94.0,
-    "image": "images/perf_da4f357e01.jpg"
+    "price": 94,
+    "image": "images/perf_da4f357e01.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 569,
@@ -7962,8 +14942,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 89.0,
-    "image": "images/perf_da4f357e01.jpg"
+    "price": 89,
+    "image": "images/perf_da4f357e01.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 570,
@@ -7976,8 +14968,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 132.0,
-    "image": "images/perf_da4f357e01.jpg"
+    "price": 132,
+    "image": "images/perf_da4f357e01.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 571,
@@ -7990,8 +14992,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 68.0,
-    "image": "images/perf_80660b92e3.jpg"
+    "price": 68,
+    "image": "images/perf_80660b92e3.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 572,
@@ -8004,8 +15016,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 58.0,
-    "image": "images/perf_82b0ab8494.jpg"
+    "price": 58,
+    "image": "images/perf_82b0ab8494.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 573,
@@ -8018,8 +15040,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 95.0,
-    "image": "images/perf_7609637bbd.jpg"
+    "price": 95,
+    "image": "images/perf_7609637bbd.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 574,
@@ -8032,8 +15065,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDT",
-    "price": 21.0,
-    "image": "images/perf_d2d9931457.jpg"
+    "price": 21,
+    "image": "images/perf_d2d9931457.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 575,
@@ -8047,7 +15090,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDT",
     "price": 46.5,
-    "image": "images/perf_ad782c3808.jpg"
+    "image": "images/perf_ad782c3808.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 576,
@@ -8060,8 +15113,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 54.0,
-    "image": "images/perf_ad782c3808.jpg"
+    "price": 54,
+    "image": "images/perf_ad782c3808.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 577,
@@ -8074,8 +15138,18 @@ const perfumesData = [
     "is_kit": true,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 85.0,
-    "image": "images/perf_5bfdbfef66.jpg"
+    "price": 85,
+    "image": "images/perf_5bfdbfef66.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 578,
@@ -8089,7 +15163,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDT",
     "price": 19.5,
-    "image": "images/perf_d9fece44c6.jpg"
+    "image": "images/perf_d9fece44c6.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 579,
@@ -8103,7 +15187,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 75.5,
-    "image": "images/perf_5bfdbfef66.jpg"
+    "image": "images/perf_5bfdbfef66.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 783,
+      "targetName": "ARMAF ODYSSEY WILD ONE EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 14.5,
+      "saving": 81,
+      "notes": "Menta fresca aromática con manzana verde confitada, ambroxan y vainilla madagascar."
+    }
   },
   {
     "id": 580,
@@ -8116,8 +15218,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 69.0,
-    "image": "images/perf_5bfdbfef66.jpg"
+    "price": 69,
+    "image": "images/perf_5bfdbfef66.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 783,
+      "targetName": "ARMAF ODYSSEY WILD ONE EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 14.5,
+      "saving": 79,
+      "notes": "Menta fresca aromática con manzana verde confitada, ambroxan y vainilla madagascar."
+    }
   },
   {
     "id": 581,
@@ -8130,8 +15250,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "PARFUM",
-    "price": 97.0,
-    "image": "images/perf_5bfdbfef66.jpg"
+    "price": 97,
+    "image": "images/perf_5bfdbfef66.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 783,
+      "targetName": "ARMAF ODYSSEY WILD ONE EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 14.5,
+      "saving": 85,
+      "notes": "Menta fresca aromática con manzana verde confitada, ambroxan y vainilla madagascar."
+    }
   },
   {
     "id": 582,
@@ -8144,8 +15282,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 71.0,
-    "image": "images/perf_5bfdbfef66.jpg"
+    "price": 71,
+    "image": "images/perf_5bfdbfef66.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 783,
+      "targetName": "ARMAF ODYSSEY WILD ONE EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 14.5,
+      "saving": 80,
+      "notes": "Menta fresca aromática con manzana verde confitada, ambroxan y vainilla madagascar."
+    }
   },
   {
     "id": 583,
@@ -8159,7 +15315,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 30.5,
-    "image": "images/perf_1a7817c6d7.jpg"
+    "image": "images/perf_1a7817c6d7.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 584,
@@ -8173,7 +15339,18 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDT",
     "price": 70.5,
-    "image": "images/perf_9e0542a614.jpg"
+    "image": "images/perf_9e0542a614.jpg",
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 585,
@@ -8187,7 +15364,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDT",
     "price": 36.5,
-    "image": "images/perf_5bfdbfef66.jpg"
+    "image": "images/perf_5bfdbfef66.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 586,
@@ -8200,8 +15387,22 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 67.0,
-    "image": "images/perf_4d047ef3a8.jpg"
+    "price": 67,
+    "image": "images/perf_4d047ef3a8.jpg",
+    "vibes": [
+      "amaderado",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 587,
@@ -8214,8 +15415,30 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 46.0,
-    "image": "images/perf_7609637bbd.jpg"
+    "price": 46,
+    "image": "images/perf_7609637bbd.jpg",
+    "vibes": [
+      "acuatico",
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 769,
+      "targetName": "ARMAF CLUB DE NUIT ICONIC (BLUE) EDP 105ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 27,
+      "saving": 41,
+      "notes": "Cítricos acuáticos con bergamota de Calabria, hojas de higuera, incienso y ambroxan."
+    }
   },
   {
     "id": 588,
@@ -8229,7 +15452,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 42.5,
-    "image": "images/perf_7609637bbd.jpg"
+    "image": "images/perf_7609637bbd.jpg",
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 589,
@@ -8242,8 +15476,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDT",
-    "price": 39.0,
-    "image": "images/perf_ad782c3808.jpg"
+    "price": 39,
+    "image": "images/perf_ad782c3808.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 590,
@@ -8256,8 +15500,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 54.0,
-    "image": "images/perf_5bfdbfef66.jpg"
+    "price": 54,
+    "image": "images/perf_5bfdbfef66.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 783,
+      "targetName": "ARMAF ODYSSEY WILD ONE EDP 100ML",
+      "targetBrand": "ARMAF",
+      "targetPrice": 14.5,
+      "saving": 73,
+      "notes": "Menta fresca aromática con manzana verde confitada, ambroxan y vainilla madagascar."
+    }
   },
   {
     "id": 591,
@@ -8270,8 +15532,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 78.0,
-    "image": "images/perf_5c69d949cc.jpg"
+    "price": 78,
+    "image": "images/perf_5c69d949cc.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 592,
@@ -8284,8 +15556,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 79.0,
-    "image": "images/perf_5c69d949cc.jpg"
+    "price": 79,
+    "image": "images/perf_5c69d949cc.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 593,
@@ -8299,7 +15583,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 70.25,
-    "image": "images/perf_5c69d949cc.jpg"
+    "image": "images/perf_5c69d949cc.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 594,
@@ -8312,8 +15606,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 62.0,
-    "image": "images/perf_5c69d949cc.jpg"
+    "price": 62,
+    "image": "images/perf_5c69d949cc.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 595,
@@ -8326,8 +15630,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "",
-    "price": 63.0,
-    "image": "images/perf_5c69d949cc.jpg"
+    "price": 63,
+    "image": "images/perf_5c69d949cc.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 596,
@@ -8340,8 +15656,23 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 74.0,
-    "image": "images/perf_c784b69e9f.png"
+    "price": 74,
+    "image": "images/perf_c784b69e9f.png",
+    "vibes": [
+      "acuatico",
+      "oud_cuero"
+    ],
+    "clima": [
+      "calor",
+      "frio"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 597,
@@ -8354,8 +15685,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDT",
-    "price": 58.0,
-    "image": "images/perf_c784b69e9f.png"
+    "price": 58,
+    "image": "images/perf_c784b69e9f.png",
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 598,
@@ -8368,8 +15709,26 @@ const perfumesData = [
     "is_kit": true,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 124.0,
-    "image": "images/perf_1cd41ac067.jpg"
+    "price": 124,
+    "image": "images/perf_1cd41ac067.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 872,
+      "targetName": "LATTAFA PRIDE THARWAH GOLD EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 42.75,
+      "saving": 66,
+      "notes": "Lavanda francesa sensual, flor de azahar de Marruecos y orquídea vainilla dorada."
+    }
   },
   {
     "id": 599,
@@ -8382,8 +15741,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 110.0,
-    "image": "images/perf_1cd41ac067.jpg"
+    "price": 110,
+    "image": "images/perf_1cd41ac067.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 872,
+      "targetName": "LATTAFA PRIDE THARWAH GOLD EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 42.75,
+      "saving": 61,
+      "notes": "Lavanda francesa sensual, flor de azahar de Marruecos y orquídea vainilla dorada."
+    }
   },
   {
     "id": 600,
@@ -8396,8 +15775,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 145.0,
-    "image": "images/perf_1cd41ac067.jpg"
+    "price": 145,
+    "image": "images/perf_1cd41ac067.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 872,
+      "targetName": "LATTAFA PRIDE THARWAH GOLD EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 42.75,
+      "saving": 71,
+      "notes": "Lavanda francesa sensual, flor de azahar de Marruecos y orquídea vainilla dorada."
+    }
   },
   {
     "id": 601,
@@ -8410,8 +15809,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 108.0,
-    "image": "images/perf_1cd41ac067.jpg"
+    "price": 108,
+    "image": "images/perf_1cd41ac067.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 872,
+      "targetName": "LATTAFA PRIDE THARWAH GOLD EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 42.75,
+      "saving": 60,
+      "notes": "Lavanda francesa sensual, flor de azahar de Marruecos y orquídea vainilla dorada."
+    }
   },
   {
     "id": 602,
@@ -8424,8 +15841,29 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "PARFUM",
-    "price": 99.0,
-    "image": "images/perf_ba13e5c966.jpg"
+    "price": 99,
+    "image": "images/perf_ba13e5c966.jpg",
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 872,
+      "targetName": "LATTAFA PRIDE THARWAH GOLD EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 42.75,
+      "saving": 57,
+      "notes": "Lavanda francesa sensual, flor de azahar de Marruecos y orquídea vainilla dorada."
+    }
   },
   {
     "id": 603,
@@ -8439,7 +15877,25 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "PARFUM",
     "price": 114.75,
-    "image": "images/perf_1cd41ac067.jpg"
+    "image": "images/perf_1cd41ac067.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 872,
+      "targetName": "LATTAFA PRIDE THARWAH GOLD EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 42.75,
+      "saving": 63,
+      "notes": "Lavanda francesa sensual, flor de azahar de Marruecos y orquídea vainilla dorada."
+    }
   },
   {
     "id": 604,
@@ -8452,8 +15908,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 63.0,
-    "image": "images/perf_b7cf781f29.jpg"
+    "price": 63,
+    "image": "images/perf_b7cf781f29.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 605,
@@ -8466,8 +15932,18 @@ const perfumesData = [
     "is_kit": true,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 78.0,
-    "image": "images/perf_638fd5139f.jpg"
+    "price": 78,
+    "image": "images/perf_638fd5139f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 606,
@@ -8481,7 +15957,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 70.5,
-    "image": "images/perf_638fd5139f.jpg"
+    "image": "images/perf_638fd5139f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 607,
@@ -8494,8 +15980,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 124.0,
-    "image": "images/perf_8f6aa41fc6.jpg"
+    "price": 124,
+    "image": "images/perf_8f6aa41fc6.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 608,
@@ -8508,8 +16004,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 134.0,
-    "image": "images/perf_1cd41ac067.jpg"
+    "price": 134,
+    "image": "images/perf_1cd41ac067.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 609,
@@ -8523,7 +16029,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDT",
     "price": 82.5,
-    "image": "images/perf_1eca5baa69.jpg"
+    "image": "images/perf_1eca5baa69.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1015,
+      "targetName": "MAISON ALHAMBRA YEAH MAN PARFUM EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 13.75,
+      "saving": 83,
+      "notes": "Manzana verde ácida crujiente con jengibre fresco, salvia azul y maderas ambarinas."
+    }
   },
   {
     "id": 610,
@@ -8536,8 +16060,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "60ML",
     "concentration": "PARFUM",
-    "price": 108.0,
-    "image": "images/perf_1eca5baa69.jpg"
+    "price": 108,
+    "image": "images/perf_1eca5baa69.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1015,
+      "targetName": "MAISON ALHAMBRA YEAH MAN PARFUM EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 13.75,
+      "saving": 87,
+      "notes": "Manzana verde ácida crujiente con jengibre fresco, salvia azul y maderas ambarinas."
+    }
   },
   {
     "id": 611,
@@ -8550,8 +16092,30 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 110.0,
-    "image": "images/perf_8a12638872.jpg"
+    "price": 110,
+    "image": "images/perf_8a12638872.jpg",
+    "vibes": [
+      "citrico",
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1015,
+      "targetName": "MAISON ALHAMBRA YEAH MAN PARFUM EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 13.75,
+      "saving": 88,
+      "notes": "Manzana verde ácida crujiente con jengibre fresco, salvia azul y maderas ambarinas."
+    }
   },
   {
     "id": 612,
@@ -8565,7 +16129,27 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 105.5,
-    "image": "images/perf_8a12638872.jpg"
+    "image": "images/perf_8a12638872.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1015,
+      "targetName": "MAISON ALHAMBRA YEAH MAN PARFUM EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 13.75,
+      "saving": 87,
+      "notes": "Manzana verde ácida crujiente con jengibre fresco, salvia azul y maderas ambarinas."
+    }
   },
   {
     "id": 613,
@@ -8578,8 +16162,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "60ML",
     "concentration": "EDP",
-    "price": 83.0,
-    "image": "images/perf_8a12638872.jpg"
+    "price": 83,
+    "image": "images/perf_8a12638872.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1015,
+      "targetName": "MAISON ALHAMBRA YEAH MAN PARFUM EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 13.75,
+      "saving": 83,
+      "notes": "Manzana verde ácida crujiente con jengibre fresco, salvia azul y maderas ambarinas."
+    }
   },
   {
     "id": 614,
@@ -8592,8 +16196,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 73.0,
-    "image": "images/perf_509695a449.jpg"
+    "price": 73,
+    "image": "images/perf_509695a449.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 971,
+      "targetName": "MAISON ALHAMBRA OPERA NOIR EDP 30ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 4.4,
+      "saving": 94,
+      "notes": "Shot de café espresso adictivo con flor de azahar blanca y vainilla licorosa."
+    }
   },
   {
     "id": 615,
@@ -8606,8 +16230,28 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 83.0,
-    "image": "images/perf_65308e7a3c.jpg"
+    "price": 83,
+    "image": "images/perf_65308e7a3c.jpg",
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 971,
+      "targetName": "MAISON ALHAMBRA OPERA NOIR EDP 30ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 4.4,
+      "saving": 95,
+      "notes": "Shot de café espresso adictivo con flor de azahar blanca y vainilla licorosa."
+    }
   },
   {
     "id": 616,
@@ -8620,8 +16264,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDT",
-    "price": 90.0,
-    "image": "images/perf_1cd41ac067.jpg"
+    "price": 90,
+    "image": "images/perf_1cd41ac067.jpg",
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 872,
+      "targetName": "LATTAFA PRIDE THARWAH GOLD EDP 100ML",
+      "targetBrand": "LATTAFA",
+      "targetPrice": 42.75,
+      "saving": 53,
+      "notes": "Lavanda francesa sensual, flor de azahar de Marruecos y orquídea vainilla dorada."
+    }
   },
   {
     "id": 617,
@@ -8634,8 +16296,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDT",
-    "price": 60.0,
-    "image": "images/perf_638fd5139f.jpg"
+    "price": 60,
+    "image": "images/perf_638fd5139f.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 618,
@@ -8648,8 +16320,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 93.0,
-    "image": "images/perf_1eca5baa69.jpg"
+    "price": 93,
+    "image": "images/perf_1eca5baa69.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1015,
+      "targetName": "MAISON ALHAMBRA YEAH MAN PARFUM EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 13.75,
+      "saving": 85,
+      "notes": "Manzana verde ácida crujiente con jengibre fresco, salvia azul y maderas ambarinas."
+    }
   },
   {
     "id": 619,
@@ -8662,8 +16352,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "60ML",
     "concentration": "PARFUM",
-    "price": 93.0,
-    "image": "images/perf_1eca5baa69.jpg"
+    "price": 93,
+    "image": "images/perf_1eca5baa69.jpg",
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "has_dupe",
+      "targetId": 1015,
+      "targetName": "MAISON ALHAMBRA YEAH MAN PARFUM EDP 100ML",
+      "targetBrand": "MAISON ALHAMBRA",
+      "targetPrice": 13.75,
+      "saving": 85,
+      "notes": "Manzana verde ácida crujiente con jengibre fresco, salvia azul y maderas ambarinas."
+    }
   },
   {
     "id": 620,
@@ -8677,7 +16385,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 621,
@@ -8691,7 +16409,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 622,
@@ -8705,7 +16433,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 623,
@@ -8719,7 +16458,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 23.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 624,
@@ -8733,7 +16482,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 27.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 625,
@@ -8746,8 +16505,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 23.0,
-    "image": null
+    "price": 23,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 626,
@@ -8761,7 +16530,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 23.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 627,
@@ -8774,8 +16553,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "EDP",
-    "price": 29.0,
-    "image": null
+    "price": 29,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 628,
@@ -8789,7 +16578,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 629,
@@ -8803,7 +16602,24 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier Ultra Male",
+      "targetPrice": 95,
+      "saving": 77,
+      "notes": "Considerado el mejor clon de la historia: pera dulce, canela, lavanda y vainilla adictiva para fiestas."
+    }
   },
   {
     "id": 630,
@@ -8817,7 +16633,24 @@ const perfumesData = [
     "volume": "150ML",
     "concentration": "EDP",
     "price": 26.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier Ultra Male",
+      "targetPrice": 95,
+      "saving": 72,
+      "notes": "Considerado el mejor clon de la historia: pera dulce, canela, lavanda y vainilla adictiva para fiestas."
+    }
   },
   {
     "id": 631,
@@ -8831,7 +16664,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Creed Aventus",
+      "targetPrice": 350,
+      "saving": 93,
+      "notes": "Apertura frutal radiante con piña, manzana y fondo de musgo de roble y maderas."
+    }
   },
   {
     "id": 632,
@@ -8845,7 +16694,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 22.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 633,
@@ -8859,7 +16718,17 @@ const perfumesData = [
     "volume": "150ML",
     "concentration": "EDP",
     "price": 26.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 634,
@@ -8872,8 +16741,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 28.0,
-    "image": null
+    "price": 28,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 635,
@@ -8887,7 +16768,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXTRAIT",
     "price": 43.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 636,
@@ -8901,7 +16793,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 23.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 637,
@@ -8915,7 +16819,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 638,
@@ -8929,7 +16845,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 27.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 639,
@@ -8942,8 +16870,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "PARFUM",
-    "price": 29.0,
-    "image": null
+    "price": 29,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 640,
@@ -8957,7 +16896,21 @@ const perfumesData = [
     "volume": "120ML",
     "concentration": "EDP",
     "price": 38.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 641,
@@ -8970,8 +16923,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 642,
@@ -8984,8 +16947,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": null
+    "price": 24,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 643,
@@ -8998,8 +16971,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDP",
-    "price": 34.0,
-    "image": null
+    "price": 34,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 644,
@@ -9012,8 +16995,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 645,
@@ -9026,8 +17019,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 646,
@@ -9040,8 +17043,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EDP",
-    "price": 32.0,
-    "image": null
+    "price": 32,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 647,
@@ -9054,8 +17067,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 33.0,
-    "image": null
+    "price": 33,
+    "image": null,
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 648,
@@ -9068,8 +17093,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 33.0,
-    "image": null
+    "price": 33,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 649,
@@ -9083,7 +17118,21 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "",
     "price": 40.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 650,
@@ -9096,8 +17145,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 651,
@@ -9111,7 +17170,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 652,
@@ -9124,8 +17193,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 653,
@@ -9139,7 +17218,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 654,
@@ -9153,7 +17242,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 655,
@@ -9166,8 +17265,20 @@ const perfumesData = [
     "is_kit": true,
     "volume": "75ML",
     "concentration": "",
-    "price": 49.0,
-    "image": null
+    "price": 49,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 656,
@@ -9181,7 +17292,22 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXDP",
     "price": 35.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "oud_cuero"
+    ],
+    "clima": [
+      "calor",
+      "frio"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 657,
@@ -9194,8 +17320,23 @@ const perfumesData = [
     "is_kit": false,
     "volume": "200ML",
     "concentration": "EXDP",
-    "price": 60.0,
-    "image": null
+    "price": 60,
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "oud_cuero"
+    ],
+    "clima": [
+      "calor",
+      "frio"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 658,
@@ -9209,7 +17350,22 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EXDP",
     "price": 34.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "oud_cuero"
+    ],
+    "clima": [
+      "calor",
+      "frio"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 659,
@@ -9223,7 +17379,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 39.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 660,
@@ -9237,7 +17405,19 @@ const perfumesData = [
     "volume": "60ML",
     "concentration": "EDP",
     "price": 33.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 661,
@@ -9251,7 +17431,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXDP",
     "price": 36.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 662,
@@ -9264,8 +17456,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 45.0,
-    "image": null
+    "price": 45,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 663,
@@ -9278,8 +17482,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 36.0,
-    "image": null
+    "price": 36,
+    "image": null,
+    "vibes": [
+      "dulce",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Xerjoff Erba Pura",
+      "targetPrice": 250,
+      "saving": 86,
+      "notes": "Frutas tropicales doradas, melón dulce, piña, bergamota y fondo de ámbar almizclado bestial."
+    }
   },
   {
     "id": 664,
@@ -9293,7 +17516,26 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 37.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Xerjoff Erba Pura",
+      "targetPrice": 250,
+      "saving": 85,
+      "notes": "Frutas tropicales doradas, melón dulce, piña, bergamota y fondo de ámbar almizclado bestial."
+    }
   },
   {
     "id": 665,
@@ -9307,7 +17549,26 @@ const perfumesData = [
     "volume": "60ML",
     "concentration": "EDP",
     "price": 26.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Xerjoff Erba Pura",
+      "targetPrice": 250,
+      "saving": 89,
+      "notes": "Frutas tropicales doradas, melón dulce, piña, bergamota y fondo de ámbar almizclado bestial."
+    }
   },
   {
     "id": 666,
@@ -9320,8 +17581,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 49.0,
-    "image": null
+    "price": 49,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 667,
@@ -9334,8 +17607,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 30.0,
-    "image": null
+    "price": 30,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 668,
@@ -9348,8 +17633,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 27.0,
-    "image": null
+    "price": 27,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 669,
@@ -9362,8 +17657,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 670,
@@ -9377,7 +17682,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 671,
@@ -9390,8 +17705,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 27.0,
-    "image": null
+    "price": 27,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 672,
@@ -9405,7 +17730,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 673,
@@ -9419,7 +17754,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 674,
@@ -9432,8 +17777,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 675,
@@ -9446,8 +17801,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 676,
@@ -9460,8 +17825,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 677,
@@ -9475,7 +17850,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 678,
@@ -9489,7 +17874,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 679,
@@ -9502,8 +17897,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 680,
@@ -9517,7 +17922,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 681,
@@ -9531,7 +17946,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 682,
@@ -9544,8 +17969,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 28.0,
-    "image": null
+    "price": 28,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 683,
@@ -9558,8 +17995,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 28.0,
-    "image": null
+    "price": 28,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 684,
@@ -9573,7 +18020,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXDP",
     "price": 24.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 685,
@@ -9587,7 +18044,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 23.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 686,
@@ -9600,8 +18067,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 687,
@@ -9615,7 +18092,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 688,
@@ -9629,7 +18116,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 689,
@@ -9642,8 +18139,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 690,
@@ -9656,8 +18163,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 691,
@@ -9670,8 +18187,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": null
+    "price": 24,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 692,
@@ -9684,8 +18211,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": null
+    "price": 24,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 693,
@@ -9698,8 +18235,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": null
+    "price": 24,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 694,
@@ -9712,8 +18259,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 695,
@@ -9726,8 +18283,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 696,
@@ -9740,8 +18307,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 697,
@@ -9755,7 +18332,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 698,
@@ -9769,7 +18356,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 699,
@@ -9782,8 +18379,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 700,
@@ -9796,8 +18405,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 701,
@@ -9810,8 +18431,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 702,
@@ -9825,7 +18458,19 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 703,
@@ -9839,7 +18484,19 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 704,
@@ -9853,7 +18510,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXDP",
     "price": 24.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 705,
@@ -9866,8 +18533,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "",
-    "price": 44.0,
-    "image": null
+    "price": 44,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 706,
@@ -9880,8 +18557,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "",
-    "price": 45.0,
-    "image": null
+    "price": 45,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 707,
@@ -9894,8 +18581,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "",
-    "price": 41.0,
-    "image": null
+    "price": 41,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 708,
@@ -9908,8 +18605,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 130.0,
-    "image": null
+    "price": 130,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 709,
@@ -9922,8 +18631,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 130.0,
-    "image": null
+    "price": 130,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 710,
@@ -9936,8 +18657,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 130.0,
-    "image": null
+    "price": 130,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 711,
@@ -9950,8 +18683,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 130.0,
-    "image": null
+    "price": 130,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 712,
@@ -9964,8 +18709,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 713,
@@ -9978,8 +18733,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 40.0,
-    "image": null
+    "price": 40,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 714,
@@ -9993,7 +18758,20 @@ const perfumesData = [
     "volume": "10ML",
     "concentration": "",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 715,
@@ -10007,7 +18785,17 @@ const perfumesData = [
     "volume": "10ML",
     "concentration": "",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 716,
@@ -10021,7 +18809,19 @@ const perfumesData = [
     "volume": "10ML",
     "concentration": "",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 717,
@@ -10035,7 +18835,17 @@ const perfumesData = [
     "volume": "10ML",
     "concentration": "",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 718,
@@ -10049,7 +18859,22 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "",
     "price": 44.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "oud_cuero"
+    ],
+    "clima": [
+      "calor",
+      "frio"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 719,
@@ -10062,8 +18887,27 @@ const perfumesData = [
     "is_kit": true,
     "volume": "75ML",
     "concentration": "",
-    "price": 44.0,
-    "image": null
+    "price": 44,
+    "image": null,
+    "vibes": [
+      "dulce",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Xerjoff Erba Pura",
+      "targetPrice": 250,
+      "saving": 82,
+      "notes": "Frutas tropicales doradas, melón dulce, piña, bergamota y fondo de ámbar almizclado bestial."
+    }
   },
   {
     "id": 720,
@@ -10076,8 +18920,20 @@ const perfumesData = [
     "is_kit": true,
     "volume": "75ML",
     "concentration": "",
-    "price": 44.0,
-    "image": null
+    "price": 44,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 721,
@@ -10091,7 +18947,19 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 49.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 722,
@@ -10104,8 +18972,20 @@ const perfumesData = [
     "is_kit": true,
     "volume": "75ML",
     "concentration": "",
-    "price": 43.0,
-    "image": null
+    "price": 43,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 723,
@@ -10119,7 +18999,22 @@ const perfumesData = [
     "volume": "",
     "concentration": "",
     "price": 55.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "oud_cuero"
+    ],
+    "clima": [
+      "calor",
+      "frio"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 724,
@@ -10133,7 +19028,19 @@ const perfumesData = [
     "volume": "",
     "concentration": "",
     "price": 55.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 725,
@@ -10147,7 +19054,19 @@ const perfumesData = [
     "volume": "",
     "concentration": "",
     "price": 55.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 726,
@@ -10161,7 +19080,22 @@ const perfumesData = [
     "volume": "",
     "concentration": "",
     "price": 55.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico",
+      "oud_cuero"
+    ],
+    "clima": [
+      "calor",
+      "frio"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 727,
@@ -10174,8 +19108,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 12.0,
-    "image": null
+    "price": 12,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 728,
@@ -10189,7 +19133,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 729,
@@ -10203,7 +19157,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 11.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 730,
@@ -10217,7 +19181,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 731,
@@ -10230,8 +19204,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "85ML",
     "concentration": "EDP",
-    "price": 17.0,
-    "image": null
+    "price": 17,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 732,
@@ -10244,8 +19228,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 733,
@@ -10259,7 +19253,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 11.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 734,
@@ -10273,7 +19277,17 @@ const perfumesData = [
     "volume": "85ML",
     "concentration": "EDP",
     "price": 15.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 735,
@@ -10287,7 +19301,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 736,
@@ -10300,8 +19324,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 737,
@@ -10314,8 +19348,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 12.0,
-    "image": null
+    "price": 12,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 738,
@@ -10329,7 +19374,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 739,
@@ -10343,7 +19398,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 11.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 740,
@@ -10357,7 +19422,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 23.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 741,
@@ -10371,7 +19446,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 11.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 742,
@@ -10384,8 +19469,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 13.0,
-    "image": null
+    "price": 13,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 743,
@@ -10399,7 +19494,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 11.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 744,
@@ -10412,8 +19517,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 23.0,
-    "image": null
+    "price": 23,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 745,
@@ -10426,8 +19541,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 23.0,
-    "image": null
+    "price": 23,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 746,
@@ -10440,8 +19565,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 747,
@@ -10455,7 +19590,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 10.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 748,
@@ -10469,7 +19616,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 749,
@@ -10483,7 +19642,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 11.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 750,
@@ -10496,8 +19666,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 12.0,
-    "image": null
+    "price": 12,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 751,
@@ -10511,7 +19691,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 13.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 752,
@@ -10525,7 +19715,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 753,
@@ -10538,8 +19738,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 754,
@@ -10553,7 +19763,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 15.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 755,
@@ -10567,7 +19787,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 14.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 756,
@@ -10581,7 +19811,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 14.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 757,
@@ -10595,7 +19835,17 @@ const perfumesData = [
     "volume": "70ML",
     "concentration": "EDP",
     "price": 13.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 758,
@@ -10609,7 +19859,18 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "EDP",
     "price": 25.95,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 759,
@@ -10623,7 +19884,20 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "EDP",
     "price": 18.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 760,
@@ -10637,7 +19911,18 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "EDP",
     "price": 26.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 761,
@@ -10651,7 +19936,18 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "EDP",
     "price": 24.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 762,
@@ -10665,7 +19961,18 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDP",
     "price": 33.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 763,
@@ -10679,7 +19986,17 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "EDP",
     "price": 32.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 764,
@@ -10693,7 +20010,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 765,
@@ -10707,7 +20034,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 14.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 766,
@@ -10721,7 +20058,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 16.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 767,
@@ -10735,7 +20082,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 16.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 768,
@@ -10749,7 +20106,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 26.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 769,
@@ -10762,8 +20129,27 @@ const perfumesData = [
     "is_kit": false,
     "volume": "105ML",
     "concentration": "EDP",
-    "price": 27.0,
-    "image": null
+    "price": 27,
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Chanel Bleu de Chanel",
+      "targetPrice": 150,
+      "saving": 82,
+      "notes": "Pomelo brillante, jengibre fresco, menta, incienso celestial y cedro elegante."
+    }
   },
   {
     "id": 770,
@@ -10777,7 +20163,25 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDP",
     "price": 39.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Creed Aventus",
+      "targetPrice": 350,
+      "saving": 89,
+      "notes": "El rey indiscutido de los clones: piña fresca ahumada, abedul y grosella negra con duración titánica."
+    }
   },
   {
     "id": 771,
@@ -10791,7 +20195,25 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "EDT",
     "price": 23.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Creed Aventus",
+      "targetPrice": 350,
+      "saving": 93,
+      "notes": "El rey indiscutido de los clones: piña fresca ahumada, abedul y grosella negra con duración titánica."
+    }
   },
   {
     "id": 772,
@@ -10805,7 +20227,23 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "EDT",
     "price": 20.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne 1 Million",
+      "targetPrice": 80,
+      "saving": 74,
+      "notes": "Mandarina sanguina con canela dulce, rosa especiada, cuero blanco y ámbar dorado."
+    }
   },
   {
     "id": 773,
@@ -10819,7 +20257,17 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "EDP",
     "price": 21.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 774,
@@ -10833,7 +20281,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 775,
@@ -10846,8 +20304,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 776,
@@ -10861,7 +20331,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 777,
@@ -10875,7 +20355,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 15.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Tom Ford Noir Extreme",
+      "targetPrice": 180,
+      "saving": 91,
+      "notes": "Cardamomo oscuro, nuez moscada, postre kulfi helado de la India y ámbar oriental seductor."
+    }
   },
   {
     "id": 778,
@@ -10889,7 +20387,25 @@ const perfumesData = [
     "volume": "200ML",
     "concentration": "EDP",
     "price": 26.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Tom Ford Noir Extreme",
+      "targetPrice": 180,
+      "saving": 85,
+      "notes": "Cardamomo oscuro, nuez moscada, postre kulfi helado de la India y ámbar oriental seductor."
+    }
   },
   {
     "id": 779,
@@ -10903,7 +20419,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 19.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier Scandal Pour Homme",
+      "targetPrice": 85,
+      "saving": 77,
+      "notes": "Caramelo caliente con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 780,
@@ -10917,7 +20449,23 @@ const perfumesData = [
     "volume": "60ML",
     "concentration": "EDP",
     "price": 14.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier Scandal Pour Homme",
+      "targetPrice": 85,
+      "saving": 82,
+      "notes": "Caramelo caliente con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 781,
@@ -10931,7 +20479,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 28.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier Scandal Pour Homme",
+      "targetPrice": 85,
+      "saving": 67,
+      "notes": "Caramelo caliente con mandarina jugosa, salvia y haba tonka deliciosa."
+    }
   },
   {
     "id": 782,
@@ -10944,8 +20508,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 15.0,
-    "image": null
+    "price": 15,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 783,
@@ -10959,7 +20533,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 14.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 784,
@@ -10973,7 +20557,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Chanel Bleu de Chanel",
+      "targetPrice": 150,
+      "saving": 88,
+      "notes": "Perfil azul elegante con cítricos aromáticos, notas especiadas y fondo de madera oscura."
+    }
   },
   {
     "id": 785,
@@ -10986,8 +20586,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 31.0,
-    "image": null
+    "price": 31,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 786,
@@ -11000,8 +20610,24 @@ const perfumesData = [
     "is_kit": false,
     "volume": "105ML",
     "concentration": "EDP",
-    "price": 22.0,
-    "image": null
+    "price": 22,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Creed Millésime Impérial",
+      "targetPrice": 350,
+      "saving": 94,
+      "notes": "Brisa marina salada con frutas cítricas sicilianas, iris elegante y almizcle marino."
+    }
   },
   {
     "id": 787,
@@ -11015,7 +20641,21 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "PARFUM",
     "price": 37.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 788,
@@ -11029,7 +20669,23 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "EDP",
     "price": 23.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Creed Silver Mountain Water",
+      "targetPrice": 350,
+      "saving": 93,
+      "notes": "Frescura glaciar de montaña con grosellas negras, té verde energizante y sándalo."
+    }
   },
   {
     "id": 789,
@@ -11043,7 +20699,23 @@ const perfumesData = [
     "volume": "105ML",
     "concentration": "EDP",
     "price": 26.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Baccarat Rouge 540",
+      "targetPrice": 325,
+      "saving": 92,
+      "notes": "Fidelidad extrema a Baccarat Rouge 540 con enorme proyección y duración estelar."
+    }
   },
   {
     "id": 790,
@@ -11057,7 +20729,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.99,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 791,
@@ -11071,7 +20753,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 792,
@@ -11085,7 +20777,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 16.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 793,
@@ -11098,8 +20802,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 9.0,
-    "image": null
+    "price": 9,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 794,
@@ -11113,7 +20828,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 795,
@@ -11126,8 +20851,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 16.0,
-    "image": null
+    "price": 16,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 796,
@@ -11141,7 +20876,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 16.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 797,
@@ -11155,7 +20901,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 16.45,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 798,
@@ -11169,7 +20925,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 15.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 799,
@@ -11182,8 +20948,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 18.0,
-    "image": null
+    "price": 18,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 800,
@@ -11197,7 +20973,19 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 28.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 801,
@@ -11211,7 +20999,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 26.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 802,
@@ -11225,7 +21023,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 19.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 803,
@@ -11239,7 +21047,17 @@ const perfumesData = [
     "volume": "12ML",
     "concentration": "",
     "price": 14.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 804,
@@ -11252,8 +21070,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 23.0,
-    "image": null
+    "price": 23,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 805,
@@ -11267,7 +21095,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 35.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 806,
@@ -11281,7 +21119,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 34.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 807,
@@ -11295,7 +21143,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 33.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 808,
@@ -11309,7 +21167,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 35.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 809,
@@ -11322,8 +21190,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 33.0,
-    "image": null
+    "price": 33,
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 810,
@@ -11336,8 +21217,21 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 33.0,
-    "image": null
+    "price": 33,
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 811,
@@ -11351,7 +21245,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 42.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 812,
@@ -11365,7 +21269,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 49.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 813,
@@ -11378,8 +21292,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 52.0,
-    "image": null
+    "price": 52,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 814,
@@ -11392,8 +21316,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 39.0,
-    "image": null
+    "price": 39,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 815,
@@ -11407,7 +21342,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 38.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 816,
@@ -11421,7 +21366,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 41.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 817,
@@ -11435,7 +21390,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 36.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 818,
@@ -11449,7 +21414,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 37.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 819,
@@ -11463,7 +21438,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 9.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 820,
@@ -11477,7 +21462,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 821,
@@ -11491,7 +21486,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 30.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 822,
@@ -11505,7 +21510,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 23.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 823,
@@ -11518,8 +21533,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 33.0,
-    "image": null
+    "price": 33,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 824,
@@ -11532,8 +21557,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 21.0,
-    "image": null
+    "price": 21,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 825,
@@ -11547,7 +21584,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXTRAIT",
     "price": 33.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 826,
@@ -11561,7 +21608,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 29.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 827,
@@ -11575,7 +21632,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXDP",
     "price": 32.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 828,
@@ -11588,8 +21655,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 28.0,
-    "image": null
+    "price": 28,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 829,
@@ -11602,8 +21679,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 22.0,
-    "image": null
+    "price": 22,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 830,
@@ -11616,8 +21704,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 18.0,
-    "image": null
+    "price": 18,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 831,
@@ -11630,8 +21729,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 31.0,
-    "image": null
+    "price": 31,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 832,
@@ -11644,8 +21755,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 28.0,
-    "image": null
+    "price": 28,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 833,
@@ -11658,8 +21779,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 28.0,
-    "image": null
+    "price": 28,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 834,
@@ -11673,7 +21804,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 835,
@@ -11687,7 +21828,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 836,
@@ -11701,7 +21852,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 837,
@@ -11715,7 +21876,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 838,
@@ -11729,7 +21900,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 839,
@@ -11743,7 +21924,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 840,
@@ -11757,7 +21948,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 841,
@@ -11771,7 +21972,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 842,
@@ -11785,7 +21996,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 843,
@@ -11799,7 +22020,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 27.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 844,
@@ -11812,8 +22043,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 28.0,
-    "image": null
+    "price": 28,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 845,
@@ -11827,7 +22068,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "PARFUM",
     "price": 30.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 846,
@@ -11841,7 +22093,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXDP",
     "price": 28.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 847,
@@ -11855,7 +22117,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXTRAIT",
     "price": 37.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 848,
@@ -11869,7 +22141,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXTRAIT",
     "price": 37.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 849,
@@ -11882,8 +22164,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 36.0,
-    "image": null
+    "price": 36,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 850,
@@ -11896,8 +22188,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 36.0,
-    "image": null
+    "price": 36,
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 851,
@@ -11910,8 +22212,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EXDP",
-    "price": 22.0,
-    "image": null
+    "price": 22,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Kilian Angels' Share",
+      "targetPrice": 240,
+      "saving": 91,
+      "notes": "Alternativa nicho refinada a Angels' Share con notas licorosas de manzana, canela y madera noble."
+    }
   },
   {
     "id": 852,
@@ -11925,7 +22245,25 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EXDP",
     "price": 20.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Kilian Angels' Share",
+      "targetPrice": 240,
+      "saving": 92,
+      "notes": "Alternativa nicho refinada a Angels' Share con notas licorosas de manzana, canela y madera noble."
+    }
   },
   {
     "id": 853,
@@ -11939,7 +22277,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 31.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 854,
@@ -11953,7 +22303,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 29.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 855,
@@ -11967,7 +22327,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 30.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 856,
@@ -11981,7 +22351,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 10.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 857,
@@ -11994,8 +22374,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": null
+    "price": 24,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 858,
@@ -12008,8 +22398,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 32.0,
-    "image": null
+    "price": 32,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 859,
@@ -12022,8 +22422,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 19.0,
-    "image": null
+    "price": 19,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 860,
@@ -12036,8 +22446,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 18.0,
-    "image": null
+    "price": 18,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 861,
@@ -12051,7 +22471,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 13.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 862,
@@ -12064,8 +22494,25 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": null
+    "price": 24,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Giardini di Toscana Bianco Latte",
+      "targetPrice": 150,
+      "saving": 84,
+      "notes": "Caramelo fundido con leche condensada dulce, miel pura, vainilla cremosa y almizcle suave."
+    }
   },
   {
     "id": 863,
@@ -12079,7 +22526,24 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Giardini di Toscana Bianco Latte",
+      "targetPrice": 150,
+      "saving": 84,
+      "notes": "Caramelo fundido con leche condensada dulce, miel pura, vainilla cremosa y almizcle suave."
+    }
   },
   {
     "id": 864,
@@ -12093,7 +22557,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Givenchy L'Interdit",
+      "targetPrice": 95,
+      "saving": 77,
+      "notes": "Flores blancas opulentas, nardos luminosos y fondo ambarino sofisticado."
+    }
   },
   {
     "id": 865,
@@ -12107,7 +22587,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 20.45,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 866,
@@ -12121,7 +22611,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 16.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 867,
@@ -12134,8 +22634,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 16.0,
-    "image": null
+    "price": 16,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 868,
@@ -12149,7 +22660,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 16.35,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 869,
@@ -12162,8 +22684,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 20.0,
-    "image": null
+    "price": 20,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 870,
@@ -12177,7 +22709,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 25.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 871,
@@ -12191,7 +22733,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 18.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 872,
@@ -12205,7 +22757,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 42.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "YSL Libre Intense",
+      "targetPrice": 125,
+      "saving": 66,
+      "notes": "Lavanda francesa sensual con flor de azahar de Marruecos, orquídea cálida y vainilla dorada."
+    }
   },
   {
     "id": 873,
@@ -12218,8 +22786,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "90ML",
     "concentration": "",
-    "price": 9.0,
-    "image": null
+    "price": 9,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 874,
@@ -12232,8 +22810,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 15.0,
-    "image": null
+    "price": 15,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 875,
@@ -12246,8 +22834,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 10.0,
-    "image": null
+    "price": 10,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 876,
@@ -12261,7 +22859,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 877,
@@ -12275,7 +22883,24 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Burberry Her / Pepe Jeans",
+      "targetPrice": 85,
+      "saving": 74,
+      "notes": "Batido cremoso de fresas y frutas tropicales con orquídea aterciopelada y helado de vainilla."
+    }
   },
   {
     "id": 878,
@@ -12289,7 +22914,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 879,
@@ -12303,7 +22939,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 16.45,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 880,
@@ -12316,8 +22963,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 16.0,
-    "image": null
+    "price": 16,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 881,
@@ -12331,7 +22989,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 15.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 882,
@@ -12345,7 +23013,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 15.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 883,
@@ -12358,8 +23036,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 22.0,
-    "image": null
+    "price": 22,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Dior Sauvage Elixir",
+      "targetPrice": 165,
+      "saving": 87,
+      "notes": "Clon viral con pimienta negra, lavanda, tabaco y vainilla cremosa con proyección de más de 10 horas."
+    }
   },
   {
     "id": 884,
@@ -12373,7 +23069,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 10.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 885,
@@ -12387,7 +23093,27 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio",
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Initio Oud for Greatness",
+      "targetPrice": 380,
+      "saving": 95,
+      "notes": "Madera de oud mística, azafrán exótico, nuez moscada y pachulí oscuro con presencia regia."
+    }
   },
   {
     "id": 886,
@@ -12400,8 +23126,24 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 17.0,
-    "image": null
+    "price": 17,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "YSL Y EDP",
+      "targetPrice": 105,
+      "saving": 84,
+      "notes": "La mejor alternativa árabe a YSL Y: manzana verde fresca, geranio y cedro duradero."
+    }
   },
   {
     "id": 887,
@@ -12415,7 +23157,26 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce",
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Kilian Angels' Share",
+      "targetPrice": 240,
+      "saving": 92,
+      "notes": "El fenómeno viral de TikTok: canela dulce, coñac licoroso, dátiles, praliné y vainilla gourmand."
+    }
   },
   {
     "id": 888,
@@ -12428,8 +23189,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 17.0,
-    "image": null
+    "price": 17,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 889,
@@ -12442,8 +23213,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 16.0,
-    "image": null
+    "price": 16,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 890,
@@ -12457,7 +23240,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 891,
@@ -12470,8 +23263,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 35.0,
-    "image": null
+    "price": 35,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 892,
@@ -12484,8 +23289,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 18.0,
-    "image": null
+    "price": 18,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 893,
@@ -12499,7 +23314,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 894,
@@ -12513,7 +23338,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 20.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 895,
@@ -12527,7 +23362,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Giorgio Armani Acqua Di Giò Profumo",
+      "targetPrice": 110,
+      "saving": 91,
+      "notes": "Incienso ahumado misterioso, romero verde y notas oceánicas profundas."
+    }
   },
   {
     "id": 896,
@@ -12541,7 +23392,19 @@ const perfumesData = [
     "volume": "5ML",
     "concentration": "EDP",
     "price": 12.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 897,
@@ -12555,7 +23418,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 898,
@@ -12568,8 +23441,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 10.0,
-    "image": null
+    "price": 10,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 899,
@@ -12583,7 +23466,17 @@ const perfumesData = [
     "volume": "60ML",
     "concentration": "EDP",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 900,
@@ -12597,7 +23490,17 @@ const perfumesData = [
     "volume": "60ML",
     "concentration": "",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 901,
@@ -12610,8 +23513,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 9.0,
-    "image": null
+    "price": 9,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 902,
@@ -12625,7 +23538,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 903,
@@ -12639,7 +23562,17 @@ const perfumesData = [
     "volume": "60ML",
     "concentration": "EDP",
     "price": 11.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 904,
@@ -12653,7 +23586,19 @@ const perfumesData = [
     "volume": "60ML",
     "concentration": "EDP",
     "price": 9.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 905,
@@ -12667,7 +23612,17 @@ const perfumesData = [
     "volume": "60ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 906,
@@ -12681,7 +23636,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 14.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 907,
@@ -12695,7 +23660,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 15.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 908,
@@ -12709,7 +23684,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 16.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 909,
@@ -12723,7 +23710,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 910,
@@ -12737,7 +23736,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 25.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 911,
@@ -12750,8 +23759,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 27.0,
-    "image": null
+    "price": 27,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 912,
@@ -12765,7 +23784,17 @@ const perfumesData = [
     "volume": "110ML",
     "concentration": "EDP",
     "price": 17.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 913,
@@ -12779,7 +23808,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 914,
@@ -12792,8 +23831,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 18.0,
-    "image": null
+    "price": 18,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 915,
@@ -12807,7 +23856,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 916,
@@ -12821,7 +23880,24 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Kilian Angels' Share",
+      "targetPrice": 240,
+      "saving": 93,
+      "notes": "El fenómeno viral de TikTok: canela dulce, coñac licoroso, dátiles, praliné y vainilla gourmand."
+    }
   },
   {
     "id": 917,
@@ -12835,7 +23911,24 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 39.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Kilian Angels' Share",
+      "targetPrice": 240,
+      "saving": 83,
+      "notes": "El fenómeno viral de TikTok: canela dulce, coñac licoroso, dátiles, praliné y vainilla gourmand."
+    }
   },
   {
     "id": 918,
@@ -12849,7 +23942,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 9.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 919,
@@ -12863,7 +23966,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 9.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 920,
@@ -12877,7 +23990,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 9.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 921,
@@ -12891,7 +24014,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 9.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 922,
@@ -12905,7 +24038,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 9.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 923,
@@ -12919,7 +24062,17 @@ const perfumesData = [
     "volume": "75ML",
     "concentration": "EDP",
     "price": 9.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 924,
@@ -12933,7 +24086,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 10.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 925,
@@ -12946,8 +24111,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 21.0,
-    "image": null
+    "price": 21,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 926,
@@ -12961,7 +24136,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 927,
@@ -12975,7 +24160,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 30.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 928,
@@ -12988,8 +24185,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 12.0,
-    "image": null
+    "price": 12,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 929,
@@ -13003,7 +24210,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 930,
@@ -13017,7 +24234,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 931,
@@ -13031,7 +24258,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 23.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 932,
@@ -13045,7 +24282,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 933,
@@ -13059,7 +24306,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 24.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 934,
@@ -13073,7 +24330,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 24.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 935,
@@ -13086,8 +24353,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 936,
@@ -13101,7 +24378,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 937,
@@ -13114,8 +24401,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 938,
@@ -13128,8 +24425,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 10.0,
-    "image": null
+    "price": 10,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 939,
@@ -13142,8 +24451,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 940,
@@ -13157,7 +24476,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 16.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 941,
@@ -13171,7 +24500,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 942,
@@ -13185,7 +24524,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 943,
@@ -13199,7 +24548,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 14.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 944,
@@ -13213,7 +24572,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 945,
@@ -13226,8 +24597,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 17.0,
-    "image": null
+    "price": 17,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 946,
@@ -13241,7 +24622,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 947,
@@ -13255,7 +24646,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 26.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 948,
@@ -13269,7 +24670,17 @@ const perfumesData = [
     "volume": "90ML",
     "concentration": "EDP",
     "price": 9.9,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 949,
@@ -13283,7 +24694,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 950,
@@ -13297,7 +24718,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 13.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 951,
@@ -13310,8 +24741,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": null
+    "price": 24,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 952,
@@ -13324,8 +24765,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 11.0,
-    "image": null
+    "price": 11,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 953,
@@ -13338,8 +24791,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 10.0,
-    "image": null
+    "price": 10,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 954,
@@ -13352,8 +24817,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 10.0,
-    "image": null
+    "price": 10,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 955,
@@ -13367,7 +24843,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 956,
@@ -13381,7 +24867,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 20.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 957,
@@ -13395,7 +24891,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 958,
@@ -13409,7 +24917,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 10.45,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 959,
@@ -13422,8 +24941,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 10.0,
-    "image": null
+    "price": 10,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 960,
@@ -13437,7 +24966,23 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Parfums de Marly Carlisle",
+      "targetPrice": 360,
+      "saving": 99,
+      "notes": "Opulencia oriental con nuez moscada, manzana verde, haba tonka y pachulí oscuro."
+    }
   },
   {
     "id": 961,
@@ -13451,7 +24996,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Chanel Chance Eau Tendre",
+      "targetPrice": 135,
+      "saving": 91,
+      "notes": "Frescura floral tierna con membrillo, toronja suave, jazmín blanco y almizcle algodonoso."
+    }
   },
   {
     "id": 962,
@@ -13465,7 +25026,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "",
     "price": 4.7,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 963,
@@ -13479,7 +25050,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 12.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 964,
@@ -13492,8 +25073,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 18.0,
-    "image": null
+    "price": 18,
+    "image": null,
+    "vibes": [
+      "citrico",
+      "floral"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Parfums de Marly Delina",
+      "targetPrice": 350,
+      "saving": 95,
+      "notes": "Elegancia pura en rosa turca, lichi jugoso, ruibarbo ácido, incienso y cachemira aterciopelada."
+    }
   },
   {
     "id": 965,
@@ -13507,7 +25106,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Parfums de Marly Delina",
+      "targetPrice": 350,
+      "saving": 94,
+      "notes": "Elegancia pura en rosa turca, lichi jugoso, ruibarbo ácido, incienso y cachemira aterciopelada."
+    }
   },
   {
     "id": 966,
@@ -13521,7 +25136,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier La Belle",
+      "targetPrice": 90,
+      "saving": 86,
+      "notes": "Pera al horno caramelizada con vainilla cremosa y vetiver sofisticado."
+    }
   },
   {
     "id": 967,
@@ -13535,7 +25166,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 968,
@@ -13549,7 +25190,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Givenchy L'Interdit",
+      "targetPrice": 95,
+      "saving": 87,
+      "notes": "Nardos blancos prohibidos, flor de naranjo, jazmín y fondo terroso de pachulí y vetiver."
+    }
   },
   {
     "id": 969,
@@ -13563,7 +25220,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 15.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Lancôme La Vie Est Belle",
+      "targetPrice": 85,
+      "saving": 81,
+      "notes": "Iris francés florecido, grosellas negras, praliné de chocolate blanco y vainilla radiante."
+    }
   },
   {
     "id": 970,
@@ -13577,7 +25250,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 17.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Giorgio Armani My Way",
+      "targetPrice": 95,
+      "saving": 82,
+      "notes": "Flor de azahar radiante, bergamota italiana, nardos y vainilla de Madagascar."
+    }
   },
   {
     "id": 971,
@@ -13591,7 +25280,23 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "YSL Black Opium",
+      "targetPrice": 90,
+      "saving": 95,
+      "notes": "Shot de café espresso adictivo con flor de azahar blanca y vainilla licorosa."
+    }
   },
   {
     "id": 972,
@@ -13605,7 +25310,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 973,
@@ -13619,7 +25334,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 974,
@@ -13633,7 +25358,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 975,
@@ -13647,7 +25382,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 976,
@@ -13661,7 +25406,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 977,
@@ -13675,7 +25430,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 13.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 978,
@@ -13689,7 +25455,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 13.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 979,
@@ -13703,7 +25480,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 13.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 980,
@@ -13717,7 +25505,18 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 13.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 981,
@@ -13731,7 +25530,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 982,
@@ -13745,7 +25554,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 983,
@@ -13759,7 +25578,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 984,
@@ -13773,7 +25602,26 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 19.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Chanel Allure Homme Sport",
+      "targetPrice": 140,
+      "saving": 86,
+      "notes": "Mandarina jugosa, notas marinas cristalinas, pimienta negra, almizcle blanco y haba tonka."
+    }
   },
   {
     "id": 985,
@@ -13787,7 +25635,26 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 13.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Bvlgari Aqva Pour Homme",
+      "targetPrice": 75,
+      "saving": 82,
+      "notes": "Profundidad oceánica con algas marinas minerales, mandarina jugosa y cedro de Virginia."
+    }
   },
   {
     "id": 986,
@@ -13801,7 +25668,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 987,
@@ -13815,7 +25692,19 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 988,
@@ -13828,8 +25717,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 989,
@@ -13843,7 +25744,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 12.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 990,
@@ -13857,7 +25768,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 991,
@@ -13871,7 +25794,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 10.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Parfums de Marly Godolphin",
+      "targetPrice": 320,
+      "saving": 97,
+      "notes": "Cuero toscano fino, azafrán, frutos rojos y maderas preciosas."
+    }
   },
   {
     "id": 992,
@@ -13885,7 +25824,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 11.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier Le Beau",
+      "targetPrice": 85,
+      "saving": 87,
+      "notes": "Aroma veraniego seductor con agua de coco, bergamota chispeante y haba tonka tropical."
+    }
   },
   {
     "id": 993,
@@ -13899,7 +25854,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 11.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier Le Male",
+      "targetPrice": 65,
+      "saving": 83,
+      "notes": "Lavanda aromática, menta refrescante y vainilla clásica seductora de marinero."
+    }
   },
   {
     "id": 994,
@@ -13913,7 +25884,23 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 5.7,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier Le Male",
+      "targetPrice": 65,
+      "saving": 91,
+      "notes": "Lavanda aromática, menta refrescante y vainilla clásica seductora de marinero."
+    }
   },
   {
     "id": 995,
@@ -13927,7 +25914,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.99,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier Ultra Male",
+      "targetPrice": 95,
+      "saving": 89,
+      "notes": "Bomba nocturna de pera dulce jugosa, canela picante y vainilla negra embriagadora."
+    }
   },
   {
     "id": 996,
@@ -13940,8 +25943,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 19.0,
-    "image": null
+    "price": 19,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 997,
@@ -13954,8 +25967,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 12.0,
-    "image": null
+    "price": 12,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 998,
@@ -13969,7 +25992,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 16.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 999,
@@ -13982,8 +26015,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 15.0,
-    "image": null
+    "price": 15,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1000,
@@ -13996,8 +26039,26 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Giorgio Armani Acqua Di Giò Profumo",
+      "targetPrice": 110,
+      "saving": 87,
+      "notes": "Brisa marina rocosa, bergamota, geranio aromático y fondo de incienso ahumado."
+    }
   },
   {
     "id": 1001,
@@ -14010,8 +26071,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 10.0,
-    "image": null
+    "price": 10,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1002,
@@ -14025,7 +26096,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 11.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Dolce & Gabbana K",
+      "targetPrice": 80,
+      "saving": 86,
+      "notes": "Cítricos sicilianos luminosos, baya de enebro, chile piri-piri y maderas ambarinas reales."
+    }
   },
   {
     "id": 1003,
@@ -14039,7 +26126,23 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Dolce & Gabbana K",
+      "targetPrice": 80,
+      "saving": 95,
+      "notes": "Cítricos sicilianos luminosos, baya de enebro, chile piri-piri y maderas ambarinas reales."
+    }
   },
   {
     "id": 1004,
@@ -14053,7 +26156,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1005,
@@ -14067,7 +26180,23 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "",
     "price": 15.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Carolina Herrera 212 Men",
+      "targetPrice": 80,
+      "saving": 80,
+      "notes": "Hierba fresca recién cortada, jengibre picante, gardenia masculina y sándalo amaderado."
+    }
   },
   {
     "id": 1006,
@@ -14080,8 +26209,24 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 11.0,
-    "image": null
+    "price": 11,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Parfums de Marly Pegasus",
+      "targetPrice": 320,
+      "saving": 97,
+      "notes": "Almendra amarga brillante, lavanda francesa y vainilla dulce majestuosa."
+    }
   },
   {
     "id": 1007,
@@ -14095,7 +26240,23 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Parfums de Marly Pegasus",
+      "targetPrice": 320,
+      "saving": 99,
+      "notes": "Almendra amarga brillante, lavanda francesa y vainilla dulce majestuosa."
+    }
   },
   {
     "id": 1008,
@@ -14109,7 +26270,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Dior Sauvage",
+      "targetPrice": 102,
+      "saving": 82,
+      "notes": "Misma vibra ultra limpia, metálica y especiada con bergamota de Calabria y ambroxan penetrante."
+    }
   },
   {
     "id": 1009,
@@ -14123,7 +26300,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1010,
@@ -14137,7 +26324,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 23.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Jean Paul Gaultier Scandal",
+      "targetPrice": 85,
+      "saving": 73,
+      "notes": "Miel de azahar dulce con gardenia, cera de abejas y pachulí provocativo."
+    }
   },
   {
     "id": 1011,
@@ -14151,7 +26354,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 10.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1012,
@@ -14165,7 +26378,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 11.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus",
+      "targetPrice": 85,
+      "saving": 87,
+      "notes": "Golpe fresco marino, hojas de laurel, pomelo escarchado y maderas ambarinas de campeón."
+    }
   },
   {
     "id": 1013,
@@ -14179,7 +26408,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Victory",
+      "targetPrice": 90,
+      "saving": 89,
+      "notes": "Limón ácido, pimienta rosa picante, incienso oscuro y vainilla ahumada intensa."
+    }
   },
   {
     "id": 1014,
@@ -14193,7 +26438,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1015,
@@ -14207,7 +26462,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 13.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "YSL Y EDP",
+      "targetPrice": 105,
+      "saving": 87,
+      "notes": "Manzana verde ácida crujiente, jengibre refrescante, salvia azul y maderas oscuras."
+    }
   },
   {
     "id": 1016,
@@ -14221,7 +26492,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1017,
@@ -14235,7 +26516,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 11.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1018,
@@ -14249,7 +26540,19 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "",
     "price": 4.7,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1019,
@@ -14263,7 +26566,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 9.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1020,
@@ -14277,7 +26590,17 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "",
     "price": 4.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1021,
@@ -14291,7 +26614,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 13.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1022,
@@ -14305,7 +26638,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 10.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Baccarat Rouge 540",
+      "targetPrice": 325,
+      "saving": 97,
+      "notes": "Algodón de azúcar cristalino, azafrán dorado, jazmín sambac y ámbar gris con estela inolvidable."
+    }
   },
   {
     "id": 1023,
@@ -14319,7 +26668,23 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "",
     "price": 4.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Baccarat Rouge 540",
+      "targetPrice": 325,
+      "saving": 99,
+      "notes": "Algodón de azúcar cristalino, azafrán dorado, jazmín sambac y ámbar gris con estela inolvidable."
+    }
   },
   {
     "id": 1024,
@@ -14333,7 +26698,23 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Baccarat Rouge 540",
+      "targetPrice": 325,
+      "saving": 99,
+      "notes": "Algodón de azúcar cristalino, azafrán dorado, jazmín sambac y ámbar gris con estela inolvidable."
+    }
   },
   {
     "id": 1025,
@@ -14346,8 +26727,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 12.0,
-    "image": null
+    "price": 12,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1026,
@@ -14361,7 +26752,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 13.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1027,
@@ -14375,7 +26776,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 13.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1028,
@@ -14389,7 +26800,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 13.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1029,
@@ -14403,7 +26826,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 12.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1030,
@@ -14417,7 +26850,23 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 14.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Tom Ford Costa Azzurra",
+      "targetPrice": 210,
+      "saving": 93,
+      "notes": "Madera arrastrada por la marea, ciprés aromático, sal marina y limón italiano refrescante."
+    }
   },
   {
     "id": 1031,
@@ -14430,8 +26879,24 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 13.0,
-    "image": null
+    "price": 13,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Xerjoff Erba Pura",
+      "targetPrice": 250,
+      "saving": 95,
+      "notes": "Cóctel de frutas cítricas y dulces del Mediterráneo con almizcle blanco y vainilla celestial."
+    }
   },
   {
     "id": 1032,
@@ -14445,7 +26910,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 10.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1033,
@@ -14459,7 +26934,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 11.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1034,
@@ -14473,7 +26958,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 17.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1035,
@@ -14487,7 +26982,25 @@ const perfumesData = [
     "volume": "30ML",
     "concentration": "EDP",
     "price": 4.4,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Tom Ford Tuscan Leather",
+      "targetPrice": 280,
+      "saving": 98,
+      "notes": "Cuero de ante negro, frambuesa silvestre dulce, azafrán y notas ahumadas distinguidas."
+    }
   },
   {
     "id": 1036,
@@ -14500,8 +27013,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 13.0,
-    "image": null
+    "price": 13,
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1037,
@@ -14515,7 +27039,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 12.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1038,
@@ -14528,8 +27064,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1039,
@@ -14543,7 +27089,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1040,
@@ -14557,7 +27113,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 20.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1041,
@@ -14571,7 +27137,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 18.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1042,
@@ -14585,7 +27161,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 20.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1043,
@@ -14599,7 +27185,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1044,
@@ -14613,7 +27209,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1045,
@@ -14627,7 +27233,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1046,
@@ -14641,7 +27257,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 19.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1047,
@@ -14655,7 +27281,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 22.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1048,
@@ -14668,8 +27304,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 27.0,
-    "image": null
+    "price": 27,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1049,
@@ -14683,7 +27329,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 18.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1050,
@@ -14697,7 +27353,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 18.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1051,
@@ -14710,8 +27376,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 19.0,
-    "image": null
+    "price": 19,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1052,
@@ -14725,7 +27401,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 18.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1053,
@@ -14739,7 +27425,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1054,
@@ -14752,8 +27448,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 44.0,
-    "image": null
+    "price": 44,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1055,
@@ -14767,7 +27473,17 @@ const perfumesData = [
     "volume": "80ML",
     "concentration": "EDP",
     "price": 41.99,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1056,
@@ -14780,8 +27496,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 35.0,
-    "image": null
+    "price": 35,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1057,
@@ -14794,8 +27522,19 @@ const perfumesData = [
     "is_kit": false,
     "volume": "150ML",
     "concentration": "EDP",
-    "price": 68.0,
-    "image": null
+    "price": 68,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1058,
@@ -14809,7 +27548,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1059,
@@ -14823,7 +27572,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1060,
@@ -14837,7 +27596,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 19.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1061,
@@ -14851,7 +27620,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1062,
@@ -14864,8 +27643,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": null
+    "price": 24,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1063,
@@ -14878,8 +27667,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 23.0,
-    "image": null
+    "price": 23,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1064,
@@ -14892,8 +27691,24 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Xerjoff Naxos",
+      "targetPrice": 240,
+      "saving": 90,
+      "notes": "Miel artesanal caliente con hojas de tabaco rubio dulce, bergamota, lavanda y canela."
+    }
   },
   {
     "id": 1065,
@@ -14906,8 +27721,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1066,
@@ -14920,8 +27745,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1067,
@@ -14934,8 +27769,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1068,
@@ -14948,8 +27793,25 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 15.0,
-    "image": null
+    "price": 15,
+    "image": null,
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Aqua",
+      "targetPrice": 85,
+      "saving": 82,
+      "notes": "El legendario beast mode acuático con manzana verde, ciruela dulce, notas acuáticas y ámbar gris."
+    }
   },
   {
     "id": 1069,
@@ -14963,7 +27825,24 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 29.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral",
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Aqua",
+      "targetPrice": 85,
+      "saving": 65,
+      "notes": "El legendario beast mode acuático con manzana verde, ciruela dulce, notas acuáticas y ámbar gris."
+    }
   },
   {
     "id": 1070,
@@ -14976,8 +27855,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 20.0,
-    "image": null
+    "price": 20,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1071,
@@ -14990,8 +27879,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 20.0,
-    "image": null
+    "price": 20,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1072,
@@ -15004,8 +27903,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 20.0,
-    "image": null
+    "price": 20,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1073,
@@ -15018,8 +27927,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 20.0,
-    "image": null
+    "price": 20,
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1074,
@@ -15032,8 +27951,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1075,
@@ -15046,8 +27975,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1076,
@@ -15060,8 +27999,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1077,
@@ -15074,8 +28023,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 20.0,
-    "image": null
+    "price": 20,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1078,
@@ -15088,8 +28047,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 20.0,
-    "image": null
+    "price": 20,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1079,
@@ -15103,7 +28072,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 28.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Aqua",
+      "targetPrice": 85,
+      "saving": 66,
+      "notes": "El legendario beast mode acuático con manzana verde, ciruela dulce, notas acuáticas y ámbar gris."
+    }
   },
   {
     "id": 1080,
@@ -15117,7 +28102,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "",
     "price": 22.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Aqua",
+      "targetPrice": 85,
+      "saving": 73,
+      "notes": "El legendario beast mode acuático con manzana verde, ciruela dulce, notas acuáticas y ámbar gris."
+    }
   },
   {
     "id": 1081,
@@ -15131,7 +28132,26 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 27.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico",
+      "amaderado"
+    ],
+    "clima": [
+      "calor",
+      "versatil"
+    ],
+    "ocasion": [
+      "diario",
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Aqua",
+      "targetPrice": 85,
+      "saving": 68,
+      "notes": "El legendario beast mode acuático con manzana verde, ciruela dulce, notas acuáticas y ámbar gris."
+    }
   },
   {
     "id": 1082,
@@ -15144,8 +28164,24 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Aqua",
+      "targetPrice": 85,
+      "saving": 69,
+      "notes": "El legendario beast mode acuático con manzana verde, ciruela dulce, notas acuáticas y ámbar gris."
+    }
   },
   {
     "id": 1083,
@@ -15158,8 +28194,24 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Aqua",
+      "targetPrice": 85,
+      "saving": 71,
+      "notes": "El legendario beast mode acuático con manzana verde, ciruela dulce, notas acuáticas y ámbar gris."
+    }
   },
   {
     "id": 1084,
@@ -15172,8 +28224,24 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 25.0,
-    "image": null
+    "price": 25,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Aqua",
+      "targetPrice": 85,
+      "saving": 71,
+      "notes": "El legendario beast mode acuático con manzana verde, ciruela dulce, notas acuáticas y ámbar gris."
+    }
   },
   {
     "id": 1085,
@@ -15186,8 +28254,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 20.0,
-    "image": null
+    "price": 20,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1086,
@@ -15200,8 +28278,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 20.0,
-    "image": null
+    "price": 20,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1087,
@@ -15214,8 +28302,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1088,
@@ -15228,8 +28326,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1089,
@@ -15242,8 +28350,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1090,
@@ -15256,8 +28374,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1091,
@@ -15270,8 +28398,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1092,
@@ -15284,8 +28422,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1093,
@@ -15298,8 +28446,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1094,
@@ -15312,8 +28470,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1095,
@@ -15326,8 +28494,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1096,
@@ -15340,8 +28518,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1097,
@@ -15354,8 +28542,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1098,
@@ -15368,8 +28568,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1099,
@@ -15382,8 +28594,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1100,
@@ -15396,8 +28620,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1101,
@@ -15410,8 +28646,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "80ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1102,
@@ -15424,8 +28672,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1103,
@@ -15438,8 +28696,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1104,
@@ -15452,8 +28722,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1105,
@@ -15466,8 +28746,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "75ML",
     "concentration": "EDP",
-    "price": 14.0,
-    "image": null
+    "price": 14,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1106,
@@ -15480,8 +28770,24 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 27.0,
-    "image": null
+    "price": 27,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Aqua",
+      "targetPrice": 85,
+      "saving": 68,
+      "notes": "El legendario beast mode acuático con manzana verde, ciruela dulce, notas acuáticas y ámbar gris."
+    }
   },
   {
     "id": 1107,
@@ -15495,7 +28801,23 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 27.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": {
+      "type": "is_dupe",
+      "targetName": "Paco Rabanne Invictus Aqua",
+      "targetPrice": 85,
+      "saving": 68,
+      "notes": "El legendario beast mode acuático con manzana verde, ciruela dulce, notas acuáticas y ámbar gris."
+    }
   },
   {
     "id": 1108,
@@ -15509,7 +28831,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 19.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1109,
@@ -15522,8 +28854,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1110,
@@ -15537,7 +28879,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1111,
@@ -15551,7 +28903,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1112,
@@ -15565,7 +28927,19 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 17.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1113,
@@ -15579,7 +28953,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 18.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1114,
@@ -15593,7 +28977,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1115,
@@ -15607,7 +29001,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 23.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1116,
@@ -15620,8 +29024,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 26.0,
-    "image": null
+    "price": 26,
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1117,
@@ -15634,8 +29048,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 19.0,
-    "image": null
+    "price": 19,
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1118,
@@ -15648,8 +29072,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 23.0,
-    "image": null
+    "price": 23,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1119,
@@ -15663,7 +29097,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 24.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1120,
@@ -15677,7 +29121,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 29.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1121,
@@ -15690,8 +29144,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": null
+    "price": 24,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1122,
@@ -15705,7 +29169,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.5,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1123,
@@ -15718,8 +29192,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 28.0,
-    "image": null
+    "price": 28,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1124,
@@ -15733,7 +29217,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 21.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1125,
@@ -15747,7 +29241,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 25.25,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1126,
@@ -15761,7 +29265,17 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 22.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1127,
@@ -15774,8 +29288,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 5.0,
-    "image": null
+    "price": 5,
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1128,
@@ -15788,8 +29312,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 5.0,
-    "image": null
+    "price": 5,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1129,
@@ -15802,8 +29336,20 @@ const perfumesData = [
     "is_kit": false,
     "volume": "50ML",
     "concentration": "EDP",
-    "price": 5.0,
-    "image": null
+    "price": 5,
+    "image": null,
+    "vibes": [
+      "oud_cuero"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita",
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1130,
@@ -15817,7 +29363,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1131,
@@ -15831,7 +29387,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1132,
@@ -15845,7 +29412,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1133,
@@ -15859,7 +29436,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1134,
@@ -15873,7 +29461,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1135,
@@ -15887,7 +29486,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1136,
@@ -15901,7 +29511,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1137,
@@ -15915,7 +29535,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1138,
@@ -15929,7 +29560,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1139,
@@ -15943,7 +29584,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "acuatico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1140,
@@ -15957,7 +29608,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1141,
@@ -15971,7 +29633,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1142,
@@ -15985,7 +29658,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1143,
@@ -15999,7 +29682,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1144,
@@ -16013,7 +29707,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1145,
@@ -16027,7 +29731,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1146,
@@ -16041,7 +29756,17 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1147,
@@ -16055,7 +29780,18 @@ const perfumesData = [
     "volume": "50ML",
     "concentration": "EDP",
     "price": 6.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "dulce"
+    ],
+    "clima": [
+      "frio"
+    ],
+    "ocasion": [
+      "noche",
+      "cita"
+    ],
+    "dupe": null
   },
   {
     "id": 1148,
@@ -16068,8 +29804,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 23.0,
-    "image": null
+    "price": 23,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1149,
@@ -16082,8 +29828,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 21.0,
-    "image": null
+    "price": 21,
+    "image": null,
+    "vibes": [
+      "amaderado"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "elegante"
+    ],
+    "dupe": null
   },
   {
     "id": 1150,
@@ -16096,8 +29852,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 21.0,
-    "image": null
+    "price": 21,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1151,
@@ -16110,8 +29876,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 16.0,
-    "image": null
+    "price": 16,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1152,
@@ -16124,8 +29900,18 @@ const perfumesData = [
     "is_kit": false,
     "volume": "100ML",
     "concentration": "EDP",
-    "price": 24.0,
-    "image": null
+    "price": 24,
+    "image": null,
+    "vibes": [
+      "citrico"
+    ],
+    "clima": [
+      "calor"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   },
   {
     "id": 1153,
@@ -16139,6 +29925,16 @@ const perfumesData = [
     "volume": "100ML",
     "concentration": "EDP",
     "price": 15.75,
-    "image": null
+    "image": null,
+    "vibes": [
+      "floral"
+    ],
+    "clima": [
+      "versatil"
+    ],
+    "ocasion": [
+      "diario"
+    ],
+    "dupe": null
   }
 ];
